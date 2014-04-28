@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Чтение дня</string>
+    <string name="action_settings">Настройки</string>
+    <string name="w_empty">Чтение дня</string>
+    <string name="widget_label">Чтение дня (1х1)</string>
+    <string name="err_book_not_find">Не удалось найти книгу по краткому имени</string>
+    <string name="err_file_book_not_open">Не удалось открыть файл с нужной книгой</string>
+    <string name="text_set_date">Дата</string>
+    <string name="chapter_name">Глава</string>
+    <string name="action_log">Лог</string>
+    <string name="action_update_w">Обновить виджет</string>
+    <string name="action_clear_log">Очистить лог</string>
+    <string name="text_size_pref">Размер шрифта</string>
+    <string name="text_size">Размер шрифта</string>
+    <string name="settings_text">Настройки текста</string>
+    <string name="settings_calendar">Настройки календаря</string>
+    <string name="settings_confession">Выбор календаря</string>
+    <string name="text_size_default">22</string>
+    <string name="confession_default">orthodoxy</string>
+    <string name="about">О программе</string>
+    <string name="select_colour_dialog">Выберите цвет текста</string>
+    <string name="select_colour_sum">Выберите цвет, которым будут отображаться слова</string><string name="select_background_sum">Выберите цвет фона</string><string name="select_background_dialog">Выберите цвет фона</string>
+    <string name="select_colour">Цвет текста</string>
+    <string name="select_background">Цвет фона</string>
+    <string name="about_text">Разработчик: Антон Воронин \nДизайн: Елена Воронина \n\nБлагодарности: \nКолледж библейских основ церковных служений \&quot;Наследие\&quot; \nhttp://nasledie-college.ru \n\nПортал Предание.ру \nhttp://predanie.ru \n\nТекст Библии приведен в синодальном переводе. В программе использованы модули BibleQuote - \&quot;Цитата из Библии\&quot;. \nhttps://play.google.com/store/apps/details?id=com.BibleQuote \n\nПравославный календарь в соответствии с сайтом http://www.pravoslavie.ru\nКатолический календарь в соответствии с сайтом http://www.usccb.org</string>
+    <string name="get_color_from_bq">Выделение цитат цветом</string>
+    <string name="get_color_bq_sum_on">Цвета из модуля Библии - цитаты красным</string>
+    <string name="get_color_bq_sum_off">Настройки цвета из модуля Библии будут игнорироваться - весь текст одним цветом</string>
+    <string name="ordinary_read">Только рядовые чтения</string>
+    <string name="ordinary_sum_on">Показывать только рядовые чтения на день, только первый вариант отрывка</string>
+    <string name="ordinary_sum_off">Показывать все отрывки, не только рядовые чтения. Если есть разные варианты, то показывать все</string>
+    <string name="settings_interface">Интерфейс</string>
+    <string name="color_scheme">Цветовая схема</string>
+    <string name="color_scheme_default">green</string>
+    <string name="day_night">Режим день/ночь</string>
+    <string name="share_all">Поделиться</string>
+    <string name="today">На сегодня</string>
+    <string name="set_date">Выбор даты</string>
+    <string name="share_via">Поделиться через</string>
+    <string name="share_in_settings">Поделиться</string>
+    <string name="share_translit">Отправлять транслитом</string>
+    <string name="share_translit_on">При отправке русский текст будет переведен в транслит</string>
+    <string name="share_translit_off">Отправка текста русскими буквами</string>
+    <string name="cancel">Отмена</string>
+    <string name="error_parser">Ошибка парсера</string>
+    <string name="error_fs">Ошибка файловой системы</string>
+    <string name="error_calendar_failed">Для выбранной даты и календаря в программе есть список чтений, но он поврежден</string>
+    <string name="error_calendar_not_find">Для выбранной даты и календаря в программе отсутствует список чтений</string>
+
+</resources>

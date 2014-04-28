@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/action_settings" >
+
+    <PreferenceCategory android:title="@string/settings_calendar" >
+        <ru.itprospect.everydaybiblereading.ListPreferenceShowSummary
+            android:defaultValue="@string/confession_default"
+            android:entries="@array/confession_name"
+            android:entryValues="@array/confession_value"
+            android:key="PREF_CONFESSION"
+            android:title="@string/settings_confession" />
+        
+        <CheckBoxPreference 
+            android:key="PREF_ONLY_ORDINARY_READING" 
+            android:defaultValue="false" 
+            android:title="@string/ordinary_read" 
+            android:summaryOn="@string/ordinary_sum_on" 
+            android:summaryOff="@string/ordinary_sum_off"/>        
+        
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/settings_text" >
+        <ru.itprospect.everydaybiblereading.ListPreferenceShowSummary
+            android:defaultValue="@string/text_size_default"
+            android:entries="@array/text_size"
+            android:entryValues="@array/text_size"
+            android:key="PREF_TEXT_SIZE"
+            android:title="@string/text_size" />
+
+        <yuku.ambilwarna.widget.AmbilWarnaPreference
+            android:dialogTitle="@string/select_colour_dialog"
+            android:key="PREF_TEXT_COLOUR"
+            android:summary="@string/select_colour_sum"
+            android:title="@string/select_colour" 
+            android:defaultValue="@color/def_text_color"/>
+        
+        <yuku.ambilwarna.widget.AmbilWarnaPreference
+            android:dialogTitle="@string/select_background_dialog"
+            android:key="PREF_BACKGROUND_COLOUR"
+            android:summary="@string/select_background_sum"
+            android:title="@string/select_background" 
+            android:defaultValue="@color/def_background_color"/>
+        
+        <CheckBoxPreference 
+            android:key="PREF_COLOR_FROM_BQ" 
+            android:summaryOn="@string/get_color_bq_sum_on" 
+            android:summaryOff="@string/get_color_bq_sum_off" 
+            android:title="@string/get_color_from_bq" 
+            android:defaultValue="false"/>
+        
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/settings_interface">
+        <ru.itprospect.everydaybiblereading.ListPreferenceShowSummary 
+            android:entryValues="@array/color_scheme_values" 
+            android:entries="@array/color_scheme_name" 
+            android:key="PREF_COLOR_SCHEME" 
+            android:title="@string/color_scheme" 
+            android:defaultValue="@string/color_scheme_default"/>
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/share_in_settings">
+        <CheckBoxPreference 
+            android:defaultValue="false" 
+            android:key="PREF_SHARE_TRANSLIT" 
+            android:title="@string/share_translit" 
+            android:summaryOff="@string/share_translit_off" 
+            android:summaryOn="@string/share_translit_on"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

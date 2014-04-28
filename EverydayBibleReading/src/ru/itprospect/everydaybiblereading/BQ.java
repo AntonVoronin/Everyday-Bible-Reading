@@ -1,0 +1,367 @@
+package ru.itprospect.everydaybiblereading;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Locale;
+import java.util.StringTokenizer;
+
+import android.content.Context;
+import android.os.Parcel;
+import android.os.Parcelable;
+
+public class BQ implements Parcelable{
+
+	private Context mCntx;
+	private String chapterSign;
+	private String verseSign;
+	private int bookQty;
+	private HashMap<String, BookBQ> bookMap;
+	
+	private final static String DIR_BQ_RST = "bq/RST/";
+	private final static String INI_BQ_RST = "bibleqt.ini";
+	private final static String TEG_CHAPTER_END = " />";
+	
+	public BQ(Context cntx) {
+		mCntx = cntx;
+		Initialization();
+	}
+	
+	public static final Parcelable.Creator<BQ> CREATOR = new Parcelable.Creator<BQ>() {
+		public BQ createFromParcel(Parcel in) {
+			return new BQ(in);
+		}
+
+		public BQ[] newArray(int size) {
+			return new BQ[size];
+		}
+	};
+
+	private BQ(Parcel in) {
+		
+		chapterSign = in.readString();
+		verseSign = in.readString();
+		bookQty = in.readInt();
+	}	
+	
+	/**
+	 * @param cntx
+	 * ќб€зательно устанавливаем Context в случае, если объект был создан из Parcel
+	 */
+	public void setContext(Context cntx) {
+		mCntx = cntx;
+	} 
+	
+	private void Initialization() {
+		
+		try {
+			InputStream is = mCntx.getAssets().open(DIR_BQ_RST + INI_BQ_RST);
+			InputStreamReader isr = new InputStreamReader(is, "windows-1251");
+			BufferedReader in = new BufferedReader(isr);
+			
+			String line;
+			Boolean isDone = false;
+			while (!isDone && (line=in.readLine()) != null) {
+				if (!(line.length()==0 || line.startsWith("//"))) {
+					
+					if (line.startsWith("ChapterSign =")) {
+						chapterSign = line.substring(13).trim();
+					}
+					else if (line.startsWith("VerseSign =")) {
+						verseSign = line.substring(11).trim();
+					}
+					else if (line.startsWith("BookQty =")) {
+						bookQty = Integer.parseInt(line.substring(9).trim());
+						isDone = true;
+					}
+				}
+			}
+			
+			if (!isDone) {
+				return; //ќшибка, дальше не идем
+			}
+			
+			bookMap = new HashMap<String, BookBQ>();
+			//Ќачинаем цикл по книгам
+			for (int a = 0; a<bookQty; a++) {
+				BookBQ bookBQ = new BookBQ();
+				
+				for (int b = 0; b<5; b++) {
+					line=in.readLine();
+					
+					if (line.startsWith("PathName =")) {
+						bookBQ.pathName = line.substring(10).trim();
+					}
+					else if (line.startsWith("FullName =")) {
+						bookBQ.fullName = line.substring(10).trim();
+					}
+					else if (line.startsWith("ChapterQty =")) {
+						bookBQ.chapterQty = Integer.parseInt(line.substring(12).trim());
+					}
+					else if (line.startsWith("ShortName =")) {
+						//здесь нужно выделить все варианты краткого названи€ книги и добавить книгу в Map столько раз, сколько сокращений найдено
+						String strShortName = line.substring(11).trim();
+						StringTokenizer t = new StringTokenizer(strShortName);
+						while (t.hasMoreTokens()) {
+							String token = t.nextToken().toUpperCase(Locale.getDefault());
+							bookMap.put(token, bookBQ);
+						}
+						
+					}
+				}
+			}
+			
+			
+			is.close();
+			
+		} catch (IOException e) {
+			
+			e.printStackTrace();
+		}
+		
+	}
+	
+	public String GetNameForBook(BookFromSite book) {
+		String bookFullName = book.fullText;
+		String bookNameBezProbelov = book.book.replaceAll(" ", "").toUpperCase(Locale.getDefault());
+
+		BookBQ bookBQ = bookMap.get(bookNameBezProbelov);
+		if (bookBQ != null) {
+			bookFullName = bookBQ.fullName + " " + book.adress;
+		}
+		
+		return bookFullName;
+	} 
+
+	public String GetTextForBook(BookFromSite book) {
+		String str = "";
+		StringBuilder msgStr = new StringBuilder();
+		String signChapStart = "";
+		String signVerseStart = "";
+		String signChapEnd = "";
+		String signVerseEnd = "";
+		
+		PrefManager pm = new PrefManager(mCntx);
+		Boolean useColorFromBQ = pm.getUseColorFromBQ();
+		
+		//”бираем из краткого названи€ книги пробелы
+		String bookNameBezProbelov = book.book.replaceAll(" ", "").toUpperCase(Locale.getDefault());
+		
+		BookBQ bookBQ = bookMap.get(bookNameBezProbelov);
+		if (bookBQ != null) {
+			try {
+				InputStream is = mCntx.getAssets().open(DIR_BQ_RST + bookBQ.pathName);
+				InputStreamReader isr = new InputStreamReader(is, "windows-1251");
+				BufferedReader in = new BufferedReader(isr);
+
+				String line;
+				Boolean chapterStartFind = false;
+				Boolean verseStartFind = false;
+				Boolean chapterEndFind = false;
+				Boolean verseEndFind = false;
+				int prevChapterEnd = 0;
+				int prevVerseEnd = 0;
+				Boolean verseAlreadyAdd = false;
+				
+				int numOtr = 0;
+				ReadStartEnd otr = book.otr[numOtr];
+				Boolean isDone = (otr==null);
+				if (!isDone) {
+					//<chapter />1      <chapter />1|<chapter.+>1</
+					//<chapter  NAME="glava1">1</chapter>
+					//signChapStart = chapterSign + TEG_CHAPTER_END + String.valueOf(otr.chapterStart) + ;
+					signChapStart = chapterSign + TEG_CHAPTER_END + String.valueOf(otr.chapterStart) + "|" + chapterSign + ".+>" + String.valueOf(otr.chapterStart) + "</.+";
+					signVerseStart = verseSign + String.valueOf(otr.stihStart);
+					signChapEnd = chapterSign + TEG_CHAPTER_END + String.valueOf(otr.chapterEnd) + "|" + chapterSign + ".+>" + String.valueOf(otr.chapterEnd) + "</.+";
+					signVerseEnd = verseSign + String.valueOf(otr.stihEnd);
+				}
+				
+				while (!isDone && (line=in.readLine()) != null) {
+					//********»щем начало********
+					
+					//ѕеред тем, как искать начало, проверим: если текущий отрывок начинаетс€ в той же главе,
+					//в которой заканчиваетс€ предыдущий, то мы автоматически начало нашли
+					if (otr.chapterStart == prevChapterEnd) {
+						chapterStartFind = true;
+						if (otr.chapterStart == otr.chapterEnd) { //Ёто и последн€€ глава отрывка тоже
+							chapterEndFind = true;
+						}
+						if (otr.stihStart == prevVerseEnd) {
+							verseStartFind = true;
+							if (otr.stihStart == otr.stihEnd) { //Ёто и последний стих отрывка тоже
+								verseEndFind = true;
+								//значит нам вообще не нужно добавл€ть ничего, уже все добавлено в прошлом цикле
+								verseAlreadyAdd = true;
+							}
+						}
+					}
+					
+					if (!chapterStartFind) { //Ќачало главы еще не найдено
+						if (line.matches(signChapStart)) { //Ќашли начало главы  
+							chapterStartFind = true;
+							if (otr.chapterStart == otr.chapterEnd) { //Ёто и последн€€ глава отрывка тоже
+								chapterEndFind = true;
+							}
+						}
+					}
+					else { //Ќачало главы найдено, ищем стих
+						if (line.startsWith(signVerseStart)) { //нашли начальный стих
+							verseStartFind = true;
+							if (chapterEndFind && otr.stihStart == otr.stihEnd) { //это одновременно и последний стих отрывка
+								verseEndFind = true;
+							}
+						} 
+					}
+					
+					if (verseStartFind && !verseAlreadyAdd) { //если нашли начальный стих, то подбираем строку в любом случае
+						msgStr.append(FromatChapterText(line, useColorFromBQ)); // + "\n"
+					}
+					
+					//********»щем конец********
+					if (!chapterEndFind) { //конец главы еще не найден
+						if (line.matches(signChapEnd)) { //Ќашли конец главы
+							chapterEndFind = true;
+						}
+					}
+					else { //конец главы найден, ищем стих
+						if (line.startsWith(signVerseEnd)) { //нашли конечный стих
+							verseEndFind = true;
+						} 
+					}
+					
+					
+					if (chapterEndFind && verseEndFind) {
+						//ќтрывок закончилс€. ѕереходим на следующий или завершаем цикл
+						prevChapterEnd = otr.chapterEnd;
+						prevVerseEnd = otr.stihEnd;
+						
+						numOtr++;
+						otr = book.otr[numOtr];
+						
+						isDone = (otr==null);
+						
+						if (!isDone) {
+							signChapStart = chapterSign + TEG_CHAPTER_END + String.valueOf(otr.chapterStart) + "|" + chapterSign + ".+>" + String.valueOf(otr.chapterStart) + "</.+";
+							signVerseStart = verseSign + String.valueOf(otr.stihStart);
+							signChapEnd = chapterSign + TEG_CHAPTER_END + String.valueOf(otr.chapterEnd) + "|" + chapterSign + ".+>" + String.valueOf(otr.chapterEnd) + "</.+";
+							signVerseEnd = verseSign + String.valueOf(otr.stihEnd);
+							chapterStartFind = false;
+							verseStartFind = false;
+							chapterEndFind = false;
+							verseEndFind = false;
+							verseAlreadyAdd = false;
+							
+							if (otr.chapterStart != prevChapterEnd || (otr.stihStart - prevVerseEnd)>1) msgStr.append("<p> ..."); // \n
+						}
+					}
+				}
+				is.close();
+				str = msgStr.toString();
+			} catch (IOException e) {
+				str = mCntx.getString(R.string.err_file_book_not_open);
+				e.printStackTrace();
+			}
+		}
+		else {
+			str = mCntx.getString(R.string.err_book_not_find);
+		}
+		
+		return str;
+	}
+	
+	/**
+	 * ‘орматируем строку текста: если это название главы, то добавл€ем хтмл-тэг, если нужно, убираем цвет текста
+	 убираем <font COLOR="purple">  </font>
+	 * @param line строка, которую нужно отформатировать
+	 * @return отформатированна€ строка
+	 */
+	private String FromatChapterText(String line, Boolean useColorFromBQ) {
+		String formatedLine = "";
+		if (line.startsWith(chapterSign)) {
+			int indexOfNum = line.indexOf(">")+1;
+			int indexOfEndNum = line.lastIndexOf("<");
+			if (indexOfEndNum <= 0 || indexOfEndNum <= indexOfNum) {
+				indexOfEndNum = line.length();
+			}
+			String num = line.substring(indexOfNum, indexOfEndNum);
+			formatedLine = verseSign + mCntx.getString(R.string.chapter_name) + " " + num;
+		}
+		else {
+			if (useColorFromBQ) {
+				formatedLine = line;
+			}
+			else {
+				formatedLine = line.replaceAll("<font.+?>", "");
+				formatedLine = formatedLine.replaceAll("</font>", "");
+			}
+		}
+		return formatedLine;	
+	}
+	
+	public String GetTextForArray(ArrayList<BookFromSite> ab) {
+		//Ќужно ли выводить все чтени€, или только р€довые
+		PrefManager pm = new PrefManager(mCntx);
+		Boolean onlyOrdinaryReading = pm.getOnlyOrdinaryReading();
+		
+		StringBuilder msgStr = new StringBuilder();
+		
+		for (BookFromSite book : ab) {
+			if (!onlyOrdinaryReading || (book.isOrdinary && book.alt==0)) {
+				if (book.alt>0) {
+					msgStr.append("<p><I>или</I></p>\n");
+				}
+				msgStr.append("<h2>" + GetNameForBook(book));
+				//msgStr.append("<h2>" + book.fullText);
+				if (! book.type.equals("") && !(book.type==null)) {
+					msgStr.append(" (" + book.type + ")");
+				}
+				msgStr.append("</h2>\n" + GetTextForBook(book) + "\n");
+			}
+		}
+		
+		String str = msgStr.toString().trim();
+		
+		return str;
+	}
+	
+	@Override
+	public String toString() {
+		return "BQ [chapterSign=" + chapterSign
+				+ ", verseSign=" + verseSign + ", bookQty=" + bookQty
+				+ ", bookMap=" + bookMap + "]";
+	}
+
+	@Override
+	public int describeContents() {
+		
+		return 0;
+	}
+
+	@Override
+	public void writeToParcel(Parcel dest, int flags) {
+		dest.writeString(chapterSign);
+		dest.writeString(verseSign);
+		dest.writeInt(bookQty);
+		
+		
+	}
+
+	
+}
+
+
+class BookBQ {
+	public String pathName;
+	public String fullName;
+	public int chapterQty;
+	
+	@Override
+	public String toString() {
+		return "BookBQ [pathName=" + pathName + ", fullName=" + fullName
+				+ ", chapterQty=" + chapterQty + "]";
+	}
+}
+

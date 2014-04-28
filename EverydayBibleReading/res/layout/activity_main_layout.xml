@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity" >
+
+    <ru.itprospect.everydaybiblereading.ZoomingScrollView
+        android:id="@+id/zoomScroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/textBible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textIsSelectable="true" />
+    </ru.itprospect.everydaybiblereading.ZoomingScrollView>
+
+</LinearLayout>
