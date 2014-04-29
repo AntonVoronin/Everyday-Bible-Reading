@@ -5,15 +5,16 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.StringTokenizer;
 
 import android.content.Context;
-import android.os.Parcel;
-import android.os.Parcelable;
+import android.text.format.DateFormat;
 
-public class BQ implements Parcelable{
+public class BQ{
 
 	private Context mCntx;
 	private String chapterSign;
@@ -29,31 +30,6 @@ public class BQ implements Parcelable{
 		mCntx = cntx;
 		Initialization();
 	}
-	
-	public static final Parcelable.Creator<BQ> CREATOR = new Parcelable.Creator<BQ>() {
-		public BQ createFromParcel(Parcel in) {
-			return new BQ(in);
-		}
-
-		public BQ[] newArray(int size) {
-			return new BQ[size];
-		}
-	};
-
-	private BQ(Parcel in) {
-		
-		chapterSign = in.readString();
-		verseSign = in.readString();
-		bookQty = in.readInt();
-	}	
-	
-	/**
-	 * @param cntx
-	 * Обязательно устанавливаем Context в случае, если объект был создан из Parcel
-	 */
-	public void setContext(Context cntx) {
-		mCntx = cntx;
-	} 
 	
 	private void Initialization() {
 		
@@ -319,6 +295,7 @@ public class BQ implements Parcelable{
 					msgStr.append(" (" + book.type + ")");
 				}
 				msgStr.append("</h2>\n" + GetTextForBook(book) + "\n");
+				//TODO добавить ссылку для чтения дальше в другой активности
 			}
 		}
 		
@@ -327,26 +304,19 @@ public class BQ implements Parcelable{
 		return str;
 	}
 	
+	public String GetTextForArrayWithHead(ArrayList<BookFromSite> ab, String confession, GregorianCalendar date) {
+		StringBuilder msgStr = new StringBuilder();
+		msgStr.append(confession + ", " + DateFormat.format("dd.MM.yyyy", date).toString());
+		
+		msgStr.append(GetTextForArray(ab));
+		return msgStr.toString();
+	}
+	
 	@Override
 	public String toString() {
 		return "BQ [chapterSign=" + chapterSign
 				+ ", verseSign=" + verseSign + ", bookQty=" + bookQty
 				+ ", bookMap=" + bookMap + "]";
-	}
-
-	@Override
-	public int describeContents() {
-		
-		return 0;
-	}
-
-	@Override
-	public void writeToParcel(Parcel dest, int flags) {
-		dest.writeString(chapterSign);
-		dest.writeString(verseSign);
-		dest.writeInt(bookQty);
-		
-		
 	}
 
 	
