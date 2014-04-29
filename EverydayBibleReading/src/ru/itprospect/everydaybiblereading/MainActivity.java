@@ -254,7 +254,7 @@ public class MainActivity extends ActionBarActivity {
 		
 		CalSAXParser pars = new CalSAXParser(getBaseContext(), date, confession);
 		if (pars.FindSuccess()) {
-			textBibleText = bq.GetTextForArray(pars.GetListBook());
+			textBibleText = bq.GetTextForArrayWithHead(pars.GetListBook(), prefManager.getConfessionName(), date);
 		}
 		else {
 			textBibleText = pars.GetErrorText();
@@ -425,14 +425,7 @@ public class MainActivity extends ActionBarActivity {
 		if (prefManager==null) {
 			prefManager = new PrefManager(getApplicationContext());
 		}
-		String oldValue = prefManager.getConfession();
-		int oldValueIndex = -1;
-		for (int i=0; i<confArrayValue.length; i++) {
-			if (oldValue.equals(confArrayValue[i])) {
-				oldValueIndex = i;
-			}
-		}
-		
+		int oldValueIndex = prefManager.getConfessionIndex();		
 		
 		AlertDialog.Builder builder = new AlertDialog.Builder(this);
 		builder.setTitle(getApplicationContext().getString(R.string.settings_confession))
