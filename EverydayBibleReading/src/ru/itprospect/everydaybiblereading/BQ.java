@@ -305,8 +305,11 @@ public class BQ{
 	}
 	
 	public String GetTextForArrayWithHead(ArrayList<BookFromSite> ab, String confession, GregorianCalendar date) {
+		final String[] monthArray = mCntx.getResources().getStringArray(R.array.month_of_year);
+		
 		StringBuilder msgStr = new StringBuilder();
-		msgStr.append(confession + ", " + DateFormat.format("dd.MM.yyyy", date).toString());
+		msgStr.append(confession + ", " + String.valueOf(date.get(Calendar.DAY_OF_MONTH)) + " " + monthArray[date.get(Calendar.MONTH)]);
+		//msgStr.append(confession + ", " + DateFormat.format("dd.MM.yyyy", date).toString());
 		
 		msgStr.append(GetTextForArray(ab));
 		return msgStr.toString();

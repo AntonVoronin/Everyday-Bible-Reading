@@ -244,6 +244,7 @@ public class MainActivity extends ActionBarActivity {
 			prefManager = new PrefManager(getApplicationContext());
 		}
 		String confession = prefManager.getConfession();
+		String confessionName = prefManager.getConfessionName();
 		
 		if (bq==null) {
 			bq = new BQ(getBaseContext());
@@ -254,7 +255,7 @@ public class MainActivity extends ActionBarActivity {
 		
 		CalSAXParser pars = new CalSAXParser(getBaseContext(), date, confession);
 		if (pars.FindSuccess()) {
-			textBibleText = bq.GetTextForArray(pars.GetListBook());
+			textBibleText = bq.GetTextForArrayWithHead(pars.GetListBook(), confessionName, date);
 		}
 		else {
 			textBibleText = pars.GetErrorText();

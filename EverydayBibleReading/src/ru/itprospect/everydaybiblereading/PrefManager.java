@@ -82,6 +82,28 @@ public class PrefManager {
 		return confession;
 	}
 	
+	public int getConfessionIndex() {
+		final String[] confArrayValue = context.getResources().getStringArray(R.array.confession_value);
+
+		String confValue = getConfession();
+		int confIndex = -1;
+		for (int i=0; i<confArrayValue.length; i++) {
+			if (confValue.equals(confArrayValue[i])) {
+				confIndex = i;
+			}
+		}
+		
+		return confIndex;
+	}
+	
+	public String getConfessionName() {
+		int confIndex = getConfessionIndex();
+		final String[] confArray = context.getResources().getStringArray(R.array.confession_name);
+		String confession = confArray[confIndex];
+		
+		return confession;
+	}	
+	
 	public void putConfession(String confession) {
 		SharedPreferences.Editor editor = prefs.edit();
 		editor.putString(KEY_PREF_CONFESSION, confession);

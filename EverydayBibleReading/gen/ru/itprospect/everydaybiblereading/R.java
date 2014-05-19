@@ -22,6 +22,7 @@ public final class R {
         public static final int color_scheme_widget_draw=0x7f0d0005;
         public static final int confession_name=0x7f0d0004;
         public static final int confession_value=0x7f0d0003;
+        public static final int month_of_year=0x7f0d0006;
         public static final int text_size=0x7f0d0000;
     }
     public static final class attr {

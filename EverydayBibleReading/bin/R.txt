@@ -9,6 +9,7 @@ int array color_scheme_values 0x7f0d0001
 int array color_scheme_widget_draw 0x7f0d0005
 int array confession_name 0x7f0d0004
 int array confession_value 0x7f0d0003
+int array month_of_year 0x7f0d0006
 int array text_size 0x7f0d0000
 int attr actionBarDivider 0x7f01000b
 int attr actionBarItemBackground 0x7f01000c
