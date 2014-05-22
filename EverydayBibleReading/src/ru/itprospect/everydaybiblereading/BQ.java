@@ -296,6 +296,14 @@ public class BQ{
 				}
 				msgStr.append("</h2>\n" + GetTextForBook(book) + "\n");
 				//TODO добавить ссылку дл€ чтени€ дальше в другой активности
+				//‘ормируем адрес первой ссылки
+				String chapter = "";
+				String stih = "";
+				if (book.otr[0] != null) {
+					chapter = String.valueOf(book.otr[0].chapterEnd);
+					stih = String.valueOf(book.otr[0].stihEnd);
+				}
+				msgStr.append("<br> <a href=\"activity-run://BibleActivityHost?book=" + book.book + "&chapter=" + chapter + "&stih=" + stih + "\">„итать дальше</a>");
 			}
 		}
 		

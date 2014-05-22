@@ -15,6 +15,7 @@ import android.graphics.drawable.Drawable;
 import android.text.Html;
 import android.text.Spanned;
 import android.text.format.DateFormat;
+import android.text.method.LinkMovementMethod;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -93,6 +94,9 @@ public class MainActivity extends ActionBarActivity {
 		mScrollView = (ZoomingScrollView)findViewById(R.id.zoomScroll);
 		mTextBible = (TextView)findViewById(R.id.textBible);
 		mScrollView.setTextView(mTextBible);
+		
+		mTextBible.setLinksClickable(true);
+		mTextBible.setMovementMethod(new LinkMovementMethod());
 		
 		//Восстанавливаем размер шрифта и др настройки
 		updateFromPreferences();

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <BibleCalendar conf="catholic">
 <Year year="2013">
 <Date date="2013-12-01">
@@ -2680,7 +2680,7 @@
 </Book>
 </Date>
 <Date date="2014-05-16">
-<Book book="" text="13:26-33" type="">
+<Book book="acts" text="acts 13:26-33" type="">
 <Fragment StihEnd="33" StihStart="26" chapterEnd="13" chapterStart="13"/>
 </Book>
 <Book book="ps" text="ps 2:6-7, 8-9, 10-11ab" type="">

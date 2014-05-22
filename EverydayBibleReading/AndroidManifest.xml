@@ -18,10 +18,10 @@
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
         <receiver android:name="WidgetActivity" android:label="@string/widget_label">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
@@ -32,8 +32,26 @@
                 android:resource="@xml/day_reading_widget_provider" 
                 android:name="android.appwidget.provider"/>
         </receiver>
+        
         <activity android:name="SettingsActivity">
         </activity>
+        
+        <activity android:name="BibleActivity" android:parentActivityName="ru.itprospect.everydaybiblereading.MainActivity">
+			<!-- Parent activity meta-data to support 4.0 and lower -->
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value="ru.itprospect.everydaybiblereading.MainActivity"/>
+
+            <intent-filter>
+                <data
+                    android:host="BibleActivityHost"
+                    android:scheme="activity-run" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+        </activity>
+        
+        
     </application>
 
 </manifest>
