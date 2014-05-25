@@ -1010,12 +1010,15 @@ containing a value of this type.
         public static final int ambilwarna_target=0x7f02005d;
         public static final int button_background=0x7f02005e;
         public static final int ic_launcher=0x7f02005f;
-        public static final int title_act_bar_blue=0x7f020060;
-        public static final int title_act_bar_green=0x7f020061;
-        public static final int title_act_bar_red=0x7f020062;
-        public static final int widget_blue=0x7f020063;
-        public static final int widget_green=0x7f020064;
-        public static final int widget_red=0x7f020065;
+        public static final int ic_menu_back=0x7f020060;
+        public static final int ic_menu_forward=0x7f020061;
+        public static final int ic_menu_moreoverflow=0x7f020062;
+        public static final int title_act_bar_blue=0x7f020063;
+        public static final int title_act_bar_green=0x7f020064;
+        public static final int title_act_bar_red=0x7f020065;
+        public static final int widget_blue=0x7f020066;
+        public static final int widget_green=0x7f020067;
+        public static final int widget_red=0x7f020068;
     }
     public static final class id {
         public static final int about=0x7f060055;
@@ -1047,10 +1050,12 @@ containing a value of this type.
         public static final int ambilwarna_warnaBaru=0x7f060049;
         public static final int ambilwarna_warnaLama=0x7f060048;
         public static final int beginning=0x7f060011;
+        public static final int chapter_left=0x7f060050;
+        public static final int chapter_right=0x7f060051;
         public static final int checkbox=0x7f06002d;
         public static final int collapseActionView=0x7f06000d;
         public static final int colorPickerLayout=0x7f06004c;
-        public static final int day_night=0x7f060052;
+        public static final int day_night=0x7f060053;
         public static final int default_activity_button=0x7f060028;
         public static final int dialog=0x7f06000e;
         public static final int disableHome=0x7f060008;
@@ -1067,8 +1072,8 @@ containing a value of this type.
         public static final int linear_layout=0x7f06004d;
         public static final int listMode=0x7f060001;
         public static final int list_item=0x7f060029;
-        public static final int menu_item_share=0x7f060051;
-        public static final int menu_item_today=0x7f060050;
+        public static final int menu_item_share=0x7f060052;
+        public static final int menu_item_today=0x7f060057;
         public static final int middle=0x7f060012;
         public static final int never=0x7f060009;
         public static final int none=0x7f060010;
@@ -1086,8 +1091,9 @@ containing a value of this type.
         public static final int search_plate=0x7f060036;
         public static final int search_src_text=0x7f060037;
         public static final int search_voice_btn=0x7f06003b;
-        public static final int set_confession=0x7f060053;
-        public static final int set_date=0x7f06004f;
+        public static final int select_book=0x7f06004f;
+        public static final int set_confession=0x7f060058;
+        public static final int set_date=0x7f060056;
         public static final int shortcut=0x7f06002e;
         public static final int showCustom=0x7f060007;
         public static final int showHome=0x7f060004;
@@ -1166,7 +1172,8 @@ containing a value of this type.
         public static final int widget_layout_calendar=0x7f030020;
     }
     public static final class menu {
-        public static final int main=0x7f0e0000;
+        public static final int bible_fragment_menu=0x7f0e0000;
+        public static final int main=0x7f0e0001;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1217,7 +1224,9 @@ containing a value of this type.
         public static final int action_update_w=0x7f0b0016;
         public static final int app_name=0x7f0b000d;
         public static final int cancel=0x7f0b0039;
+        public static final int chapter_left=0x7f0b003f;
         public static final int chapter_name=0x7f0b0014;
+        public static final int chapter_right=0x7f0b0040;
         public static final int color_scheme=0x7f0b002e;
         public static final int color_scheme_default=0x7f0b002f;
         public static final int confession_default=0x7f0b001e;
@@ -1237,6 +1246,7 @@ containing a value of this type.
         public static final int select_background=0x7f0b0025;
         public static final int select_background_dialog=0x7f0b0023;
         public static final int select_background_sum=0x7f0b0022;
+        public static final int select_book=0x7f0b003e;
         public static final int select_colour=0x7f0b0024;
         public static final int select_colour_dialog=0x7f0b0020;
         public static final int select_colour_sum=0x7f0b0021;

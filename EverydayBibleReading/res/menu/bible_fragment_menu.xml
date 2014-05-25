@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:ebr="http://schemas.android.com/apk/res-auto" >
+
+    <item android:id="@+id/select_book"
+        ebr:showAsAction="always"
+        android:icon="@drawable/ic_menu_moreoverflow"
+        android:title="@string/select_book" />
+    
+    <item android:id="@+id/chapter_left"
+        ebr:showAsAction="always"
+        android:icon="@drawable/ic_menu_back"
+        android:title="@string/chapter_left" />
+    
+    <item android:id="@+id/chapter_right"
+        ebr:showAsAction="always"
+        android:icon="@drawable/ic_menu_forward"
+        android:title="@string/chapter_right" />
+    
+    <item android:id="@+id/menu_item_share"
+        ebr:showAsAction="never"
+        android:title="@string/share_all"
+        ebr:actionProviderClass="android.support.v7.widget.ShareActionProvider" />
+
+    <item
+        android:id="@+id/day_night"
+        ebr:showAsAction="never"
+        android:icon="@android:drawable/ic_menu_day"
+        android:title="@string/day_night"/>
+    
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@android:drawable/ic_menu_preferences"
+        ebr:showAsAction="never"
+        android:title="@string/action_settings"/>
+    
+    <item
+        android:id="@+id/about"
+        ebr:showAsAction="never"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="@string/about"/>
+
+</menu>

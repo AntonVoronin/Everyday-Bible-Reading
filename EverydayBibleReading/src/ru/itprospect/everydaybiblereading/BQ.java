@@ -249,6 +249,81 @@ public class BQ{
 	}
 	
 	/**
+	 * Функция возвращает текст всей главы
+	 * @param book название книги
+	 * @param chapter номер главы
+	 * @return тест главы
+	 */
+	public String GetTextForChapter(String book, String chapter) {
+		StringBuilder strBuilder = new StringBuilder();
+		String signChapStart = "";
+		String signChapEnd = "";
+		int chapterEnd = Integer.parseInt(chapter) + 1;
+		String str = "";
+		
+		PrefManager pm = new PrefManager(mCntx);
+		Boolean useColorFromBQ = pm.getUseColorFromBQ();
+		
+		//Убираем из краткого названия книги пробелы
+		String bookNameBezProbelov = book.replaceAll(" ", "").toUpperCase(Locale.getDefault());
+		
+		//TODO
+		
+		BookBQ bookBQ = bookMap.get(bookNameBezProbelov);
+		if (bookBQ != null) {
+			try {
+				InputStream is = mCntx.getAssets().open(DIR_BQ_RST + bookBQ.pathName);
+				InputStreamReader isr = new InputStreamReader(is, "windows-1251");
+				BufferedReader in = new BufferedReader(isr);
+
+				String line;
+				Boolean chapterStartFind = false;
+				boolean isDone = false;
+				
+				//<chapter />1      <chapter />1|<chapter.+>1</
+				//<chapter  NAME="glava1">1</chapter>
+				//signChapStart = chapterSign + TEG_CHAPTER_END + String.valueOf(otr.chapterStart) + ;
+				signChapStart = chapterSign + TEG_CHAPTER_END + chapter + "|" + chapterSign + ".+>" + chapter + "</.+";
+				signChapEnd = chapterSign + TEG_CHAPTER_END + String.valueOf(chapterEnd) + "|" + chapterSign + ".+>" + String.valueOf(chapterEnd) + "</.+";
+				
+				
+				while (!isDone && (line=in.readLine()) != null) {
+					//********Ищем начало********
+					if (!chapterStartFind) { //Начало главы еще не найдено
+						if (line.matches(signChapStart)) { //Нашли начало главы  
+							chapterStartFind = true;
+						}
+					}
+					
+					//********Ищем конец********
+					if (!isDone) { //конец главы еще не найден
+						if (line.matches(signChapEnd)) { //Нашли конец главы
+							isDone = true;
+						}
+					}
+					
+					if (chapterStartFind && !isDone) { //если нашли начальный стих, то подбираем строку в любом случае
+						strBuilder.append(FromatChapterText(line, useColorFromBQ)); // + "\n"
+					}
+					
+					
+				} 
+				is.close();
+				str = strBuilder.toString();
+			} catch (IOException e) {
+				str = mCntx.getString(R.string.err_file_book_not_open);
+				e.printStackTrace();
+			}
+		}
+		else {
+			str = mCntx.getString(R.string.err_book_not_find);
+		}
+		
+		
+		return str;
+	}
+	
+	/**
 	 * Форматируем строку текста: если это название главы, то добавляем хтмл-тэг, если нужно, убираем цвет текста
 	 убираем <font COLOR="purple">  </font>
 	 * @param line строка, которую нужно отформатировать
