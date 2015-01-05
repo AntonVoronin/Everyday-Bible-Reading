@@ -48,8 +48,8 @@
     <string name="error_fs">Ошибка файловой системы</string>
     <string name="error_calendar_failed">Для выбранной даты и календаря в программе есть список чтений, но он поврежден</string>
     <string name="error_calendar_not_find">Для выбранной даты и календаря в программе отсутствует список чтений</string>
-    <string name="select_book">Выбор книги</string>
+    <string name="select_book">Выбрать книгу</string>
     <string name="chapter_left">Предыдущая глава</string>
     <string name="chapter_right">Следующая глава</string>
-
+	<string name="read_next">Читать дальше</string>
 </resources>

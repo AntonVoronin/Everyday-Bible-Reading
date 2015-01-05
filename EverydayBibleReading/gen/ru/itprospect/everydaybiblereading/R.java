@@ -1243,6 +1243,7 @@ containing a value of this type.
         public static final int ordinary_read=0x7f0b002a;
         public static final int ordinary_sum_off=0x7f0b002c;
         public static final int ordinary_sum_on=0x7f0b002b;
+        public static final int read_next=0x7f0b0041;
         public static final int select_background=0x7f0b0025;
         public static final int select_background_dialog=0x7f0b0023;
         public static final int select_background_sum=0x7f0b0022;
@@ -1474,9 +1475,10 @@ containing a value of this type.
     public static final class xml {
         public static final int day_reading_widget_provider=0x7f050000;
         public static final int read_cal_ru_cat_2014=0x7f050001;
-        public static final int read_cal_ru_orth_2013=0x7f050002;
-        public static final int read_cal_ru_orth_2014=0x7f050003;
-        public static final int settings=0x7f050004;
+        public static final int read_cal_ru_cat_2015=0x7f050002;
+        public static final int read_cal_ru_orth_2013=0x7f050003;
+        public static final int read_cal_ru_orth_2014=0x7f050004;
+        public static final int settings=0x7f050005;
     }
     public static final class styleable {
         /**  ============================================ 

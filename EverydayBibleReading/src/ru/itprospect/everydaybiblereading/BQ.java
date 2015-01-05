@@ -112,6 +112,18 @@ public class BQ{
 		return bookFullName;
 	} 
 
+	public String GetNameForBook(String shortName, String chapter) {
+		String bookNameBezProbelov = shortName.replaceAll(" ", "").toUpperCase(Locale.getDefault());
+		
+		BookBQ bookBQ = bookMap.get(bookNameBezProbelov);
+		if (bookBQ != null) {
+			return bookBQ.fullName + " " + chapter;
+		}
+		else {
+			return shortName + " " + chapter;
+		}
+	}	
+	
 	public String GetTextForBook(BookFromSite book) {
 		String str = "";
 		StringBuilder msgStr = new StringBuilder();
@@ -267,8 +279,6 @@ public class BQ{
 		//Убираем из краткого названия книги пробелы
 		String bookNameBezProbelov = book.replaceAll(" ", "").toUpperCase(Locale.getDefault());
 		
-		//TODO
-		
 		BookBQ bookBQ = bookMap.get(bookNameBezProbelov);
 		if (bookBQ != null) {
 			try {
@@ -292,6 +302,7 @@ public class BQ{
 					if (!chapterStartFind) { //Начало главы еще не найдено
 						if (line.matches(signChapStart)) { //Нашли начало главы  
 							chapterStartFind = true;
+							continue;
 						}
 					}
 					
@@ -307,7 +318,7 @@ public class BQ{
 					}
 					
 					
-				} 
+				} //while
 				is.close();
 				str = strBuilder.toString();
 			} catch (IOException e) {
@@ -321,6 +332,11 @@ public class BQ{
 		
 		
 		return str;
+	}
+	
+	public String GetTextForChapterWithHead(String book, String chapter) {
+		//TODO
+		return "<h2>" + GetNameForBook(book, chapter) + "</h2>\n" + GetTextForChapter(book, chapter);
 	}
 	
 	/**
@@ -345,9 +361,9 @@ public class BQ{
 				formatedLine = line;
 			}
 			else {
-				formatedLine = line.replaceAll("<font.+?>", "");
-				formatedLine = formatedLine.replaceAll("</font>", "");
+				formatedLine = line.replaceAll("<font.+?>", "").replaceAll("</font>", "");
 			}
+			//formatedLine = formatedLine.replaceAll("<p>", "<br>");
 		}
 		return formatedLine;	
 	}
@@ -378,7 +394,7 @@ public class BQ{
 					chapter = String.valueOf(book.otr[0].chapterEnd);
 					stih = String.valueOf(book.otr[0].stihEnd);
 				}
-				msgStr.append("<br> <a href=\"activity-run://BibleActivityHost?book=" + book.book + "&chapter=" + chapter + "&stih=" + stih + "\">Читать дальше</a>");
+				msgStr.append("<br> <a href=\"activity-run://BibleActivityHost?book=" + book.book + "&chapter=" + chapter + "&stih=" + stih + "\">" + mCntx.getString(R.string.read_next) + "</a>");
 			}
 		}
 		
