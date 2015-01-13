@@ -1,20 +1,20 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" 
     xmlns:ebr="http://schemas.android.com/apk/res-auto" >
 
-    <item android:id="@+id/select_book"
-        ebr:showAsAction="never"
-        android:icon="@drawable/ic_menu_moreoverflow"
-        android:title="@string/select_book" />
-    
     <item android:id="@+id/chapter_left"
         ebr:showAsAction="always"
-        android:icon="@drawable/ic_menu_back"
+        android:icon="@drawable/ic_previous_item"
         android:title="@string/chapter_left" />
     
     <item android:id="@+id/chapter_right"
         ebr:showAsAction="always"
-        android:icon="@drawable/ic_menu_forward"
+        android:icon="@drawable/ic_next_item"
         android:title="@string/chapter_right" />
+    
+    <item android:id="@+id/select_book"
+        ebr:showAsAction="never"
+        android:icon="@drawable/ic_storage"
+        android:title="@string/select_book" />
     
     <item android:id="@+id/menu_item_share"
         ebr:showAsAction="never"
@@ -38,5 +38,11 @@
         ebr:showAsAction="never"
         android:icon="@android:drawable/ic_menu_info_details"
         android:title="@string/about"/>
+    
+        <item
+        android:id="@+id/feed_back"
+        ebr:showAsAction="never"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="@string/feed_back"/>
 
 </menu>

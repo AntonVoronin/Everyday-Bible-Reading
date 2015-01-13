@@ -12,7 +12,6 @@ import java.util.Locale;
 import java.util.StringTokenizer;
 
 import android.content.Context;
-import android.text.format.DateFormat;
 
 public class BQ{
 
@@ -21,6 +20,9 @@ public class BQ{
 	private String verseSign;
 	private int bookQty;
 	private HashMap<String, BookBQ> bookMap;
+	
+	private ArrayList<BookBQ> arrayListBook;
+	//private ArrayList<String> arrayListKey;
 	
 	private final static String DIR_BQ_RST = "bq/RST/";
 	private final static String INI_BQ_RST = "bibleqt.ini";
@@ -61,9 +63,13 @@ public class BQ{
 			}
 			
 			bookMap = new HashMap<String, BookBQ>();
+			arrayListBook = new ArrayList<BookBQ>();
+			//arrayListKey = new ArrayList<String>();
+			
 			//Начинаем цикл по книгам
 			for (int a = 0; a<bookQty; a++) {
 				BookBQ bookBQ = new BookBQ();
+				arrayListBook.add(bookBQ);
 				
 				for (int b = 0; b<5; b++) {
 					line=in.readLine();
@@ -81,9 +87,15 @@ public class BQ{
 						//здесь нужно выделить все варианты краткого названия книги и добавить книгу в Map столько раз, сколько сокращений найдено
 						String strShortName = line.substring(11).trim();
 						StringTokenizer t = new StringTokenizer(strShortName);
+						boolean first = true;
 						while (t.hasMoreTokens()) {
 							String token = t.nextToken().toUpperCase(Locale.getDefault());
 							bookMap.put(token, bookBQ);
+							
+							if (first) {
+								bookBQ.key = token; //добавляем первое сокращение названия
+								first = false;
+							}
 						}
 						
 					}
@@ -98,6 +110,18 @@ public class BQ{
 			e.printStackTrace();
 		}
 		
+	}
+	
+	public ArrayList<BookBQ> GetArrayBook() {
+		return arrayListBook;
+	}
+	
+	public String[] GetArrayBookName() {
+		String[] arrayBookName = new String[arrayListBook.size()];
+		for (int i = 0; i < arrayBookName.length; i++) {
+			arrayBookName[i] = arrayListBook.get(i).fullName;
+		}
+		return arrayBookName;
 	}
 	
 	public String GetNameForBook(BookFromSite book) {
@@ -122,7 +146,19 @@ public class BQ{
 		else {
 			return shortName + " " + chapter;
 		}
-	}	
+	}
+	
+	public int GetChapterQty(String shortName) {
+		String bookNameBezProbelov = shortName.replaceAll(" ", "").toUpperCase(Locale.getDefault());
+		
+		BookBQ bookBQ = bookMap.get(bookNameBezProbelov);
+		if (bookBQ != null) {
+			return bookBQ.chapterQty;
+		}
+		else {
+			return 0;
+		}
+	}
 	
 	public String GetTextForBook(BookFromSite book) {
 		String str = "";
@@ -335,7 +371,6 @@ public class BQ{
 	}
 	
 	public String GetTextForChapterWithHead(String book, String chapter) {
-		//TODO
 		return "<h2>" + GetNameForBook(book, chapter) + "</h2>\n" + GetTextForChapter(book, chapter);
 	}
 	
@@ -394,7 +429,7 @@ public class BQ{
 					chapter = String.valueOf(book.otr[0].chapterEnd);
 					stih = String.valueOf(book.otr[0].stihEnd);
 				}
-				msgStr.append("<br> <a href=\"activity-run://BibleActivityHost?book=" + book.book + "&chapter=" + chapter + "&stih=" + stih + "\">" + mCntx.getString(R.string.read_next) + "</a>");
+				//msgStr.append("<br> <a href=\"activity-run://BibleActivityHost?book=" + book.book + "&chapter=" + chapter + "&stih=" + stih + "\">" + mCntx.getString(R.string.read_next) + "</a>");
 			}
 		}
 		
@@ -428,6 +463,7 @@ public class BQ{
 class BookBQ {
 	public String pathName;
 	public String fullName;
+	public String key;
 	public int chapterQty;
 	
 	@Override

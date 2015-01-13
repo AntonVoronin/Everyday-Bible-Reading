@@ -20,6 +20,7 @@
     <string name="text_size_default">22</string>
     <string name="confession_default">orthodoxy</string>
     <string name="about">О программе</string>
+    <string name="feed_back">Оставить отзыв</string>
     <string name="select_colour_dialog">Выберите цвет текста</string>
     <string name="select_colour_sum">Выберите цвет, которым будут отображаться слова</string><string name="select_background_sum">Выберите цвет фона</string><string name="select_background_dialog">Выберите цвет фона</string>
     <string name="select_colour">Цвет текста</string>
@@ -52,4 +53,6 @@
     <string name="chapter_left">Предыдущая глава</string>
     <string name="chapter_right">Следующая глава</string>
 	<string name="read_next">Читать дальше</string>
+	<string name="tab_book">Книга</string>
+	<string name="tab_chapter">Глава</string>
 </resources>

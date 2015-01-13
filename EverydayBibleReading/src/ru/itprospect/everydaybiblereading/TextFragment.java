@@ -1,11 +1,9 @@
 package ru.itprospect.everydaybiblereading;
 
-import java.util.Calendar;
-import java.util.GregorianCalendar;
-
 import android.app.Dialog;
 import android.content.Intent;
 import android.graphics.Color;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.MenuItemCompat;
@@ -21,26 +19,28 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
 import android.widget.TextView;
+import android.util.Log;
 
 public class TextFragment extends Fragment {
-	private String book;
-	private String chapter;
-	private String stih;
-	private String chapterText;
+	private String book = "";
+	private String chapter = "";
+	private String chapterText = "";
 	private BQ bq;
 	private PrefManager prefManager;
 	private TextView mTextBible;
 	private ZoomingScrollView mScrollView;
 	private ShareActionProvider mShareActionProvider;
+	private boolean textAlreadyUpd = false;
+	public boolean uriAlreadyGet = false;
 	
 	private static final int SHOW_PREFERENCES = 1;
 	
 	
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-        Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View layoutFragment = inflater.inflate(R.layout.text_fragment_layout, container, false);
+    	//Log.v("EBR", "fragment: onCreateView");
+    	View layoutFragment = inflater.inflate(R.layout.text_fragment_layout, container, false);
         
 		mScrollView = (ZoomingScrollView)layoutFragment.findViewById(R.id.zoomScroll);
 		mTextBible = (TextView)layoutFragment.findViewById(R.id.textBible);
@@ -57,20 +57,28 @@ public class TextFragment extends Fragment {
     
     @Override
 	public void onCreate(Bundle savedInstanceState) {
-    	setHasOptionsMenu(true);
     	super.onCreate(savedInstanceState);
-	}
-
-
-	public void setBook(String book, String chapter, String stih) {
-    	this.book = book;
-    	this.chapter = chapter;
-    	this.stih = stih;
     	
-    	UpdateText();
+    	setHasOptionsMenu(true);
+    	setRetainInstance(true);
+    	//Log.v("EBR", "fragment: onCreate");
+    	
+    	
+	}
+    
+    public void UpdateTextOnce() {
+    	if (textAlreadyUpd==false) {
+    		UpdateText();
+    	}
     }
     
-    private void UpdateText() {
+	public void UpdateText() {
+		//Log.v("EBR", "fragment: UpdateText");
+		
+    	MainApp app = ((MainApp) getActivity().getApplicationContext());
+    	book = app.getBook();
+    	chapter = app.getChapter();
+		
     	if (bq==null) {
     		bq = new BQ(getActivity().getApplicationContext());
     	};
@@ -78,7 +86,38 @@ public class TextFragment extends Fragment {
     	
 		Spanned s = Html.fromHtml(chapterText);
 		mTextBible.setText(s);
+		
+		//set app label
+		getActivity().setTitle(bq.GetNameForBook(book, chapter));
+		
+		textAlreadyUpd = true;
     }
+    
+    private void PrevChapter() {
+    	int newChapter = Integer.parseInt(chapter) - 1;
+    	if (newChapter>0) {
+    		chapter = String.valueOf(newChapter);
+    		MainApp app = ((MainApp) getActivity().getApplicationContext());
+    		app.setChapter(chapter);
+    		UpdateText();
+    	}
+    }
+
+    private void NextChapter() {
+    	if (bq==null) {
+    		bq = new BQ(getActivity().getApplicationContext());
+    	};
+    	int chapterQty = bq.GetChapterQty(book);
+    	
+    	int newChapter = Integer.parseInt(chapter) + 1;
+    	if (newChapter <= chapterQty) {
+    		chapter = String.valueOf(newChapter);
+    		MainApp app = ((MainApp) getActivity().getApplicationContext());
+    		app.setChapter(chapter);
+    		UpdateText();
+    	}
+    }
+    
     
 	private void updateFromPreferences() {
 		if (prefManager==null) {
@@ -110,10 +149,14 @@ public class TextFragment extends Fragment {
 	}
 	
 	private void setShareIntent() {
+		//Log.v("EBR", "fragment: setShareIntent");
+		
 		Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
 		sharingIntent.setType("text/plain");
-		
-		String shareBody = Html.fromHtml(chapterText).toString();
+		String shareBody = "";
+		if (chapterText != null) {
+			shareBody = Html.fromHtml(chapterText).toString();
+		}
 		shareBody = shareBody.replaceAll("\n\n", "\n");
 		
 		PrefManager pm = new PrefManager(getActivity().getApplicationContext());
@@ -162,6 +205,22 @@ public class TextFragment extends Fragment {
 				Boolean currentIsNight = prefManager.isNight();
 				prefManager.putIsNight(!currentIsNight);
 				colorFromPref();
+				return true;
+			case (R.id.feed_back):
+				String appPackageName= getActivity().getPackageName();
+				Intent marketIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id="+appPackageName));
+				marketIntent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY|Intent.FLAG_ACTIVITY_CLEAR_WHEN_TASK_RESET|Intent.FLAG_ACTIVITY_MULTIPLE_TASK);
+				startActivity(marketIntent);
+				return true;
+			case (R.id.chapter_left):
+				PrevChapter(); 
+				return true;
+			case (R.id.chapter_right):
+				NextChapter(); 
+				return true;
+			case (R.id.select_book):
+				BibleActivity ba = (BibleActivity) getActivity();
+				ba.SelectBook(book, "book"); 
 				return true;
 		}
 		

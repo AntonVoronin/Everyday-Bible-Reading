@@ -11,7 +11,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="16dp"
-        android:src="@drawable/ic_launcher"
+        android:src="@drawable/ic_launcher2"
         android:contentDescription="@string/app_name" />
 
     <TextView

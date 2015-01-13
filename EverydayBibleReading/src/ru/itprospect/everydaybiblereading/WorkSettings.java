@@ -17,7 +17,7 @@ public class WorkSettings {
 		
 		//Проверка наличия хмл для даты и конфессии
 		if (conf.equals(CONF_ORTHODOXY)) {
-			if (date.compareTo(new GregorianCalendar(2013, 2, 1))>=0 && date.compareTo(new GregorianCalendar(2015, 0, 13))<=0) {
+			if (date.compareTo(new GregorianCalendar(2013, 2, 1))>=0 && date.compareTo(new GregorianCalendar(2016, 0, 3))<=0) {
 				fileFindSuccess = true;
 			}
 		} 
@@ -36,6 +36,9 @@ public class WorkSettings {
 			}
 			else if (date.compareTo(new GregorianCalendar(2014, 0, 14))>=0 && date.compareTo(new GregorianCalendar(2015, 0, 13))<=0) {
 				return R.xml.read_cal_ru_orth_2014;
+			}
+			else if (date.compareTo(new GregorianCalendar(2015, 0, 14))>=0 && date.compareTo(new GregorianCalendar(2016, 0, 3))<=0) {
+				return R.xml.read_cal_ru_orth_2015;
 			}
 		} 
 		else if (conf.equals(CONF_CATHOLIC)) {

@@ -4,6 +4,7 @@ import java.lang.reflect.Field;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
+import android.net.Uri;
 import android.os.Bundle;
 import android.app.AlertDialog;
 import android.app.DatePickerDialog;
@@ -16,7 +17,6 @@ import android.text.Html;
 import android.text.Spanned;
 import android.text.format.DateFormat;
 import android.text.method.LinkMovementMethod;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -56,9 +56,6 @@ public class MainActivity extends ActionBarActivity {
 	private static final String TEXT_BIBLE_STATE_KEY = "TEXT_BIBLE_STATE_KEY";
 	private static final String SCROLL_POSITION_STATE_KEY = "SCROLL_POSITION_STATE_KEY";
 	private static final int SHOW_PREFERENCES = 1;
-//	private static final int DATE_DIALOG_ID = 1;
-	//private final int MENU_ID = 1;
-	private static final String TAG = "EverydayBible";
 	
 	private DatePickerDialog.OnDateSetListener mDateSetListener =
 	        new DatePickerDialog.OnDateSetListener() {
@@ -70,7 +67,7 @@ public class MainActivity extends ActionBarActivity {
 	                UpdateText();
 	                
 	            }
-	        };
+	        }; 
 
 	
 	@Override
@@ -417,6 +414,12 @@ public class MainActivity extends ActionBarActivity {
 				Dialog dialogConfession = dialogConfession();
 				dialogConfession.show();
 				return true;
+			case (R.id.feed_back):
+				String appPackageName= getPackageName();
+				Intent marketIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id="+appPackageName));
+				marketIntent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY|Intent.FLAG_ACTIVITY_CLEAR_WHEN_TASK_RESET|Intent.FLAG_ACTIVITY_MULTIPLE_TASK);
+				startActivity(marketIntent);
+				return true;	
 		}
 		
 		// ¬ерните false, если вы не обработали это событие.
