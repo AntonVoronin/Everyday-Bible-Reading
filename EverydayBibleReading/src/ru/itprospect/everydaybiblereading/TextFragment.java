@@ -35,6 +35,9 @@ public class TextFragment extends Fragment {
 	
 	private static final int SHOW_PREFERENCES = 1;
 	
+	//TODO Запоминать позицию при повороте экрана
+	
+	//TODO Перемещаться в начало при установке нового текста
 	
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {

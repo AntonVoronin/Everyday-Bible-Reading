@@ -429,7 +429,7 @@ public class BQ{
 					chapter = String.valueOf(book.otr[0].chapterEnd);
 					stih = String.valueOf(book.otr[0].stihEnd);
 				}
-				//msgStr.append("<br> <a href=\"activity-run://BibleActivityHost?book=" + book.book + "&chapter=" + chapter + "&stih=" + stih + "\">" + mCntx.getString(R.string.read_next) + "</a>");
+				msgStr.append("<br> <a href=\"activity-run://BibleActivityHost?book=" + book.book + "&chapter=" + chapter + "&stih=" + stih + "\">" + mCntx.getString(R.string.read_next) + "</a>");
 			}
 		}
 		

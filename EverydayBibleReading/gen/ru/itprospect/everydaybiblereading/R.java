@@ -1229,6 +1229,7 @@ containing a value of this type.
         public static final int action_settings=0x7f0b000e;
         public static final int action_update_w=0x7f0b0016;
         public static final int app_name=0x7f0b000d;
+        public static final int books=0x7f0b0045;
         public static final int cancel=0x7f0b003a;
         public static final int chapter_left=0x7f0b0040;
         public static final int chapter_name=0x7f0b0014;

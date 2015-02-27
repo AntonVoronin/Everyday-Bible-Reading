@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBar.Tab;
@@ -15,11 +16,13 @@ public class SelectBookActivity extends ActionBarActivity implements TabListener
 
 	private String book = "";
 	private String type = "";
-	private SelectBookFragment selectBookFragment;
-	private SelectChapterFragment selectChapterFragment;
+
 	private BQ bq;
 	private BookBQ selectedBookBQ;
 
+	//TODO Запоминать книгу при повороте экрана
+	
+	
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -34,23 +37,6 @@ public class SelectBookActivity extends ActionBarActivity implements TabListener
 		}
 
 		bar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
-
-
-		selectBookFragment = new SelectBookFragment();
-		selectChapterFragment = new SelectChapterFragment();
-
-		
-//		FragmentTransaction fTrans = getSupportFragmentManager().beginTransaction();
-//		boolean tabBookSelected;
-//		if (type.equals("chapter")) {
-//			fTrans.add(R.id.frgmCont, selectChapterFragment);
-//			tabBookSelected = false;
-//		}
-//		else {
-//			fTrans.add(R.id.frgmCont, selectBookFragment);
-//			tabBookSelected = true;
-//		}
-//		fTrans.commit();
 
 		boolean tabBookSelected;
 		if (type.equals("chapter")) {
@@ -80,15 +66,36 @@ public class SelectBookActivity extends ActionBarActivity implements TabListener
 
 	@Override
 	public void onTabSelected(Tab tab, FragmentTransaction ft) {
-		if (selectBookFragment !=null && selectChapterFragment !=null) {
-			String tag = (String) tab.getTag();
-			if (tag.equals("book")) {
-				ft.replace(R.id.frgmCont, selectBookFragment);
-			}
-			else {
-				ft.replace(R.id.frgmCont, selectChapterFragment);
-			}
+		String tag = (String) tab.getTag();
+		
+		FragmentManager fm = getSupportFragmentManager();
+		SelectBookFragment selectBookFragment = (SelectBookFragment) fm.findFragmentByTag("f_book");
+		SelectChapterFragment selectChapterFragment = (SelectChapterFragment) fm.findFragmentByTag("f_chapter");
+		
+		if (selectBookFragment == null) {
+			selectBookFragment = new SelectBookFragment();
+			ft.add(R.id.frgmCont, selectBookFragment, "f_book");
 		}
+		if (selectChapterFragment == null) {
+			selectChapterFragment = new SelectChapterFragment();
+			ft.add(R.id.frgmCont, selectChapterFragment, "f_chapter");
+		}
+		
+		if (tag.equals("book")) {
+			ft.hide(selectChapterFragment);
+			ft.show(selectBookFragment);
+			setTitle(getBaseContext().getString(R.string.books));
+		}
+		else {
+			ft.hide(selectBookFragment);
+			ft.detach(selectChapterFragment);
+			ft.attach(selectChapterFragment);
+			ft.show(selectChapterFragment);
+			
+			setTitle(getSelectedBookBQ().fullName);
+
+		}
+		
 	}
 
 	@Override
@@ -118,6 +125,9 @@ public class SelectBookActivity extends ActionBarActivity implements TabListener
 	}
 	
 	public BookBQ getSelectedBookBQ() {
+		if (selectedBookBQ == null) {
+			selectedBookBQ = GetArrayBook().get(0);
+		}
 		return selectedBookBQ;
 	}
 	

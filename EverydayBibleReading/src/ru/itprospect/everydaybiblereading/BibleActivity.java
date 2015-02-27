@@ -27,24 +27,19 @@ public class BibleActivity extends ActionBarActivity {
         TextFragment textFragment = (TextFragment) getSupportFragmentManager().findFragmentById(R.id.text_fragment);
 
     	String book = "";
-    	String chapter = "";
-//    	String stih = "";        	
+    	String chapter = "";  	
 
         Uri uri = getIntent().getData();
         if (uri != null && !textFragment.uriAlreadyGet) { 
         	book = uri.getQueryParameter("book");
         	chapter = uri.getQueryParameter("chapter");
-//        	stih = uri.getQueryParameter("stih");
         	textFragment.uriAlreadyGet = true;
         	
         	MainApp app = ((MainApp) getApplicationContext());
         	app.setBook(book);
         	app.setChapter(chapter);
-        	//textFragment.UpdateText();
         }
-        else {
-        	//textFragment.UpdateTextOnce();
-        }
+
         textFragment.UpdateText();
         updateFromPreferences();
         

@@ -1,6 +1,5 @@
 package ru.itprospect.everydaybiblereading;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.util.DisplayMetrics;
@@ -15,7 +14,6 @@ import android.widget.Toast;
 
 public class SelectChapterFragment extends Fragment {
 
-	private SelectBookActivity selectBookActivity;
 	private BookBQ selectedBookBQ;
 
 	@Override
@@ -26,15 +24,10 @@ public class SelectChapterFragment extends Fragment {
 		TableLayout tableLayout = (TableLayout) layoutFragment.findViewById(R.id.chapterTable); 
 
 		//Определяем количество глав книги
+		SelectBookActivity selectBookActivity;
 		selectBookActivity = (SelectBookActivity) getActivity();
 		selectedBookBQ = selectBookActivity.getSelectedBookBQ();
-
-		if (selectedBookBQ == null) {
-			//берем первую книгу в списке
-			selectedBookBQ = selectBookActivity.GetArrayBook().get(0);
-		}
-		int chapterQty;
-		chapterQty = selectedBookBQ.chapterQty;
+		int chapterQty = selectedBookBQ.chapterQty;
 
 		//на экране должно быть минимум 5 столбцов. Если ширина экрана большая, то можно добавить столбцы
 		DisplayMetrics displaymetrics = new DisplayMetrics();
@@ -54,7 +47,7 @@ public class SelectChapterFragment extends Fragment {
 				Button b = (Button) v;
 				String btnTxt = (String) b.getText(); 
 				//Toast.makeText(getActivity(), selectedBookBQ.key + ", глава " + btnTxt, Toast.LENGTH_SHORT).show();
-				
+				SelectBookActivity selectBookActivity = (SelectBookActivity) getActivity();
 				selectBookActivity.ChapterSelected(selectedBookBQ.key, btnTxt);
 			}
 		};
@@ -68,6 +61,8 @@ public class SelectChapterFragment extends Fragment {
 
 					Button btn =  new Button(getActivity().getApplicationContext());
 					btn.setText(String.valueOf(a));
+					//TODO Сделать кнопки квадратными и белыми
+					
 					//btn.setLayoutParams(lButtonParams);
 					//btn.setId(i);
 					btn.setOnClickListener(oclBtn);

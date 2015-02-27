@@ -414,6 +414,7 @@ int string action_log 0x7f0b0015
 int string action_settings 0x7f0b000e
 int string action_update_w 0x7f0b0016
 int string app_name 0x7f0b000d
+int string books 0x7f0b0045
 int string cancel 0x7f0b003a
 int string chapter_left 0x7f0b0040
 int string chapter_name 0x7f0b0014

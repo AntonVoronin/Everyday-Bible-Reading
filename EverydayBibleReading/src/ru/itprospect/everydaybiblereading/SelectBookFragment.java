@@ -30,12 +30,12 @@ public class SelectBookFragment extends ListFragment {
 
 	private String[] arrayBookName;
 	private ArrayList<BookBQ> arrayListBook;
-	private SelectBookActivity selectBookActivity;
-	
+		
 	@Override
 	public void onActivityCreated(Bundle savedInstanceState) {
 		super.onActivityCreated(savedInstanceState);
 		
+		SelectBookActivity selectBookActivity;
 		selectBookActivity = (SelectBookActivity) getActivity();
 		arrayBookName = selectBookActivity.GetArrayBookName();
 		arrayListBook = selectBookActivity.GetArrayBook();
@@ -49,6 +49,7 @@ public class SelectBookFragment extends ListFragment {
 	public void onListItemClick(ListView l, View v, int position, long id) {
 		super.onListItemClick(l, v, position, id);
 		//Toast.makeText(getActivity(), "position = " + position + ", bq = " + arrayListBook.get(position).toString(), Toast.LENGTH_SHORT).show();
+		SelectBookActivity selectBookActivity = (SelectBookActivity) getActivity();
 		selectBookActivity.BookSelected(arrayListBook.get(position));
 	}
 
