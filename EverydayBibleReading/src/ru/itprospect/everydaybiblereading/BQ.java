@@ -148,6 +148,12 @@ public class BQ{
 		}
 	}
 	
+	public BookBQ GetBookByShortName(String shortName) {
+		String bookNameBezProbelov = shortName.replaceAll(" ", "").toUpperCase(Locale.getDefault());
+		BookBQ bookBQ = bookMap.get(bookNameBezProbelov);
+		return bookBQ;
+	}
+	
 	public int GetChapterQty(String shortName) {
 		String bookNameBezProbelov = shortName.replaceAll(" ", "").toUpperCase(Locale.getDefault());
 		

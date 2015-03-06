@@ -19,7 +19,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
 import android.widget.TextView;
-import android.util.Log;
 
 public class TextFragment extends Fragment {
 	private String book = "";

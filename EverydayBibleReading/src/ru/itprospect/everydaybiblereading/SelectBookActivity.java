@@ -15,7 +15,7 @@ import android.support.v7.app.ActionBarActivity;
 public class SelectBookActivity extends ActionBarActivity implements TabListener  {
 
 	private String book = "";
-	private String type = "";
+	private String tab_selected = "book";
 
 	private BQ bq;
 	private BookBQ selectedBookBQ;
@@ -34,17 +34,35 @@ public class SelectBookActivity extends ActionBarActivity implements TabListener
 		setContentView(R.layout.select_book_activity_layout);
 		ActionBar bar = getSupportActionBar(); 
 		bar.setDisplayHomeAsUpEnabled(true);
+		
+		Log.e("EBR", "SelectBookAct: onCreate");
 
+		//восстановление состояния активности
+		boolean fromIntent = false;
 		Bundle extras = getIntent().getExtras();
-		if (extras != null) {        		
+		if (extras != null) {
+			tab_selected = extras.getString("TYPE");
 			book = extras.getString("BOOK");
-			type = extras.getString("TYPE");
+			if (tab_selected != null) {
+				fromIntent = true;
+				getIntent().removeExtra("TYPE");
+				Log.e("EBR", "SelectBookAct: from intent");
+			}
 		}
-
+		if (savedInstanceState != null && !fromIntent) {
+			book = savedInstanceState.getString("BOOK");
+			tab_selected = savedInstanceState.getString("TYPE");
+			Log.e("EBR", "SelectBookAct: from saved state");
+		}
+		if (tab_selected == null) {
+			tab_selected = TAG_TAB_BOOK;
+		}
+		//getIntent().setAction("");
+		
 		bar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
 
 		boolean tabBookSelected;
-		if (type.equals("chapter")) {
+		if (tab_selected.equals(TAG_TAB_CHAPTER)) {
 			tabBookSelected = false;
 		}
 		else {
@@ -64,6 +82,20 @@ public class SelectBookActivity extends ActionBarActivity implements TabListener
 		bar.addTab(tab, !tabBookSelected);
 	}
 
+	@Override
+	protected void onSaveInstanceState(Bundle outState) {
+		outState.putString("BOOK", book);
+		outState.putString("TYPE", tab_selected);
+		Log.e("EBR", "SelectBookAct: onSaveInstanceState");
+		super.onSaveInstanceState(outState);
+	}
+	
+	@Override
+	protected void onDestroy() {
+		Log.e("EBR", "SelectBookAct: onDestroy");
+		super.onDestroy();
+	}
+	
 	@Override
 	public void onTabSelected(Tab tab, FragmentTransaction ft) {
 		String tag = (String) tab.getTag();
@@ -85,6 +117,7 @@ public class SelectBookActivity extends ActionBarActivity implements TabListener
 			ft.hide(selectChapterFragment);
 			ft.show(selectBookFragment);
 			setTitle(getBaseContext().getString(R.string.books));
+			tab_selected = TAG_TAB_BOOK;
 		}
 		else {
 			ft.hide(selectBookFragment);
@@ -93,23 +126,17 @@ public class SelectBookActivity extends ActionBarActivity implements TabListener
 			ft.show(selectChapterFragment);
 			
 			setTitle(getSelectedBookBQ().fullName);
-
+			tab_selected = TAG_TAB_CHAPTER;
 		}
 		
 	}
 	
 	public String[] GetArrayBookName() {
-		if (bq==null) {
-    		bq = new BQ(getApplicationContext());
-    	};
-    	return bq.GetArrayBookName();
+    	return getBQ().GetArrayBookName();
 	}
 	
 	public ArrayList<BookBQ> GetArrayBook() {
-		if (bq==null) {
-    		bq = new BQ(getApplicationContext());
-    	};
-    	return bq.GetArrayBook();
+    	return getBQ().GetArrayBook();
 	}
 	
 	public BQ getBQ() {
@@ -121,7 +148,12 @@ public class SelectBookActivity extends ActionBarActivity implements TabListener
 	
 	public BookBQ getSelectedBookBQ() {
 		if (selectedBookBQ == null) {
-			selectedBookBQ = GetArrayBook().get(0);
+			if (book != null) {
+				selectedBookBQ = getBQ().GetBookByShortName(book);
+			}
+			else {
+				selectedBookBQ = GetArrayBook().get(0);
+			}
 		}
 		return selectedBookBQ;
 	}
@@ -129,6 +161,7 @@ public class SelectBookActivity extends ActionBarActivity implements TabListener
 	
 	public void BookSelected(BookBQ selectedBookBQ) {
 		book = selectedBookBQ.key;
+		tab_selected = TAG_TAB_CHAPTER;
 		this.selectedBookBQ = selectedBookBQ;
 		getSupportActionBar().setSelectedNavigationItem(1);
 	}

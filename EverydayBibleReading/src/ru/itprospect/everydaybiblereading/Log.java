@@ -97,5 +97,8 @@ public class Log {
 	         return formatter.format(new Date());
 	     }
 
+	public static void e(String tag, String msg) {
+		android.util.Log.e(tag, msg);
+	}
 	
 }
