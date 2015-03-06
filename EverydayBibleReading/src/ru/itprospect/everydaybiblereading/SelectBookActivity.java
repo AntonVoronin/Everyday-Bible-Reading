@@ -19,6 +19,11 @@ public class SelectBookActivity extends ActionBarActivity implements TabListener
 
 	private BQ bq;
 	private BookBQ selectedBookBQ;
+	
+	private final String TAG_F_BOOK = "f_book";
+	private final String TAG_F_CHAPTER = "f_chapter";
+	private final String TAG_TAB_CHAPTER = "chapter";
+	private final String TAG_TAB_BOOK = "book";
 
 	//TODO Запоминать книгу при повороте экрана
 	
@@ -49,19 +54,14 @@ public class SelectBookActivity extends ActionBarActivity implements TabListener
 		Tab tab = bar.newTab();
 		tab.setText(getBaseContext().getString(R.string.tab_book));
 		tab.setTabListener(this);
-		tab.setTag("book");
+		tab.setTag(TAG_TAB_BOOK);
 		bar.addTab(tab, tabBookSelected);
 
 		tab = bar.newTab();
 		tab.setText(getBaseContext().getString(R.string.tab_chapter));
 		tab.setTabListener(this);
-		tab.setTag("chapter");
+		tab.setTag(TAG_TAB_CHAPTER);
 		bar.addTab(tab, !tabBookSelected);
-	}
-
-	@Override
-	public void onTabReselected(Tab tab, FragmentTransaction ft) {
-
 	}
 
 	@Override
@@ -69,19 +69,19 @@ public class SelectBookActivity extends ActionBarActivity implements TabListener
 		String tag = (String) tab.getTag();
 		
 		FragmentManager fm = getSupportFragmentManager();
-		SelectBookFragment selectBookFragment = (SelectBookFragment) fm.findFragmentByTag("f_book");
-		SelectChapterFragment selectChapterFragment = (SelectChapterFragment) fm.findFragmentByTag("f_chapter");
+		SelectBookFragment selectBookFragment = (SelectBookFragment) fm.findFragmentByTag(TAG_F_BOOK);
+		SelectChapterFragment selectChapterFragment = (SelectChapterFragment) fm.findFragmentByTag(TAG_F_CHAPTER);
 		
 		if (selectBookFragment == null) {
 			selectBookFragment = new SelectBookFragment();
-			ft.add(R.id.frgmCont, selectBookFragment, "f_book");
+			ft.add(R.id.frgmCont, selectBookFragment, TAG_F_BOOK);
 		}
 		if (selectChapterFragment == null) {
 			selectChapterFragment = new SelectChapterFragment();
-			ft.add(R.id.frgmCont, selectChapterFragment, "f_chapter");
+			ft.add(R.id.frgmCont, selectChapterFragment, TAG_F_CHAPTER);
 		}
 		
-		if (tag.equals("book")) {
+		if (tag.equals(TAG_TAB_BOOK)) {
 			ft.hide(selectChapterFragment);
 			ft.show(selectBookFragment);
 			setTitle(getBaseContext().getString(R.string.books));
@@ -96,11 +96,6 @@ public class SelectBookActivity extends ActionBarActivity implements TabListener
 
 		}
 		
-	}
-
-	@Override
-	public void onTabUnselected(Tab tab, FragmentTransaction ft) {
-
 	}
 	
 	public String[] GetArrayBookName() {
@@ -144,6 +139,18 @@ public class SelectBookActivity extends ActionBarActivity implements TabListener
 	    intent.putExtra("chapter", chapter);
 	    setResult(RESULT_OK, intent);
 	    finish();
+	}
+
+	@Override
+	public void onTabReselected(Tab arg0, FragmentTransaction arg1) {
+		
+		
+	}
+
+	@Override
+	public void onTabUnselected(Tab arg0, FragmentTransaction arg1) {
+		
+		
 	}
 
 }
