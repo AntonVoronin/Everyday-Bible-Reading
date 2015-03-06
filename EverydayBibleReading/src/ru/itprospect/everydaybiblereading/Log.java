@@ -9,7 +9,7 @@ import java.io.PrintWriter;
 import java.text.Format;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.widget.Toast;
 
@@ -26,7 +26,6 @@ public class Log {
 			
 			//Toast.makeText(cntx, "Записали лог", Toast.LENGTH_SHORT).show();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			Toast.makeText(cntx, "Не удалось записать лог", Toast.LENGTH_SHORT).show();
 			e.printStackTrace();
 		}
@@ -49,7 +48,6 @@ public class Log {
 			fis.close();
 			
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -66,7 +64,6 @@ public class Log {
 			
 			Toast.makeText(cntx, "Очистили лог", Toast.LENGTH_SHORT).show();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			Toast.makeText(cntx, "Не удалось очистить лог", Toast.LENGTH_SHORT).show();
 			e.printStackTrace();
 		}
@@ -92,6 +89,7 @@ public class Log {
 		WriteLog(cntx, dateStr+" - "+str);
 	}
 	
+	@SuppressLint("SimpleDateFormat")
 	public static String getCurrentTime(String timeformat){
 	      Format formatter = new SimpleDateFormat(timeformat);
 	         return formatter.format(new Date());
