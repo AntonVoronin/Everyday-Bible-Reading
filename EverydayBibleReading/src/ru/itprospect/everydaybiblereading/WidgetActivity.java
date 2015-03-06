@@ -22,7 +22,7 @@ public class WidgetActivity extends AppWidgetProvider {
 	@Override
     public void onUpdate(Context context, AppWidgetManager appWidgetManager, int[] appWidgetIds) {
 		updateRead(context, appWidgetManager, appWidgetIds);
-		if (writeLog) {MyLog.WriteLogDate(context, "auto update");}
+		if (writeLog) {Log.WriteLogDate(context, "auto update");}
 	}
 	
 	@Override
@@ -33,7 +33,7 @@ public class WidgetActivity extends AppWidgetProvider {
 	  alarmManager.cancel(sender);
 	  
 	  super.onDisabled(context);
-	  if (writeLog) {MyLog.WriteLogDate(context, "on disabled, cancel alarm");}
+	  if (writeLog) {Log.WriteLogDate(context, "on disabled, cancel alarm");}
 	 }
 	 
 	 @Override
@@ -55,7 +55,7 @@ public class WidgetActivity extends AppWidgetProvider {
 	  
 	  am.setInexactRepeating(AlarmManager.RTC, calendar.getTimeInMillis(), AlarmManager.INTERVAL_DAY, pi);
 	  
-	  if (writeLog) {MyLog.WriteLogDate(context, "on enabled, set alarm at " + DateFormat.format("dd.MM.yyyy k:m:s z", calendar).toString());}
+	  if (writeLog) {Log.WriteLogDate(context, "on enabled, set alarm at " + DateFormat.format("dd.MM.yyyy k:m:s z", calendar).toString());}
 	 }
 	
 	public void updateRead(Context context, AppWidgetManager appWidgetManager, int[] appWidgetIds) {
@@ -99,11 +99,11 @@ public class WidgetActivity extends AppWidgetProvider {
 		
 		if (intent.getAction().equals(WIDGET_FORCE_UPDATE)) {
 			updateRead(context);
-			if (writeLog) {MyLog.WriteLogDate(context, "force update");}
+			if (writeLog) {Log.WriteLogDate(context, "force update");}
 		}
 		else if (intent.getAction().equals(WIDGET_ALARM_UPDATE)) {
 			updateRead(context);
-			if (writeLog) {MyLog.WriteLogDate(context, "alarm update");}
+			if (writeLog) {Log.WriteLogDate(context, "alarm update");}
 		}
 	}
 

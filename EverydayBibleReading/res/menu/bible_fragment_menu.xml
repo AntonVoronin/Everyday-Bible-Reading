@@ -1,48 +1,49 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:ebr="http://schemas.android.com/apk/res-auto" >
 
-    <item android:id="@+id/chapter_left"
-        ebr:showAsAction="always"
+    <item
+        android:id="@+id/chapter_left"
         android:icon="@drawable/ic_previous_item"
-        android:title="@string/chapter_left" />
-    
-    <item android:id="@+id/chapter_right"
-        ebr:showAsAction="always"
+        android:title="@string/chapter_left"
+        ebr:showAsAction="always"/>
+    <item
+        android:id="@+id/select_chapter"
+        android:title="@string/select_chapter"
+        ebr:showAsAction="always"/>
+    <item
+        android:id="@+id/chapter_right"
         android:icon="@drawable/ic_next_item"
-        android:title="@string/chapter_right" />
-    
-    <item android:id="@+id/select_book"
-        ebr:showAsAction="never"
+        android:title="@string/chapter_right"
+        ebr:showAsAction="always"/>
+    <item
+        android:id="@+id/select_book"
         android:icon="@drawable/ic_storage"
-        android:title="@string/select_book" />
-    
-    <item android:id="@+id/menu_item_share"
-        ebr:showAsAction="never"
+        android:title="@string/select_book"
+        ebr:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_item_share"
         android:title="@string/share_all"
-        ebr:actionProviderClass="android.support.v7.widget.ShareActionProvider" />
-
+        ebr:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+        ebr:showAsAction="never"/>
     <item
         android:id="@+id/day_night"
-        ebr:showAsAction="never"
         android:icon="@android:drawable/ic_menu_day"
-        android:title="@string/day_night"/>
-    
+        android:title="@string/day_night"
+        ebr:showAsAction="never"/>
     <item
         android:id="@+id/action_settings"
         android:icon="@android:drawable/ic_menu_preferences"
-        ebr:showAsAction="never"
-        android:title="@string/action_settings"/>
-    
+        android:title="@string/action_settings"
+        ebr:showAsAction="never"/>
     <item
         android:id="@+id/about"
-        ebr:showAsAction="never"
         android:icon="@android:drawable/ic_menu_info_details"
-        android:title="@string/about"/>
-    
-        <item
+        android:title="@string/about"
+        ebr:showAsAction="never"/>
+    <item
         android:id="@+id/feed_back"
-        ebr:showAsAction="never"
         android:icon="@android:drawable/ic_menu_info_details"
-        android:title="@string/feed_back"/>
+        android:title="@string/feed_back"
+        ebr:showAsAction="never"/>
 
 </menu>

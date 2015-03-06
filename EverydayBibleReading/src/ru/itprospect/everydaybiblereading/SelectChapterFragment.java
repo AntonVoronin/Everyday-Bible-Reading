@@ -2,7 +2,7 @@ package ru.itprospect.everydaybiblereading;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.util.DisplayMetrics;
+//import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -10,7 +10,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TableLayout;
 import android.widget.TableRow;
-import android.widget.Toast;
 
 public class SelectChapterFragment extends Fragment {
 
@@ -30,10 +29,10 @@ public class SelectChapterFragment extends Fragment {
 		int chapterQty = selectedBookBQ.chapterQty;
 
 		//на экране должно быть минимум 5 столбцов. Если ширина экрана большая, то можно добавить столбцы
-		DisplayMetrics displaymetrics = new DisplayMetrics();
-		getActivity().getWindowManager().getDefaultDisplay().getMetrics(displaymetrics);
-		int screenWidth = displaymetrics.widthPixels;
-		int screenHeight = displaymetrics.heightPixels;
+		//DisplayMetrics displaymetrics = new DisplayMetrics();
+		//getActivity().getWindowManager().getDefaultDisplay().getMetrics(displaymetrics);
+		//int screenWidth = displaymetrics.widthPixels;
+		//int screenHeight = displaymetrics.heightPixels;
 		//Toast.makeText(getActivity().getApplicationContext(), "screenWidth " + String.valueOf(screenWidth), Toast.LENGTH_SHORT).show(); 
 		//вычисляем количество столбцов и строк
 		int columnQty = 5;

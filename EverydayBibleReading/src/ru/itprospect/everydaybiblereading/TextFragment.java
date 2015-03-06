@@ -31,8 +31,7 @@ public class TextFragment extends Fragment {
 	private ShareActionProvider mShareActionProvider;
 	private boolean textAlreadyUpd = false;
 	public boolean uriAlreadyGet = false;
-	
-	private static final int SHOW_PREFERENCES = 1;
+	private MenuItem capterMenuItem;
 	
 	//TODO Запоминать позицию при повороте экрана
 	
@@ -90,7 +89,8 @@ public class TextFragment extends Fragment {
 		mTextBible.setText(s);
 		
 		//set app label
-		getActivity().setTitle(bq.GetNameForBook(book, chapter));
+		getActivity().setTitle(bq.GetNameForBook(book, ""));
+		if (capterMenuItem != null) capterMenuItem.setTitle(chapter);
 		
 		textAlreadyUpd = true;
     }
@@ -182,18 +182,21 @@ public class TextFragment extends Fragment {
 	    MenuItem shareItem = menu.findItem(R.id.menu_item_share);
 	    mShareActionProvider = (ShareActionProvider)MenuItemCompat.getActionProvider(shareItem);
 	    setShareIntent();
+	    
+	    //Ищем пункт меню выбора главы
+	    capterMenuItem = menu.findItem(R.id.select_chapter);
+	    capterMenuItem.setTitle(chapter);
 		
 		super.onCreateOptionsMenu(menu, inflater);
 	}
 	
 	public boolean onOptionsItemSelected(MenuItem item) {
 		super.onOptionsItemSelected(item);
+		BibleActivity ba;
 		switch (item.getItemId()) {
-		//TODO нужно описать меню
-
 			case (R.id.action_settings):
-				Intent i = new Intent(getActivity(), SettingsActivity.class);
-				startActivityForResult(i, SHOW_PREFERENCES);
+				ba = (BibleActivity) getActivity();
+				ba.ShowPreferences();
 				return true;
 			case (R.id.about):
 				Dialog d = new Dialog(getActivity());
@@ -221,8 +224,12 @@ public class TextFragment extends Fragment {
 				NextChapter(); 
 				return true;
 			case (R.id.select_book):
-				BibleActivity ba = (BibleActivity) getActivity();
+				ba = (BibleActivity) getActivity();
 				ba.SelectBook(book, "book"); 
+				return true;
+			case (R.id.select_chapter):
+				ba = (BibleActivity) getActivity();
+				ba.SelectBook(book, "chapter"); 
 				return true;
 		}
 		

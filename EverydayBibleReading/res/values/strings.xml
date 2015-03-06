@@ -52,6 +52,7 @@
     <string name="select_book">Выбрать книгу</string>
     <string name="chapter_left">Предыдущая глава</string>
     <string name="chapter_right">Следующая глава</string>
+    <string name="select_chapter">Выбрать главу</string>
 	<string name="read_next">Читать дальше</string>
 	<string name="tab_book">Книга</string>
 	<string name="tab_chapter">Глава</string>

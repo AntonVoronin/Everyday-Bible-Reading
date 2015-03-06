@@ -5,7 +5,6 @@ import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
-import android.util.Log;
 
 public class BibleActivity extends ActionBarActivity {
 	
@@ -52,11 +51,16 @@ public class BibleActivity extends ActionBarActivity {
     	startActivityForResult(i, SELECT_BOOK);
     }
     
+    public void ShowPreferences() {
+		Intent i = new Intent(this, SettingsActivity.class);
+		startActivityForResult(i, SHOW_PREFERENCES);
+    }
+    
 	@Override
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 		super.onActivityResult(requestCode, resultCode, data);
 		
-		//Log.v("EBR", "BibleActivity: onActivityResult " + requestCode);
+		Log.e("EBR", "BibleActivity: onActivityResult " + requestCode);
 		
 		if (requestCode == SHOW_PREFERENCES) {
 			updateFromPreferences();
