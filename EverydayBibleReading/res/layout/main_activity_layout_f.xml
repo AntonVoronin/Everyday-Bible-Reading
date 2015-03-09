@@ -1,0 +1,11 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <fragment android:name="ru.itprospect.everydaybiblereading.MainFragment"
+              android:id="@+id/main_fragment"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" />
+
+</LinearLayout>
