@@ -16,7 +16,7 @@ public class DatePickerFragment extends DialogFragment {
 	private int mMonth;
 	private int mDay;
     
-    public void setParam(OnDateSetListener listener, int mYear, int mMonth, int mDay) {
+	public void setParam(OnDateSetListener listener, int mYear, int mMonth, int mDay) {
     	this.listener = listener;
     	this.mYear = mYear;
     	this.mMonth = mMonth;
@@ -44,4 +44,5 @@ public class DatePickerFragment extends DialogFragment {
     	
     	return dialog;
     }
+
 }

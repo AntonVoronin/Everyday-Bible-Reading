@@ -24,8 +24,6 @@ public class SelectBookActivity extends ActionBarActivity implements TabListener
 	private final String TAG_F_CHAPTER = "f_chapter";
 	private final String TAG_TAB_CHAPTER = "chapter";
 	private final String TAG_TAB_BOOK = "book";
-
-	//TODO Запоминать книгу при повороте экрана
 	
 	
 	@Override

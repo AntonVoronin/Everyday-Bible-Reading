@@ -25,22 +25,19 @@ public class BibleActivity extends ActionBarActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         TextFragment textFragment = (TextFragment) getSupportFragmentManager().findFragmentById(R.id.text_fragment);
 
-    	String book = "";
-    	String chapter = "";  	
-
         Uri uri = getIntent().getData();
         if (uri != null && !textFragment.uriAlreadyGet) { 
-        	book = uri.getQueryParameter("book");
-        	chapter = uri.getQueryParameter("chapter");
+        	String book = uri.getQueryParameter("book");
+        	String chapter = uri.getQueryParameter("chapter");
         	textFragment.uriAlreadyGet = true;
         	
         	MainApp app = ((MainApp) getApplicationContext());
         	app.setBook(book);
         	app.setChapter(chapter);
+        	
+        	textFragment.UpdateText();
         }
-
-        textFragment.UpdateText();
-        updateFromPreferences();
+        updateActFromPreferences();
         
     }
     
@@ -63,9 +60,10 @@ public class BibleActivity extends ActionBarActivity {
 		Log.e("EBR", "BibleActivity: onActivityResult " + requestCode);
 		
 		if (requestCode == SHOW_PREFERENCES) {
-			updateFromPreferences();
+			updateActFromPreferences();
 			TextFragment textFragment = (TextFragment) getSupportFragmentManager().findFragmentById(R.id.text_fragment);
 			textFragment.UpdateText();
+			textFragment.updateFromPreferences();
 		}
 		else if (requestCode == SELECT_BOOK) {
 			if (resultCode==RESULT_OK && data != null) {
@@ -77,12 +75,13 @@ public class BibleActivity extends ActionBarActivity {
 				app.setChapter(chapter);
 
 				TextFragment textFragment = (TextFragment) getSupportFragmentManager().findFragmentById(R.id.text_fragment);
-				textFragment.UpdateText();	
+				textFragment.UpdateText();
+				textFragment.SetPositionForTextElement(0,0);
 			}
 		}
 	}
     
-	private void updateFromPreferences() {
+	private void updateActFromPreferences() {
 		if (prefManager==null) {
 			prefManager = new PrefManager(getApplicationContext());
 		}

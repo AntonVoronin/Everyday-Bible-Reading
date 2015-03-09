@@ -429,8 +429,8 @@ public class BQ{
 					msgStr.append(" (" + book.type + ")");
 				}
 				msgStr.append("</h2>\n" + GetTextForBook(book) + "\n");
-				//TODO добавить ссылку для чтения дальше в другой активности
-				//Формируем адрес первой ссылки
+				//добавить ссылку для чтения дальше в другой активности
+				//Формируем адрес
 				String chapter = "";
 				String stih = "";
 				if (book.otr[0] != null) {

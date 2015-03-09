@@ -17,6 +17,8 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.ViewTreeObserver;
+import android.view.ViewTreeObserver.OnGlobalLayoutListener;
 import android.view.Window;
 import android.widget.TextView;
 
@@ -27,20 +29,20 @@ public class TextFragment extends Fragment {
 	private BQ bq;
 	private PrefManager prefManager;
 	private TextView mTextBible;
+	private String mNameOfBook;
 	private ZoomingScrollView mScrollView;
 	private ShareActionProvider mShareActionProvider;
-	private boolean textAlreadyUpd = false;
+	private MenuItem chapterMenuItem;
+	private int firstVisableCharacterOffset;
+	private boolean AlreadyPositionSet = true;
+
 	public boolean uriAlreadyGet = false;
-	private MenuItem capterMenuItem;
-	
-	//TODO «апоминать позицию при повороте экрана
-	
-	//TODO ѕеремещатьс€ в начало при установке нового текста
+
 	
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-    	//Log.v("EBR", "fragment: onCreateView");
+    	Log.e("EBR", "fragment: onCreateView");
     	View layoutFragment = inflater.inflate(R.layout.text_fragment_layout, container, false);
         
 		mScrollView = (ZoomingScrollView)layoutFragment.findViewById(R.id.zoomScroll);
@@ -52,6 +54,21 @@ public class TextFragment extends Fragment {
 		
 		updateFromPreferences();
 		
+		ViewTreeObserver vto = mTextBible.getViewTreeObserver();
+		vto.addOnGlobalLayoutListener(new OnGlobalLayoutListener() {
+			@Override
+			public void onGlobalLayout() {
+				android.text.Layout textBibleLayout = mTextBible.getLayout();
+				if (textBibleLayout != null) {
+					final int firstVisableLineOffset = textBibleLayout.getLineForOffset(firstVisableCharacterOffset);
+					//Log.e("EBR", "firstVisableCharacterOffset = " + String.valueOf(firstVisableCharacterOffset));
+					int pixelOffset = textBibleLayout.getLineTop(firstVisableLineOffset);
+					Log.e("EBR", "vto, layout создан, позици€ обновлена pixelOffset = " + String.valueOf(pixelOffset));
+					SetPositionForTextElement(pixelOffset, 5);
+				}  
+			}
+		});
+		
 		return layoutFragment; 
     }
     
@@ -62,19 +79,12 @@ public class TextFragment extends Fragment {
     	
     	setHasOptionsMenu(true);
     	setRetainInstance(true);
-    	//Log.v("EBR", "fragment: onCreate");
-    	
-    	
+    	Log.e("EBR", "fragment: onCreate");
+  
 	}
     
-    public void UpdateTextOnce() {
-    	if (textAlreadyUpd==false) {
-    		UpdateText();
-    	}
-    }
-    
 	public void UpdateText() {
-		//Log.v("EBR", "fragment: UpdateText");
+		Log.e("EBR", "fragment: UpdateText");
 		
     	MainApp app = ((MainApp) getActivity().getApplicationContext());
     	book = app.getBook();
@@ -87,12 +97,14 @@ public class TextFragment extends Fragment {
     	
 		Spanned s = Html.fromHtml(chapterText);
 		mTextBible.setText(s);
-		
 		//set app label
-		getActivity().setTitle(bq.GetNameForBook(book, ""));
-		if (capterMenuItem != null) capterMenuItem.setTitle(chapter);
+		mNameOfBook = bq.GetNameForBook(book, "");
+		getActivity().setTitle(mNameOfBook);
+		if (chapterMenuItem != null) chapterMenuItem.setTitle(chapter);
 		
-		textAlreadyUpd = true;
+		firstVisableCharacterOffset = 0;
+		
+		setShareIntent();
     }
     
     private void PrevChapter() {
@@ -121,7 +133,7 @@ public class TextFragment extends Fragment {
     }
     
     
-	private void updateFromPreferences() {
+	public void updateFromPreferences() {
 		if (prefManager==null) {
 			prefManager = new PrefManager(getActivity().getApplicationContext());
 		}
@@ -151,7 +163,6 @@ public class TextFragment extends Fragment {
 	}
 	
 	private void setShareIntent() {
-		//Log.v("EBR", "fragment: setShareIntent");
 		
 		Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
 		sharingIntent.setType("text/plain");
@@ -184,8 +195,8 @@ public class TextFragment extends Fragment {
 	    setShareIntent();
 	    
 	    //»щем пункт меню выбора главы
-	    capterMenuItem = menu.findItem(R.id.select_chapter);
-	    capterMenuItem.setTitle(chapter);
+	    chapterMenuItem = menu.findItem(R.id.select_chapter);
+	    chapterMenuItem.setTitle(chapter);
 		
 		super.onCreateOptionsMenu(menu, inflater);
 	}
@@ -233,11 +244,48 @@ public class TextFragment extends Fragment {
 				return true;
 		}
 		
-		// ¬ерните false, если вы не обработали это событие.
 		return false;
 		
 	}
 	
+	@Override
+	public void onPause() {
+		Log.e("EBR", "fragment: onPause");
+
+		if (AlreadyPositionSet) {
+			final int firstVisableLineOffset = mTextBible.getLayout().getLineForVertical(mScrollView.getScrollY());
+			firstVisableCharacterOffset = mTextBible.getLayout().getLineStart(firstVisableLineOffset);
+			Log.e("EBR", "firstVisableCharacterOffset onPause, посчитали позицию заново");
+		}
+		Log.e("EBR", "firstVisableCharacterOffset onPause = " + String.valueOf(firstVisableCharacterOffset));
+		super.onPause();
+	}
+	
+	@Override
+	public void onResume() {
+		super.onResume();
+		
+		Log.e("EBR", "fragment: onResume");
+		Spanned s = Html.fromHtml(chapterText);
+		mTextBible.setText(s);
+		getActivity().setTitle(mNameOfBook);
+		
+		AlreadyPositionSet = false;
+		
+	}
+	
+	public void SetPositionForTextElement(final int pixelOffset, int suspend) {
+		mScrollView.postDelayed(new Runnable() {
+	        public void run() {
+	        	try {
+	        		mScrollView.scrollTo(0, pixelOffset);
+	        	}
+	        	catch (Exception e) {}
+	        	AlreadyPositionSet = true;
+	        }
+	    }, suspend);
+		
+	}
     
 }
 
