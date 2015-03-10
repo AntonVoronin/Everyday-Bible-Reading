@@ -3,16 +3,13 @@ package ru.itprospect.everydaybiblereading;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentTransaction;
-import android.app.AlertDialog;
 import android.app.DatePickerDialog;
-import android.app.Dialog;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.MenuItemCompat;
 import android.support.v7.widget.ShareActionProvider;
 import android.text.Html;
@@ -27,7 +24,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
 import android.view.ViewTreeObserver.OnGlobalLayoutListener;
-import android.view.Window;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.TextView;
@@ -48,6 +44,8 @@ public class MainFragment extends Fragment {
 	private String textBibleText;
 	private MenuItem mSetDateMenuItem;
 	private Button actionBtnSetDate;
+	private boolean datePickerShow = false;
+	private DatePickerFragment datePickFragment;
 	
 	private DatePickerDialog.OnDateSetListener mDateSetListener =
 	        new DatePickerDialog.OnDateSetListener() {
@@ -100,6 +98,7 @@ public class MainFragment extends Fragment {
 	public void onCreate(Bundle savedInstanceState) {
     	super.onCreate(savedInstanceState);
     	
+    	Log.e("EBR", "m fragment: onCreate");
     	setHasOptionsMenu(true);
     	setRetainInstance(true);
     	
@@ -108,7 +107,6 @@ public class MainFragment extends Fragment {
 		mMonth = c.get(Calendar.MONTH);
 		mDay = c.get(Calendar.DAY_OF_MONTH);
     	UpdateText();
-    	Log.e("EBR", "m fragment: onCreate");
   
 	}
     
@@ -223,9 +221,12 @@ public class MainFragment extends Fragment {
 				actionBtnSetDate.setOnClickListener(new View.OnClickListener() {
 				    public void onClick(View v) {
 				    	FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
-				    	DatePickerFragment newFragment = new DatePickerFragment();
-				    	newFragment.setParam(mDateSetListener, mYear, mMonth, mDay);
-				    	newFragment.show(ft, "datePicker");
+				    	datePickFragment = new DatePickerFragment();
+				    	datePickFragment.setParam(mDateSetListener, mYear, mMonth, mDay);
+				    	datePickFragment.show(ft, "datePicker");
+				    	datePickerShow = true;
+				    	//TODO
+				    	
 				    }
 				});
 		
@@ -239,11 +240,11 @@ public class MainFragment extends Fragment {
 	
 	public boolean onOptionsItemSelected(MenuItem item) {
 		super.onOptionsItemSelected(item);
-		BibleActivity ba;
+		MainActivity ma;
 		switch (item.getItemId()) {
 		case (R.id.action_settings):
-			ba = (BibleActivity) getActivity();
-			ba.ShowPreferences();
+			ma = (MainActivity) getActivity();
+			ma.ShowPreferences();
 			return true;
 		case (R.id.menu_item_today):
 			GregorianCalendar c = new GregorianCalendar();
@@ -253,11 +254,8 @@ public class MainFragment extends Fragment {
 			UpdateText();
 			return true;
 		case (R.id.about):
-			Dialog d = new Dialog(getActivity().getApplicationContext());
-			d.setCanceledOnTouchOutside(true);
-			d.requestWindowFeature(Window.FEATURE_NO_TITLE);
-			d.setContentView(R.layout.about_layout);
-			d.show();
+			ma = (MainActivity) getActivity();
+			ma.ShowAbout();
 			return true;
 		case (R.id.day_night):
 			PrefManager prefManager = new PrefManager(getActivity().getApplicationContext());
@@ -266,8 +264,9 @@ public class MainFragment extends Fragment {
 			colorFromPref();
 			return true;
 		case (R.id.set_confession):
-			Dialog dialogConfession = dialogConfession();
-			dialogConfession.show();
+//			Dialog dialogConfession = dialogConfession();
+			ma = (MainActivity) getActivity();
+			ma.ShowConfession();
 			return true;
 		case (R.id.feed_back):
 			String appPackageName= getActivity().getPackageName();
@@ -290,6 +289,13 @@ public class MainFragment extends Fragment {
 			firstVisableCharacterOffset = mTextBible.getLayout().getLineStart(firstVisableLineOffset);
 			Log.e("EBR", "m firstVisableCharacterOffset onPause, посчитали позицию заново");
 		}
+		
+		//TODO
+		if (datePickerShow && datePickFragment != null) {
+			datePickFragment.dismiss();
+			datePickerShow = false;
+		}
+		
 		Log.e("EBR", "m firstVisableCharacterOffset onPause = " + String.valueOf(firstVisableCharacterOffset));
 		super.onPause();
 	}
@@ -319,45 +325,4 @@ public class MainFragment extends Fragment {
 		
 	}
 	
-	private Dialog dialogConfession() {
-		final String[] confArray = getResources().getStringArray(R.array.confession_name);
-		final String[] confArrayValue = getResources().getStringArray(R.array.confession_value);
-		if (prefManager==null) {
-			prefManager = new PrefManager(getActivity().getApplicationContext());
-		}
-		String oldValue = prefManager.getConfession();
-		int oldValueIndex = -1;
-		for (int i=0; i<confArrayValue.length; i++) {
-			if (oldValue.equals(confArrayValue[i])) {
-				oldValueIndex = i;
-			}
-		}
-		
-		
-		AlertDialog.Builder builder = new AlertDialog.Builder(getActivity().getApplicationContext());
-		builder.setTitle(getActivity().getApplicationContext().getString(R.string.settings_confession))
-		.setCancelable(true)
-
-		// добавл€ем одну кнопку дл€ закрыти€ диалога
-		.setNegativeButton(getActivity().getApplicationContext().getString(R.string.cancel),
-				new DialogInterface.OnClickListener() {
-			public void onClick(DialogInterface dialog,
-					int id) {
-				dialog.cancel();
-			}
-		})
-
-		// добавл€ем переключатели
-		.setSingleChoiceItems(confArray, oldValueIndex,
-				new DialogInterface.OnClickListener() {
-			@Override
-			public void onClick(DialogInterface dialog, int item) {
-				prefManager.putConfession(confArrayValue[item]);
-				UpdateText();
-				getActivity().sendBroadcast(new Intent(WidgetActivity.WIDGET_FORCE_UPDATE));
-				dialog.cancel();
-			}
-		});
-		return builder.create();
-	}
 }

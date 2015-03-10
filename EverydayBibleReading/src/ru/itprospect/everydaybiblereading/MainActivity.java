@@ -1,43 +1,18 @@
 package ru.itprospect.everydaybiblereading;
 
-import java.lang.reflect.Field;
-import java.util.Calendar;
-import java.util.GregorianCalendar;
-
-import android.net.Uri;
-import android.os.Bundle;
 import android.app.AlertDialog;
-import android.app.DatePickerDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.graphics.Color;
 import android.graphics.drawable.Drawable;
-import android.text.Html;
-import android.text.Spanned;
-import android.text.format.DateFormat;
-import android.text.method.LinkMovementMethod;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.View;
-import android.view.ViewConfiguration;
-import android.view.ViewTreeObserver;
-import android.view.ViewTreeObserver.OnGlobalLayoutListener;
-import android.view.Window;
-import android.widget.Button;
-import android.widget.DatePicker;
-import android.widget.TextView;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v4.view.MenuItemCompat;
+import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
-import android.support.v7.widget.ShareActionProvider;
+import android.view.Window;
 
 public class MainActivity extends ActionBarActivity {
 
 	private PrefManager prefManager;
 	private static final int SHOW_PREFERENCES = 1;
-	
-
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -76,9 +51,7 @@ public class MainActivity extends ActionBarActivity {
 		}
 	}
 
-	
 
-	
 	private void updateActFromPreferences() {
 		if (prefManager==null) {
 			prefManager = new PrefManager(getApplicationContext());
@@ -90,17 +63,68 @@ public class MainActivity extends ActionBarActivity {
 				
 	}
 	
-	
     public void ShowPreferences() {
 		Intent i = new Intent(this, SettingsActivity.class);
 		startActivityForResult(i, SHOW_PREFERENCES);
     }
+	
+    public void ShowAbout() {
+		Dialog d = new Dialog(this);
+		d.setCanceledOnTouchOutside(true);
+		d.requestWindowFeature(Window.FEATURE_NO_TITLE);
+		d.setContentView(R.layout.about_layout);
+		d.show();
+    }
     
-	
+    public void ShowConfession() {
+    	Dialog dialogConfession = dialogConfession();
+    	dialogConfession.show();
+    }
+    
 
+	private Dialog dialogConfession() {
+		final String[] confArray = getResources().getStringArray(R.array.confession_name);
+		final String[] confArrayValue = getResources().getStringArray(R.array.confession_value);
+		if (prefManager==null) {
+			prefManager = new PrefManager(getApplicationContext());
+		}
+		String oldValue = prefManager.getConfession();
+		int oldValueIndex = -1;
+		for (int i=0; i<confArrayValue.length; i++) {
+			if (oldValue.equals(confArrayValue[i])) {
+				oldValueIndex = i;
+			}
+		}
+		
+		
+		AlertDialog.Builder builder = new AlertDialog.Builder(this);
+		builder.setTitle(getApplicationContext().getString(R.string.settings_confession))
+		.setCancelable(true)
 
-	
-	
-	
+		// добавляем одну кнопку для закрытия диалога
+		.setNegativeButton(getApplicationContext().getString(R.string.cancel),
+				new DialogInterface.OnClickListener() {
+			public void onClick(DialogInterface dialog,
+					int id) {
+				dialog.cancel();
+			}
+		})
+
+		// добавляем переключатели
+		.setSingleChoiceItems(confArray, oldValueIndex,
+				new DialogInterface.OnClickListener() {
+			@Override
+			public void onClick(DialogInterface dialog, int item) {
+				prefManager.putConfession(confArrayValue[item]);
+				MainFragment mainFragment = (MainFragment) getSupportFragmentManager().findFragmentById(R.id.main_fragment);
+				if (mainFragment != null) {
+					mainFragment.UpdateText();
+				}
+				sendBroadcast(new Intent(WidgetActivity.WIDGET_FORCE_UPDATE));
+				dialog.cancel();
+			}
+		});
+		return builder.create();
+	}
 
 }

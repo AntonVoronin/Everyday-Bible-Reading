@@ -24,6 +24,7 @@ public class DatePickerFragment extends DialogFragment {
     }
 
     public Dialog onCreateDialog(Bundle savedInstanceState) {
+    	Log.e("EBR", "dpd: onCreateDialog");
     	DatePickerDialog dialog = new DatePickerDialog(getActivity(), listener, mYear, mMonth, mDay);
     	dialog.setButton(DialogInterface.BUTTON_NEUTRAL, 
     			getActivity().getApplicationContext().getText(R.string.today), 
@@ -32,10 +33,12 @@ public class DatePickerFragment extends DialogFragment {
                         if (which == DialogInterface.BUTTON_NEUTRAL) {
                         	GregorianCalendar c = new GregorianCalendar();
                         	if (listener !=null) {
+                        		Log.e("EBR", "dpd: listener !=null");
                         		listener.onDateSet(null, c.get(Calendar.YEAR), c.get(Calendar.MONTH), c.get(Calendar.DAY_OF_MONTH));
                         		}
                         	else {
                         		//TODO ≈сли экран был перевернут, то listener становитс€ null и установить на сегодн€ не удаетс€
+                        		Log.e("EBR", "dpd: listener ==null");
                         		}
                         	//Toast.makeText(getActivity().getApplicationContext(), "today", Toast.LENGTH_SHORT).show();
                         }
