@@ -1,7 +1,5 @@
 package ru.itprospect.everydaybiblereading;
 
-import java.util.Calendar;
-import java.util.GregorianCalendar;
 
 import android.app.DatePickerDialog;
 import android.app.DatePickerDialog.OnDateSetListener;
@@ -11,39 +9,25 @@ import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 
 public class DatePickerFragment extends DialogFragment {
-    private OnDateSetListener listener;
-	private int mYear;
+    private int mYear;
 	private int mMonth;
 	private int mDay;
-    
-	public void setParam(OnDateSetListener listener, int mYear, int mMonth, int mDay) {
-    	this.listener = listener;
-    	this.mYear = mYear;
-    	this.mMonth = mMonth;
-    	this.mDay = mDay;
-    }
+	
+	public void setDate(int year, int monthOfYear, int dayOfMonth) {
+		mYear = year;
+		mMonth = monthOfYear;
+		mDay = dayOfMonth;
+	}
 
     public Dialog onCreateDialog(Bundle savedInstanceState) {
     	Log.e("EBR", "dpd: onCreateDialog");
-    	DatePickerDialog dialog = new DatePickerDialog(getActivity(), listener, mYear, mMonth, mDay);
-    	dialog.setButton(DialogInterface.BUTTON_NEUTRAL, 
-    			getActivity().getApplicationContext().getText(R.string.today), 
-    			new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int which) {
-                        if (which == DialogInterface.BUTTON_NEUTRAL) {
-                        	GregorianCalendar c = new GregorianCalendar();
-                        	if (listener !=null) {
-                        		Log.e("EBR", "dpd: listener !=null");
-                        		listener.onDateSet(null, c.get(Calendar.YEAR), c.get(Calendar.MONTH), c.get(Calendar.DAY_OF_MONTH));
-                        		}
-                        	else {
-                        		//TODO ≈сли экран был перевернут, то listener становитс€ null и установить на сегодн€ не удаетс€
-                        		Log.e("EBR", "dpd: listener ==null");
-                        		}
-                        	//Toast.makeText(getActivity().getApplicationContext(), "today", Toast.LENGTH_SHORT).show();
-                        }
-                     }
-                   });
+    	OnDateSetListener dateSetListener = (MainActivity) getActivity();
+    	DialogInterface.OnClickListener clickListener = (MainActivity) getActivity();
+    	
+    	DatePickerDialog dialog = new DatePickerDialog(getActivity(), dateSetListener, mYear, mMonth, mDay);
+    	dialog.setButton(DialogInterface.BUTTON_NEUTRAL,
+    			getActivity().getApplicationContext().getText(R.string.today),
+    			clickListener);
     	
     	return dialog;
     }

@@ -3,13 +3,11 @@ package ru.itprospect.everydaybiblereading;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
-import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.MenuItemCompat;
 import android.support.v7.widget.ShareActionProvider;
 import android.text.Html;
@@ -25,9 +23,7 @@ import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
 import android.view.ViewTreeObserver.OnGlobalLayoutListener;
 import android.widget.Button;
-import android.widget.DatePicker;
 import android.widget.TextView;
-
 
 public class MainFragment extends Fragment {
 	private BQ bq;
@@ -44,21 +40,6 @@ public class MainFragment extends Fragment {
 	private String textBibleText;
 	private MenuItem mSetDateMenuItem;
 	private Button actionBtnSetDate;
-	private boolean datePickerShow = false;
-	private DatePickerFragment datePickFragment;
-	
-	private DatePickerDialog.OnDateSetListener mDateSetListener =
-	        new DatePickerDialog.OnDateSetListener() {
-	            public void onDateSet(DatePicker view, int year, 
-	                    int monthOfYear, int dayOfMonth) {
-	                mYear = year;
-	                mMonth = monthOfYear;
-	                mDay = dayOfMonth;
-	                UpdateText();
-	                
-	            }
-	        }; 
-
 	
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -140,9 +121,15 @@ public class MainFragment extends Fragment {
 		
 		setShareIntent();
     }
+	
+	public void UpdateText(int year, int monthOfYear, int dayOfMonth) {
+		mYear = year;
+		mMonth = monthOfYear;
+		mDay = dayOfMonth;
+		UpdateText();
+	}
     
 	private void SetTextForElements() {
-		//Log.e(TAG, "SetTextForElements");
 		if (textBibleText != null && mTextBible != null) {
 			Spanned s = Html.fromHtml(textBibleText);
 			mTextBible.setText(s);
@@ -220,13 +207,7 @@ public class MainFragment extends Fragment {
 				actionBtnSetDate.setText(pickDateText);
 				actionBtnSetDate.setOnClickListener(new View.OnClickListener() {
 				    public void onClick(View v) {
-				    	FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
-				    	datePickFragment = new DatePickerFragment();
-				    	datePickFragment.setParam(mDateSetListener, mYear, mMonth, mDay);
-				    	datePickFragment.show(ft, "datePicker");
-				    	datePickerShow = true;
-				    	//TODO
-				    	
+				    	((MainActivity) getActivity()).ShowDialogFragmentDatePick(mYear, mMonth, mDay);
 				    }
 				});
 		
@@ -288,12 +269,6 @@ public class MainFragment extends Fragment {
 			final int firstVisableLineOffset = mTextBible.getLayout().getLineForVertical(mScrollView.getScrollY());
 			firstVisableCharacterOffset = mTextBible.getLayout().getLineStart(firstVisableLineOffset);
 			Log.e("EBR", "m firstVisableCharacterOffset onPause, посчитали позицию заново");
-		}
-		
-		//TODO
-		if (datePickerShow && datePickFragment != null) {
-			datePickFragment.dismiss();
-			datePickerShow = false;
 		}
 		
 		Log.e("EBR", "m firstVisableCharacterOffset onPause = " + String.valueOf(firstVisableCharacterOffset));

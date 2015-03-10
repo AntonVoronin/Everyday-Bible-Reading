@@ -1,15 +1,21 @@
 package ru.itprospect.everydaybiblereading;
 
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+
 import android.app.AlertDialog;
+import android.app.DatePickerDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Window;
+import android.widget.DatePicker;
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends ActionBarActivity implements DatePickerDialog.OnDateSetListener, DialogInterface.OnClickListener{
 
 	private PrefManager prefManager;
 	private static final int SHOW_PREFERENCES = 1;
@@ -80,7 +86,6 @@ public class MainActivity extends ActionBarActivity {
     	Dialog dialogConfession = dialogConfession();
     	dialogConfession.show();
     }
-    
 
 	private Dialog dialogConfession() {
 		final String[] confArray = getResources().getStringArray(R.array.confession_name);
@@ -125,6 +130,30 @@ public class MainActivity extends ActionBarActivity {
 			}
 		});
 		return builder.create();
+	}
+    
+    public void ShowDialogFragmentDatePick(int year, int monthOfYear, int dayOfMonth) {
+    	FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+    	DatePickerFragment datePickFragment = new DatePickerFragment();
+    	datePickFragment.setDate(year, monthOfYear, dayOfMonth);
+    	datePickFragment.show(ft, "datePicker");
+    }
+    
+	@Override
+	public void onDateSet(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
+		MainFragment mainFragment = (MainFragment) getSupportFragmentManager().findFragmentById(R.id.main_fragment);
+		if (mainFragment != null) {
+			mainFragment.UpdateText(year, monthOfYear, dayOfMonth);
+		}
+	}
+
+	@Override
+	public void onClick(DialogInterface dialog, int which) {
+		MainFragment mainFragment = (MainFragment) getSupportFragmentManager().findFragmentById(R.id.main_fragment);
+		if (mainFragment != null) {
+			GregorianCalendar c = new GregorianCalendar();
+			mainFragment.UpdateText(c.get(Calendar.YEAR), c.get(Calendar.MONTH), c.get(Calendar.DAY_OF_MONTH));
+		}
 	}
 
 }
