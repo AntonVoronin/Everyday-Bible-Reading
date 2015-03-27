@@ -15,21 +15,30 @@ import android.widget.Toast;
 
 public class Log {
 	private final static String FILE_NAME = "ebr_log.txt";
+	private final static boolean DEBAG = false;
 	
 	public static void WriteLog(Context cntx, String logText) {
-		try {
-			FileOutputStream fos = cntx.openFileOutput(FILE_NAME, Context.MODE_APPEND);
-			PrintWriter pWriter = new PrintWriter(fos);
-			pWriter.println(logText);
-			pWriter.flush();
-			fos.close();
-			
-			//Toast.makeText(cntx, "Записали лог", Toast.LENGTH_SHORT).show();
-		} catch (IOException e) {
-			Toast.makeText(cntx, "Не удалось записать лог", Toast.LENGTH_SHORT).show();
-			e.printStackTrace();
+		if (DEBAG) {
+			try {
+				FileOutputStream fos = cntx.openFileOutput(FILE_NAME, Context.MODE_APPEND);
+				PrintWriter pWriter = new PrintWriter(fos);
+				pWriter.println(logText);
+				pWriter.flush();
+				fos.close();
+				//Toast.makeText(cntx, "Записали лог", Toast.LENGTH_SHORT).show();
+			} catch (IOException e) {
+				Toast.makeText(cntx, "Не удалось записать лог", Toast.LENGTH_SHORT).show();
+				e.printStackTrace();
+			}
 		}
-		
+		else {
+			if (cntx.deleteFile(FILE_NAME)) {
+				//Toast.makeText(cntx, "Удалили файл", Toast.LENGTH_SHORT).show();
+			}
+			else {
+				//Toast.makeText(cntx, "Файл не удалился", Toast.LENGTH_SHORT).show();
+			}
+		}
 	} 
 	
 	public static String ReadLog(Context cntx) {
@@ -96,7 +105,9 @@ public class Log {
 	     }
 
 	public static void e(String tag, String msg) {
-		android.util.Log.e(tag, msg);
+		if (DEBAG) {
+			android.util.Log.e(tag, msg);
+		}
 	}
 	
 }

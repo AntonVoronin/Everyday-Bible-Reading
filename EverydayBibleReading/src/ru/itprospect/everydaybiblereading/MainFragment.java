@@ -201,15 +201,16 @@ public class MainFragment extends Fragment {
 		inflater.inflate(R.menu.main, menu);
 		
 		//»щем пункт меню установки даты
-				mSetDateMenuItem = menu.findItem(R.id.set_date);
-				View dateView = MenuItemCompat.getActionView(mSetDateMenuItem);
-				actionBtnSetDate = (Button) dateView.findViewById(R.id.action_buttton_set_date);
-				actionBtnSetDate.setText(pickDateText);
-				actionBtnSetDate.setOnClickListener(new View.OnClickListener() {
-				    public void onClick(View v) {
-				    	((MainActivity) getActivity()).ShowDialogFragmentDatePick(mYear, mMonth, mDay);
-				    }
-				});
+		mSetDateMenuItem = menu.findItem(R.id.set_date);
+		View dateView = MenuItemCompat.getActionView(mSetDateMenuItem);
+		actionBtnSetDate = (Button) dateView.findViewById(R.id.action_buttton_set_date);
+		actionBtnSetDate.setText(pickDateText);
+		actionBtnSetDate.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				((MainActivity) getActivity()).ShowDialogFragmentDatePick(mYear, mMonth, mDay);
+			}
+		});
+		//TODO надпись на кнопке съезжает вниз...
 		
 		//Set up ShareActionProvider's default share intent
 	    MenuItem shareItem = menu.findItem(R.id.menu_item_share);

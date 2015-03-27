@@ -197,6 +197,8 @@ public class TextFragment extends Fragment {
 	    //»щем пункт меню выбора главы
 	    chapterMenuItem = menu.findItem(R.id.select_chapter);
 	    chapterMenuItem.setTitle(chapter);
+	    //chapterMenuItem.getActionView();
+	    //TODO сделать шрифт больше
 		
 		super.onCreateOptionsMenu(menu, inflater);
 	}

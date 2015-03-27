@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+    android:layout_height="fill_parent"
     android:layout_gravity="center_vertical"
     android:orientation="horizontal"
     android:paddingLeft="2dp"
@@ -12,10 +12,11 @@
     <Button
         android:id="@+id/action_buttton_set_date"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="fill_parent"
         android:background="@drawable/button_background"
         android:gravity="center_vertical|center_horizontal"
+        android:includeFontPadding="false"
         android:text="@string/set_date"
-        android:textSize="16sp" />
+        android:textSize="12sp" />
 
-</LinearLayout>
+</FrameLayout>
