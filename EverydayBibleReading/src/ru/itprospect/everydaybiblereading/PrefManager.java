@@ -63,7 +63,7 @@ public class PrefManager {
 	}
 	
 	public Boolean getOnlyOrdinaryReading() {
-		Boolean onlyOrdinaryReading = prefs.getBoolean(KEY_PREF_ONLY_ORDINARY_READING, true);
+		Boolean onlyOrdinaryReading = prefs.getBoolean(KEY_PREF_ONLY_ORDINARY_READING, false);
 		return onlyOrdinaryReading;
 	}
 	

@@ -200,6 +200,17 @@ public class MainFragment extends Fragment {
 	public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
 		inflater.inflate(R.menu.main, menu);
 		
+		if (pickDateText==null) {
+			if (mYear==0) {
+				GregorianCalendar c = new GregorianCalendar();
+				mYear = c.get(Calendar.YEAR);
+				mMonth = c.get(Calendar.MONTH);
+				mDay = c.get(Calendar.DAY_OF_MONTH);
+			}
+			GregorianCalendar date = new GregorianCalendar(mYear, mMonth, mDay);
+			pickDateText = DateFormat.format("dd.MM.yyyy", date).toString();
+		}
+		
 		//»щем пункт меню установки даты
 		mSetDateMenuItem = menu.findItem(R.id.set_date);
 		View dateView = MenuItemCompat.getActionView(mSetDateMenuItem);
