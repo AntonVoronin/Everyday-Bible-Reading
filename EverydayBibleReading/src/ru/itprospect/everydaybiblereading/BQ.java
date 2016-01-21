@@ -426,7 +426,12 @@ public class BQ{
 				msgStr.append("<h2>" + GetNameForBook(book));
 				//msgStr.append("<h2>" + book.fullText);
 				if (! book.type.equals("") && !(book.type==null)) {
-					msgStr.append(" (" + book.type + ")");
+					if (book.type.substring(0, 1).equals("(")) {
+						msgStr.append(" " + book.type);
+					}
+					else {
+						msgStr.append(" (" + book.type + ")");
+					}
 				}
 				msgStr.append("</h2>\n" + GetTextForBook(book) + "\n");
 				//добавить ссылку для чтения дальше в другой активности
@@ -446,11 +451,14 @@ public class BQ{
 		return str;
 	}
 	
-	public String GetTextForArrayWithHead(ArrayList<BookFromSite> ab, String confession, GregorianCalendar date) {
+	public String GetTextForArrayWithHead(ArrayList<BookFromSite> ab, String confession, GregorianCalendar date, String dayType) {
 		final String[] monthArray = mCntx.getResources().getStringArray(R.array.month_of_year);
 		
 		StringBuilder msgStr = new StringBuilder();
 		msgStr.append(confession + ", " + String.valueOf(date.get(Calendar.DAY_OF_MONTH)) + " " + monthArray[date.get(Calendar.MONTH)]);
+		if (!(dayType==null) && ! dayType.equals("")) {
+			msgStr.append("<br>" + dayType);
+		}
 		//msgStr.append(confession + ", " + DateFormat.format("dd.MM.yyyy", date).toString());
 		
 		msgStr.append(GetTextForArray(ab));

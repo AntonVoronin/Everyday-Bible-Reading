@@ -109,7 +109,8 @@ public class MainFragment extends Fragment {
 		
 		CalSAXParser pars = new CalSAXParser(getActivity().getBaseContext(), date, confession);
 		if (pars.FindSuccess()) {
-			textBibleText = bq.GetTextForArrayWithHead(pars.GetListBook(), confessionName, date);
+			String dayType = pars.getDayType();
+			textBibleText = bq.GetTextForArrayWithHead(pars.GetListBook(), confessionName, date, dayType);
 		}
 		else {
 			textBibleText = pars.GetErrorText();

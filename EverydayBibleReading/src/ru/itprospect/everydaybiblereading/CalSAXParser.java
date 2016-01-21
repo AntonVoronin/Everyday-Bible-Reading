@@ -17,6 +17,7 @@ public class CalSAXParser {
 	private ArrayList<BookFromSite> listBook;
 	//private String fullText;
 	private String errorText;
+	private String dayType;
 	private Context mCntx;
 	
 //	private final String NODE_YEAR = "Year";
@@ -30,8 +31,8 @@ public class CalSAXParser {
 	private final String ATR_TYPE = "type";
 	private final String ATR_CHAPTER_START = "chapterStart";
 	private final String ATR_CHAPTER_END = "chapterEnd";
-	private final String ATR_STIH_START = "StihStart";
-	private final String ATR_STIH_END = "StihEnd";
+	private final String ATR_STIH_START = "stihStart";
+	private final String ATR_STIH_END = "stihEnd";
 	
 	
 	public CalSAXParser(Context cntx) {
@@ -80,6 +81,8 @@ public class CalSAXParser {
 								//Это ветка с нужной нам датой
 								//Toast.makeText(mCntx, xrp.getAttributeValue(0), Toast.LENGTH_SHORT).show();
 								nashliDatu = true;
+								//TODO берем type - название праздника
+								dayType = xrp.getAttributeValue(null, ATR_TYPE);
 							}
 						}
 						
@@ -204,6 +207,10 @@ public class CalSAXParser {
 	
 	String GetErrorText() {
 		return errorText;
+	}
+
+	public String getDayType() {
+		return dayType;
 	}
 	
 }
