@@ -3,6 +3,7 @@ package ru.itprospect.everydaybiblereading;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.net.Uri;
@@ -105,22 +106,26 @@ public class MainFragment extends Fragment {
 		};
 		
 		GregorianCalendar date = new GregorianCalendar(mYear, mMonth, mDay);
-		pickDateText = DateFormat.format("dd.MM.yyyy", date).toString();
+		pickDateText = DateFormat.format("dd.MM.yyyy", date).toString(); 
 		
-		CalSAXParser pars = new CalSAXParser(getActivity().getBaseContext(), date, confession);
-		if (pars.FindSuccess()) {
-			String dayType = pars.getDayType();
-			textBibleText = bq.GetTextForArrayWithHead(pars.GetListBook(), confessionName, date, dayType);
+		MainActivity MainAct = (MainActivity) getActivity();
+		if (MainAct != null) {
+			Context mCntx = MainAct.getBaseContext();
+			CalSAXParser pars = new CalSAXParser(mCntx, date, confession);
+			if (pars.FindSuccess()) {
+				String dayType = pars.getDayType();
+				textBibleText = bq.GetTextForArrayWithHead(pars.GetListBook(), confessionName, date, dayType);
+			}
+			else {
+				textBibleText = pars.GetErrorText();
+			}
+
+			SetTextForElements();
+
+			firstVisableCharacterOffset = 0;
+
+			setShareIntent();
 		}
-		else {
-			textBibleText = pars.GetErrorText();
-		}
-		
-		SetTextForElements();
-		
-		firstVisableCharacterOffset = 0;
-		
-		setShareIntent();
     }
 	
 	public void UpdateText(int year, int monthOfYear, int dayOfMonth) {
