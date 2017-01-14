@@ -1,0 +1,2333 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<BibleCalendar conf="orthodoxy">
+<Year year="2017">
+<Date date="2017-01-14">
+<Book book="Ин." isOrdinary="false" text="Ин., 36 зач., X, 9-16." type="Утр.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="16" stihStart="9"/>
+</Book>
+<Book book="Кол." isOrdinary="true" text="Кол., 254 зач., II, 8-12." type="Лит.  Обрезания">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="12" stihStart="8"/>
+</Book>
+<Book book="Лк." isOrdinary="true" text="Лк., 6 зач., II, 20-21, 40-52." type="Лит.  Обрезания">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="21" stihStart="20"/>
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="52" stihStart="40"/>
+</Book>
+<Book book="Евр." isOrdinary="false" text="Евр., 318 зач., VII, 26 - VIII, 2." type="Свт. (под зачало)">
+<Fragment chapterEnd="8" chapterStart="7" stihEnd="2" stihStart="26"/>
+</Book>
+<Book book="Лк." isOrdinary="false" text="Лк., 24 зач., VI, 17-23." type="Свт. (под зачало)">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="23" stihStart="17"/>
+</Book>
+<Book book="1 Тим." isOrdinary="false" text="1 Тим., 284 зач., III, 14 - IV, 5." type="Субботы пред Богоявлением">
+<Fragment chapterEnd="4" chapterStart="3" stihEnd="5" stihStart="14"/>
+</Book>
+<Book book="Мф." isOrdinary="false" text="Мф., 5 зач., III, 1-11." type="Субботы пред Богоявлением">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="11" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2017-01-15">
+<Book book="Ин." isOrdinary="false" text="Ин., 64 зач., XX, 11-18." type="Утр.  Ев. 8е">
+<Fragment chapterEnd="20" chapterStart="20" stihEnd="18" stihStart="11"/>
+</Book>
+<Book book="2 Тим." isOrdinary="true" text="2 Тим., 298 зач., IV, 5-8." type="Лит.  Недели пред Богоявлением">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="8" stihStart="5"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк., 1 зач., I, 1-8." type="Лит.  Недели пред Богоявлением">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="8" stihStart="1"/>
+</Book>
+<Book book="Гал." isOrdinary="false" text="Гал., 213 зач., V, 22 - VI, 2." type="Прп.">
+<Fragment chapterEnd="6" chapterStart="5" stihEnd="2" stihStart="22"/>
+</Book>
+<Book book="Лк." isOrdinary="false" text="Лк., 24 зач., VI, 17-23." type="Прп.">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="23" stihStart="17"/>
+</Book>
+</Date>
+<Date date="2017-01-16">
+<Book book="Евр." isOrdinary="true" text="Евр., 329 зач., XI, 17-23, 27-31." type="">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="23" stihStart="17"/>
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="31" stihStart="27"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк., 54 зач., XII, 13-17." type="">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="17" stihStart="13"/>
+</Book>
+<Book book="2 Тим." isOrdinary="false" text="2 Тим., 292 зач., II, 1-10." type="Мч.">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="10" stihStart="1"/>
+</Book>
+<Book book="Мф." isOrdinary="false" text="Мф., 36 зач., X, 16-22." type="Мч.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="22" stihStart="16"/>
+</Book>
+</Date>
+<Date date="2017-01-17">
+<Book book="Евр." isOrdinary="true" text="Евр., 333 зач., XII, 25-26; XIII, 22-25." type="">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="26" stihStart="25"/>
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="25" stihStart="22"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк., 55 зач., XII, 18-27." type="">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="27" stihStart="18"/>
+</Book>
+<Book book="Рим." isOrdinary="false" text="Рим., 96 зач. (от полу?), VIII, 8-14." type="Апп.">
+<Fragment chapterEnd="8" chapterStart="8" stihEnd="14" stihStart="8"/>
+</Book>
+<Book book="Лк." isOrdinary="false" text="Лк., 50 зач., X, 1-15." type="Апп.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="15" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2017-01-18">
+<Book book="Деян." isOrdinary="false" text="Деян., 33 зач., XIII, 25-32." type="На 1м часе">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="32" stihStart="25"/>
+</Book>
+<Book book="Мф." isOrdinary="false" text="Мф., 5 зач., III, 1-11." type="На 1м часе">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="11" stihStart="1"/>
+</Book>
+<Book book="Деян." isOrdinary="false" text="Деян., 42 зач., XIX, 1-8." type="На 3м часе">
+<Fragment chapterEnd="19" chapterStart="19" stihEnd="8" stihStart="1"/>
+</Book>
+<Book book="Мк." isOrdinary="false" text="Мк., 1 зач., I, 1-8." type="На 3м часе">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="8" stihStart="1"/>
+</Book>
+<Book book="Рим." isOrdinary="false" text="Рим., 91 зач., VI, 3-11." type="На 6м часе">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="11" stihStart="3"/>
+</Book>
+<Book book="Мк." isOrdinary="false" text="Мк., 2 зач., I, 9-15." type="На 6м часе">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="15" stihStart="9"/>
+</Book>
+<Book book="Тит." isOrdinary="false" text="Тит., 302 зач., II, 11-14; III, 4-7." type="На 9м часе">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="14" stihStart="11"/>
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="7" stihStart="4"/>
+</Book>
+<Book book="Мф." isOrdinary="false" text="Мф., 6 зач., III, 13-17." type="На 9м часе">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="17" stihStart="13"/>
+</Book>
+<Book book="1 Кор." isOrdinary="true" text="1 Кор., 143 зач., IX, 19-27." type="Лит.">
+<Fragment chapterEnd="9" chapterStart="9" stihEnd="27" stihStart="19"/>
+</Book>
+<Book book="Лк." isOrdinary="true" text="Лк., 9 зач., III, 1-18." type="Лит.">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="18" stihStart="1"/>
+</Book>
+<Book book="1 Кор." isOrdinary="false" text="1 Кор., 143 зач. (от полу?), X, 1-4." type="На освящении воды">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="4" stihStart="1"/>
+</Book>
+<Book book="Мк." isOrdinary="false" text="Мк., 2 зач., I, 9-11." type="На освящении воды">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="11" stihStart="9"/>
+</Book>
+</Date>
+<Date date="2017-01-19">
+<Book book="Мк." isOrdinary="false" text="Мк., 2 зач., I, 9-11." type="Утр.">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="11" stihStart="9"/>
+</Book>
+<Book book="Тит." isOrdinary="true" text="Тит., 302 зач., II, 11-14; III, 4-7." type="Лит.">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="14" stihStart="11"/>
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="7" stihStart="4"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф., 6 зач., III, 13-17." type="Лит.">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="17" stihStart="13"/>
+</Book>
+<Book book="1 Кор." isOrdinary="false" text="1 Кор., 143 зач. (от полу?), X, 1-4." type="На освящении воды">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="4" stihStart="1"/>
+</Book>
+<Book book="Мк." isOrdinary="false" text="Мк., 2 зач., I, 9-11." type="На освящении воды">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="11" stihStart="9"/>
+</Book>
+</Date>
+<Date date="2017-01-20">
+<Book book="Иак." isOrdinary="true" text="Иак., 52 зач., II, 1-13." type="">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="13" stihStart="1"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк., 58 зач., XIII, 1-8." type="">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="8" stihStart="1"/>
+</Book>
+<Book book="Деян." isOrdinary="false" text="Деян., 42 зач., XIX, 1-8." type="Предтечи">
+<Fragment chapterEnd="19" chapterStart="19" stihEnd="8" stihStart="1"/>
+</Book>
+<Book book="Ин." isOrdinary="false" text="Ин., 3 зач., I, 29-34." type="Предтечи">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="34" stihStart="29"/>
+</Book>
+</Date>
+<Date date="2017-01-21">
+<Book book="Еф." isOrdinary="false" text="Еф., 233 зач., VI, 10-17." type="Субботы по Богоявлении">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="17" stihStart="10"/>
+</Book>
+<Book book="Мф." isOrdinary="false" text="Мф., 7 зач., IV, 1-11." type="Субботы по Богоявлении">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="11" stihStart="1"/>
+</Book>
+<Book book="Кол." isOrdinary="true" text="Кол., 249 зач. (от полу?), I, 3-6." type="Ряд.">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="6" stihStart="3"/>
+</Book>
+<Book book="Лк." isOrdinary="true" text="Лк., 88 зач., XVIII, 2-8." type="Ряд.">
+<Fragment chapterEnd="18" chapterStart="18" stihEnd="8" stihStart="2"/>
+</Book>
+</Date>
+<Date date="2017-01-22">
+<Book book="Ин." isOrdinary="false" text="Ин., 65 зач., XX, 19-31." type="Утр.  Ев. 9е">
+<Fragment chapterEnd="20" chapterStart="20" stihEnd="31" stihStart="19"/>
+</Book>
+<Book book="Еф." isOrdinary="true" text="Еф., 224 зач. (от полу?), IV, 7-13." type="Лит.  Недели по Богоявлении">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="13" stihStart="7"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф., 8 зач., IV, 12-17." type="Лит.  Недели по Богоявлении">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="17" stihStart="12"/>
+</Book>
+<Book book="Евр." isOrdinary="false" text="Евр., 335 зач., XIII, 17-21." type="Свт.">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="21" stihStart="17"/>
+</Book>
+<Book book="Ин." isOrdinary="false" text="Ин., 36 зач., X, 9-16." type="Свт.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="16" stihStart="9"/>
+</Book>
+</Date>
+<Date date="2017-01-23">
+<Book book="Ин." isOrdinary="false" text="Ин., 35 зач. (от полу?), X, 1-9" type="Утр.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="9" stihStart="1"/>
+</Book>
+<Book book="Иак." isOrdinary="true" text="Иак., 53 зач., II, 14-26." type="Лит.">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="26" stihStart="14"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк., 48 зач., X, 46-52." type="Лит.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="52" stihStart="46"/>
+</Book>
+<Book book="Евр." isOrdinary="false" text="Евр., 318 зач., VII, 26 - VIII, 2." type="Свт. Феофана">
+<Fragment chapterEnd="8" chapterStart="7" stihEnd="2" stihStart="26"/>
+</Book>
+<Book book="Ин." isOrdinary="false" text="Ин., 36 зач., X, 9-16." type="Свт. Феофана">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="16" stihStart="9"/>
+</Book>
+<Book book="1 Кор." isOrdinary="false" text="1 Кор., 151 зач., XII, 7-11." type="Свт. Григория">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="11" stihStart="7"/>
+</Book>
+<Book book="Мф." isOrdinary="false" text="Мф., 34 зач. (от полу?), X, 1-8" type="Свт. Григория">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="8" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2017-01-24">
+<Book book="Лк." isOrdinary="false" text="Лк., 24 зач., VI, 17-23." type="Утр.">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="23" stihStart="17"/>
+</Book>
+<Book book="Иак." isOrdinary="true" text="Иак., 54 зач., III, 1-10." type="Лит.">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="10" stihStart="1"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк., 50 зач., XI, 11-23." type="Лит.">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="23" stihStart="11"/>
+</Book>
+<Book book="2 Кор." isOrdinary="false" text="2 Кор., 176 зач., IV, 6-15." type="Прп.">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="15" stihStart="6"/>
+</Book>
+<Book book="Мф." isOrdinary="false" text="Мф., 43 зач., XI, 27-30." type="Прп.">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="30" stihStart="27"/>
+</Book>
+</Date>
+<Date date="2017-01-25">
+<Book book="Иак." isOrdinary="true" text="Иак., 55 зач., III, 11 - IV, 6." type="">
+<Fragment chapterEnd="4" chapterStart="3" stihEnd="6" stihStart="11"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк., 51 зач., XI, 23-26." type="">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="26" stihStart="23"/>
+</Book>
+</Date>
+<Date date="2017-01-26">
+<Book book="Иак." isOrdinary="true" text="Иак., 56 зач., IV, 7 - V, 9." type="">
+<Fragment chapterEnd="5" chapterStart="4" stihEnd="9" stihStart="7"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк., 52 зач., XI, 27-33." type="">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="33" stihStart="27"/>
+</Book>
+<Book book="Рим." isOrdinary="false" text="Рим., 99 зач., VIII, 28-39." type="Прпп.">
+<Fragment chapterEnd="8" chapterStart="8" stihEnd="39" stihStart="28"/>
+</Book>
+<Book book="Лк." isOrdinary="false" text="Лк., 24 зач., VI, 17-23." type="Прпп.">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="23" stihStart="17"/>
+</Book>
+</Date>
+<Date date="2017-01-27">
+<Book book="Мф." isOrdinary="false" text="Мф., 34 зач. (от полу?), X, 1-8" type="Утр.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="8" stihStart="1"/>
+</Book>
+<Book book="1 Пет." isOrdinary="true" text="1 Пет., 58 зач., I, 1-2, 10-12; II, 6-10." type="Лит.">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="2" stihStart="1"/>
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="12" stihStart="10"/>
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="10" stihStart="6"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк., 53 зач., XII, 1-12." type="Лит.">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="12" stihStart="1"/>
+</Book>
+<Book book="1 Кор." isOrdinary="false" text="1 Кор., 131 зач., IV, 9-16." type="Равноап.">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="16" stihStart="9"/>
+</Book>
+<Book book="Мф." isOrdinary="false" text="Мф., 104 зач., XXV, 1-13." type="Равноап.">
+<Fragment chapterEnd="25" chapterStart="25" stihEnd="13" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2017-01-28">
+<Book book="Гал." isOrdinary="false" text="Гал., 213 зач., V, 22 - VI, 2." type="Прпп.">
+<Fragment chapterEnd="6" chapterStart="5" stihEnd="2" stihStart="22"/>
+</Book>
+<Book book="Мф." isOrdinary="false" text="Мф., 43 зач., XI, 27-30." type="Прпп.">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="30" stihStart="27"/>
+</Book>
+<Book book="1 Сол." isOrdinary="true" text="1 Сол., 273 зач., V, 14-23." type="Ряд.">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="23" stihStart="14"/>
+</Book>
+<Book book="Лк." isOrdinary="true" text="Лк., 84 зач., XVII, 3-10." type="Ряд.">
+<Fragment chapterEnd="17" chapterStart="17" stihEnd="10" stihStart="3"/>
+</Book>
+</Date>
+<Date date="2017-01-29">
+<Book book="Ин." isOrdinary="false" text="Ин., 66 зач., XXI, 1-14." type="Утр.  Ев. 10е">
+<Fragment chapterEnd="21" chapterStart="21" stihEnd="14" stihStart="1"/>
+</Book>
+<Book book="1 Тим." isOrdinary="true" text="1 Тим., 285 зач. (от полу?), IV, 9-15." type="Лит.  Недели 32й">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="15" stihStart="9"/>
+</Book>
+<Book book="Лк." isOrdinary="true" text="Лк., 94 зач., XIX, 1-10" type="Лит.  Недели 32й">
+<Fragment chapterEnd="19" chapterStart="19" stihEnd="10" stihStart="1"/>
+</Book>
+<Book book="Деян." isOrdinary="false" text="Деян., 29 зач., XII, 1-11." type="(о Закхее). Ап.">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="11" stihStart="1"/>
+</Book>
+<Book book="Ин." isOrdinary="false" text="Ин., 67 зач., XXI, 15-25." type="(о Закхее). Ап.">
+<Fragment chapterEnd="21" chapterStart="21" stihEnd="25" stihStart="15"/>
+</Book>
+</Date>
+<Date date="2017-01-30">
+<Book book="Мф." isOrdinary="false" text="Мф., 43 зач., XI, 27-30." type="Утр.">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="30" stihStart="27"/>
+</Book>
+<Book book="Евр." isOrdinary="true" text="Евр., 335 зач., XIII, 17-21." type="Лит.  Прп.">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="21" stihStart="17"/>
+</Book>
+<Book book="Лк." isOrdinary="true" text="Лк., 24 зач., VI, 17-23." type="Лит.  Прп.">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="23" stihStart="17"/>
+</Book>
+</Date>
+<Date date="2017-01-31">
+<Book book="1 Пет." isOrdinary="true" text="1 Пет., 59 зач., II, 21 - III, 9." type="">
+<Fragment chapterEnd="3" chapterStart="2" stihEnd="9" stihStart="21"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк., 54 зач., XII, 13-17 -" type="">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="17" stihStart="13"/>
+</Book>
+<Book book="1 Пет." isOrdinary="false" text="1 Пет., 60 зач., III, 10-22." type="за понедельник и за вторник (под зачало)">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="22" stihStart="10"/>
+</Book>
+<Book book="Мк." isOrdinary="false" text="Мк., 55 зач., XII, 18-27." type="за понедельник и за вторник (под зачало)">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="27" stihStart="18"/>
+</Book>
+<Book book="Евр." isOrdinary="false" text="Евр., 334 зач., XIII, 7-16." type="Свтт.">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="16" stihStart="7"/>
+</Book>
+<Book book="Мф." isOrdinary="false" text="Мф., 11 зач., V, 14-19" type="Свтт.">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="19" stihStart="14"/>
+</Book>
+</Date>
+<Date date="2017-02-01">
+<Book book="1 Пет." isOrdinary="true" text="1 Пет., 61 зач., IV, 1-11." type="">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="11" stihStart="1"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк., 56 зач., XII, 28-37," type="">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="37" stihStart="28"/>
+</Book>
+<Book book="1 Пет." isOrdinary="false" text="1 Пет., 62 зач., IV, 12 - V, 5." type="и за четверг (под зачало)">
+<Fragment chapterEnd="5" chapterStart="4" stihEnd="5" stihStart="12"/>
+</Book>
+<Book book="Мк." isOrdinary="false" text="Мк., 57 зач., XII, 38-44." type="и за четверг (под зачало)">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="44" stihStart="38"/>
+</Book>
+<Book book="Гал." isOrdinary="false" text="Гал., 213 зач., V, 22 - VI, 2." type="Прп.">
+<Fragment chapterEnd="6" chapterStart="5" stihEnd="2" stihStart="22"/>
+</Book>
+<Book book="Мф." isOrdinary="false" text="Мф., 43 зач., XI, 27-30." type="Прп.">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="30" stihStart="27"/>
+</Book>
+</Date>
+<Date date="2017-02-02">
+<Book book="Мф." isOrdinary="false" text="Мф., 43 зач., XI, 27-30." type="Утр.">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="30" stihStart="27"/>
+</Book>
+<Book book="Евр." isOrdinary="true" text="Евр., 335 зач., XIII, 17-21." type="Лит.  Прп.">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="21" stihStart="17"/>
+</Book>
+<Book book="Лк." isOrdinary="true" text="Лк., 24 зач., VI, 17-23." type="Лит.  Прп.">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="23" stihStart="17"/>
+</Book>
+</Date>
+<Date date="2017-02-03">
+<Book book="Мф." isOrdinary="false" text="Мф., 43 зач., XI, 27-30" type="Утр.">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="30" stihStart="27"/>
+</Book>
+<Book book="2 Пет." isOrdinary="true" text="2 Пет., 64 зач., I, 1-10." type="Лит.">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="10" stihStart="1"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк., 58 зач., XIII, 1-8." type="Лит.">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="8" stihStart="1"/>
+</Book>
+<Book book="Евр." isOrdinary="false" text="Евр., 330 зач., XI, 33 - XII, 2." type="Прп. и мч.">
+<Fragment chapterEnd="12" chapterStart="11" stihEnd="2" stihStart="33"/>
+</Book>
+<Book book="Лк." isOrdinary="false" text="Лк., 64 зач., XII, 8-12," type="Прп. и мч.">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="12" stihStart="8"/>
+</Book>
+<Book book="Гал." isOrdinary="false" text="Гал., 213 зач., V, 22 - VI, 2." type="прп. Максима Грека">
+<Fragment chapterEnd="6" chapterStart="5" stihEnd="2" stihStart="22"/>
+</Book>
+<Book book="Лк." isOrdinary="false" text="Лк., 24 зач., VI, 17-23." type="прп. Максима Грека">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="23" stihStart="17"/>
+</Book>
+</Date>
+<Date date="2017-02-04">
+<Book book="2 Тим." isOrdinary="false" text="2 Тим., 290 зач. (от полу?), I, 3-9." type="Ап.">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="9" stihStart="3"/>
+</Book>
+<Book book="Лк." isOrdinary="false" text="Лк., 50 зач., X, 1-15." type="Ап.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="15" stihStart="1"/>
+</Book>
+<Book book="2 Тим." isOrdinary="true" text="2 Тим., 293 зач., II, 11-19." type="Ряд.">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="19" stihStart="11"/>
+</Book>
+<Book book="Лк." isOrdinary="true" text="Лк., 88 зач., XVIII, 2-8." type="Ряд.">
+<Fragment chapterEnd="18" chapterStart="18" stihEnd="8" stihStart="2"/>
+</Book>
+</Date>
+<Date date="2017-02-05">
+<Book book="Ин." isOrdinary="false" text="Ин., 67 зач., XXI, 15-25." type="Утр.  Ев. 11е">
+<Fragment chapterEnd="21" chapterStart="21" stihEnd="25" stihStart="15"/>
+</Book>
+<Book book="2 Тим." isOrdinary="true" text="2 Тим., 296 зач., III, 10-15." type="Лит.">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="15" stihStart="10"/>
+</Book>
+<Book book="Лк." isOrdinary="true" text="Лк., 89 зач., XVIII, 10-14." type="Лит.">
+<Fragment chapterEnd="18" chapterStart="18" stihEnd="14" stihStart="10"/>
+</Book>
+<Book book="Рим." isOrdinary="false" text="Рим., 99 зач., VIII, 28-39." type="Мчч.">
+<Fragment chapterEnd="8" chapterStart="8" stihEnd="39" stihStart="28"/>
+</Book>
+<Book book="Лк." isOrdinary="false" text="Лк., 105-106 зач., XXI, 8-19." type="Мчч.">
+<Fragment chapterEnd="21" chapterStart="21" stihEnd="19" stihStart="8"/>
+</Book>
+</Date>
+<Date date="2017-02-06">
+<Book book="Мф." isOrdinary="false" text="Мф., 43 зач., XI, 27-30." type="Утр.">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="30" stihStart="27"/>
+</Book>
+<Book book="2 Пет." isOrdinary="true" text="2 Пет., 66 зач., I, 20 - II, 9." type="Лит.">
+<Fragment chapterEnd="2" chapterStart="1" stihEnd="9" stihStart="20"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк., 59 зач., XIII, 9-13." type="Лит.">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="13" stihStart="9"/>
+</Book>
+<Book book="Гал." isOrdinary="false" text="Гал., 213 зач., V, 22 - VI, 2." type="Блж.">
+<Fragment chapterEnd="6" chapterStart="5" stihEnd="2" stihStart="22"/>
+</Book>
+<Book book="Лк." isOrdinary="false" text="Лк., 24 зач., VI, 17-23." type="Блж.">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="23" stihStart="17"/>
+</Book>
+</Date>
+<Date date="2017-02-07">
+<Book book="Ин." isOrdinary="false" text="Ин., 35 зач. (от полу?), X, 1-9." type="Утр.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="9" stihStart="1"/>
+</Book>
+<Book book="2 Пет." isOrdinary="true" text="2 Пет., 67 зач., II, 9-22." type="Лит.">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="22" stihStart="9"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк., 60 зач., XIII, 14-23." type="Лит.">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="23" stihStart="14"/>
+</Book>
+<Book book="1 Кор." isOrdinary="false" text="1 Кор., 151 зач., XII, 7-11." type="Свт.">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="11" stihStart="7"/>
+</Book>
+<Book book="Ин." isOrdinary="false" text="Ин., 36 зач., X, 9-16." type="Свт.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="16" stihStart="9"/>
+</Book>
+<Book book="Евр." isOrdinary="false" text="Евр., 334 зач., XIII, 7-16" type="Сщмч.">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="16" stihStart="7"/>
+</Book>
+</Date>
+<Date date="2017-02-08">
+<Book book="2 Пет." isOrdinary="true" text="2 Пет., 68 зач., III, 1-18." type="">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="18" stihStart="1"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк., 61 зач., XIII, 24-31." type="">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="31" stihStart="24"/>
+</Book>
+</Date>
+<Date date="2017-02-09">
+<Book book="Ин." isOrdinary="false" text="Ин., 35 зач. (от полу?), X, 1-9." type="Утр.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="9" stihStart="1"/>
+</Book>
+<Book book="1 Ин." isOrdinary="true" text="1 Ин., 69 зач., I, 8 - II, 6." type="Лит.">
+<Fragment chapterEnd="2" chapterStart="1" stihEnd="6" stihStart="8"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк., 62 зач., XIII, 31 - XIV, 2." type="Лит.">
+<Fragment chapterEnd="14" chapterStart="13" stihEnd="2" stihStart="31"/>
+</Book>
+<Book book="Евр." isOrdinary="false" text="Евр., 318 зач., VII, 26 - VIII, 2." type="Свт.">
+<Fragment chapterEnd="8" chapterStart="7" stihEnd="2" stihStart="26"/>
+</Book>
+<Book book="Ин." isOrdinary="false" text="Ин., 36 зач., X, 9-16." type="Свт.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="16" stihStart="9"/>
+</Book>
+</Date>
+<Date date="2017-02-10">
+<Book book="1 Ин." isOrdinary="true" text="1 Ин., 70 зач., II, 7-17." type="">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="17" stihStart="7"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк., 63 зач., XIV, 3-9." type="">
+<Fragment chapterEnd="14" chapterStart="14" stihEnd="9" stihStart="3"/>
+</Book>
+<Book book="Гал." isOrdinary="false" text="Гал., 213 зач., V, 22 - VI, 2." type="Прп.">
+<Fragment chapterEnd="6" chapterStart="5" stihEnd="2" stihStart="22"/>
+</Book>
+<Book book="Мф." isOrdinary="false" text="Мф., 43 зач., XI, 27-30." type="Прп.">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="30" stihStart="27"/>
+</Book>
+</Date>
+<Date date="2017-02-11">
+<Book book="Евр." isOrdinary="false" text="Евр., 311 зач., IV, 14 - V, 6." type="Сщмч.">
+<Fragment chapterEnd="5" chapterStart="4" stihEnd="6" stihStart="14"/>
+</Book>
+<Book book="Мк." isOrdinary="false" text="Мк., 41 зач., IX, 33-41." type="Сщмч.">
+<Fragment chapterEnd="9" chapterStart="9" stihEnd="41" stihStart="33"/>
+</Book>
+<Book book="2 Тим." isOrdinary="true" text="2 Тим., 295 зач., III, 1-9." type="Ряд.">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="9" stihStart="1"/>
+</Book>
+<Book book="Лк." isOrdinary="true" text="Лк., 103 зач., XX, 45 - XXI, 4." type="Ряд.">
+<Fragment chapterEnd="21" chapterStart="20" stihEnd="4" stihStart="45"/>
+</Book>
+</Date>
+<Date date="2017-02-12">
+<Book book="Мф." isOrdinary="false" text="Мф., 116 зач., XXVIII, 16-20." type="Утр.  Ев. 1е">
+<Fragment chapterEnd="28" chapterStart="28" stihEnd="20" stihStart="16"/>
+</Book>
+<Book book="1 Кор." isOrdinary="true" text="1 Кор., 135 зач., VI, 12-20." type="Лит.">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="20" stihStart="12"/>
+</Book>
+<Book book="Лк." isOrdinary="true" text="Лк., 79 зач., XV, 11-32." type="Лит.">
+<Fragment chapterEnd="15" chapterStart="15" stihEnd="32" stihStart="11"/>
+</Book>
+<Book book="Евр." isOrdinary="false" text="Евр., 334 зач., XIII, 7-16." type="Свтт.">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="16" stihStart="7"/>
+</Book>
+<Book book="Мф." isOrdinary="false" text="Мф., 11 зач., V, 14-19." type="Свтт.">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="19" stihStart="14"/>
+</Book>
+</Date>
+<Date date="2017-02-13">
+<Book book="1 Ин." isOrdinary="true" text="1 Ин., 71 зач., II, 18 - III, 10." type="">
+<Fragment chapterEnd="3" chapterStart="2" stihEnd="10" stihStart="18"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк., 49 зач., XI, 1-11." type="">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="11" stihStart="1"/>
+</Book>
+<Book book="Евр." isOrdinary="false" text="Евр., 318 зач., VII, 26 - VIII, 2." type="Свт.">
+<Fragment chapterEnd="8" chapterStart="7" stihEnd="2" stihStart="26"/>
+</Book>
+<Book book="Ин." isOrdinary="false" text="Ин., 36 зач., X, 9-16" type="Свт.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="16" stihStart="9"/>
+</Book>
+<Book book="1 Кор." isOrdinary="false" text="1 Кор., 153 зач., XII, 27 - XIII, 8." type="Бессребреников">
+<Fragment chapterEnd="13" chapterStart="12" stihEnd="8" stihStart="27"/>
+</Book>
+<Book book="Мф." isOrdinary="false" text="Мф., 34 зач. (от полу?), X, 1, 5-8" type="Бессребреников">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="1" stihStart="1"/>
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="8" stihStart="5"/>
+</Book>
+</Date>
+<Date date="2017-02-14">
+<Book book="1 Ин." isOrdinary="true" text="1 Ин., 72 зач., III, 10-20." type="">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="20" stihStart="10"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк., 64 зач., XIV, 10-42," type="">
+<Fragment chapterEnd="14" chapterStart="14" stihEnd="42" stihStart="10"/>
+</Book>
+<Book book="1 Ин." isOrdinary="false" text="1 Ин., 73 зач., III, 21 - IV, 6." type="и за среду (под зачало)">
+<Fragment chapterEnd="4" chapterStart="3" stihEnd="6" stihStart="21"/>
+</Book>
+<Book book="Мк." isOrdinary="false" text="Мк., 65 зач., XIV, 43 - XV, 1." type="и за среду (под зачало)">
+<Fragment chapterEnd="15" chapterStart="14" stihEnd="1" stihStart="43"/>
+</Book>
+<Book book="Рим." isOrdinary="false" text="Рим., 99 зач., VIII, 28-39." type="Мч.">
+<Fragment chapterEnd="8" chapterStart="8" stihEnd="39" stihStart="28"/>
+</Book>
+<Book book="Лк." isOrdinary="false" text="Лк., 51 зач. (от полу?), X, 19-21." type="Мч.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="21" stihStart="19"/>
+</Book>
+</Date>
+<Date date="2017-02-15">
+<Book book="Лк." isOrdinary="false" text="Лк., 8 зач., II, 25-32." type="Утр.">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="32" stihStart="25"/>
+</Book>
+<Book book="Евр." isOrdinary="true" text="Евр., 316 зач., VII, 7-17." type="Лит.">
+<Fragment chapterEnd="7" chapterStart="7" stihEnd="17" stihStart="7"/>
+</Book>
+<Book book="Лк." isOrdinary="true" text="Лк., 7 зач., II, 22-40." type="Лит.">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="40" stihStart="22"/>
+</Book>
+</Date>
+<Date date="2017-02-16">
+<Book book="1 Ин." isOrdinary="true" text="1 Ин., 74 зач., IV, 20 - V, 21." type="">
+<Fragment chapterEnd="5" chapterStart="4" stihEnd="21" stihStart="20"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк., 66 зач., XV, 1-15." type="">
+<Fragment chapterEnd="15" chapterStart="15" stihEnd="15" stihStart="1"/>
+</Book>
+<Book book="Евр." isOrdinary="false" text="Евр., 321 зач. (от полу?), IX, 11-14." type="Прав.">
+<Fragment chapterEnd="9" chapterStart="9" stihEnd="14" stihStart="11"/>
+</Book>
+<Book book="Лк." isOrdinary="false" text="Лк., 8 зач., II, 25-38." type="Прав.">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="38" stihStart="25"/>
+</Book>
+</Date>
+<Date date="2017-02-17">
+<Book book="2 Ин." isOrdinary="true" text="2 Ин., 75 зач., I, 1-13." type="">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="13" stihStart="1"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк., 68 зач., XV, 22, 25, 33-41." type="">
+<Fragment chapterEnd="15" chapterStart="15" stihEnd="22" stihStart="22"/>
+<Fragment chapterEnd="15" chapterStart="15" stihEnd="25" stihStart="25"/>
+<Fragment chapterEnd="15" chapterStart="15" stihEnd="41" stihStart="33"/>
+</Book>
+</Date>
+<Date date="2017-02-18">
+<Book book="1 Кор." isOrdinary="true" text="1 Кор., 146 зач., X, 23-28." type="">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="28" stihStart="23"/>
+</Book>
+<Book book="Лк." isOrdinary="true" text="Лк., 105 зач., XXI, 8-9, 25-27, 33-36." type="">
+<Fragment chapterEnd="21" chapterStart="21" stihEnd="9" stihStart="8"/>
+<Fragment chapterEnd="21" chapterStart="21" stihEnd="27" stihStart="25"/>
+<Fragment chapterEnd="21" chapterStart="21" stihEnd="36" stihStart="33"/>
+</Book>
+<Book book="1 Сол." isOrdinary="false" text="1 Сол., 270 зач., IV, 13-17." type="За упокой">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="17" stihStart="13"/>
+</Book>
+<Book book="Ин." isOrdinary="false" text="Ин., 16 зач., V, 24-30." type="За упокой">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="30" stihStart="24"/>
+</Book>
+</Date>
+<Date date="2017-02-19">
+<Book book="Мк." isOrdinary="false" text="Мк., 70 зач., XVI, 1-8." type="Утр.  Ев. 2е">
+<Fragment chapterEnd="16" chapterStart="16" stihEnd="8" stihStart="1"/>
+</Book>
+<Book book="1 Кор." isOrdinary="true" text="1 Кор., 140 зач., VIII, 8 - IX, 2." type="Лит.">
+<Fragment chapterEnd="9" chapterStart="8" stihEnd="2" stihStart="8"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф., 106 зач., XXV, 31-46." type="Лит.">
+<Fragment chapterEnd="25" chapterStart="25" stihEnd="46" stihStart="31"/>
+</Book>
+</Date>
+<Date date="2017-02-20">
+<Book book="3 Ин." isOrdinary="true" text="3 Ин., 76 зач., I, 1-15." type="">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="15" stihStart="1"/>
+</Book>
+<Book book="Лк." isOrdinary="true" text="Лк., 96 зач., XIX, 29-40; XXII, 7-39." type="">
+<Fragment chapterEnd="19" chapterStart="19" stihEnd="40" stihStart="29"/>
+<Fragment chapterEnd="22" chapterStart="22" stihEnd="39" stihStart="7"/>
+</Book>
+</Date>
+<Date date="2017-02-21">
+<Book book="Иуд." isOrdinary="true" text="Иуд., 77 зач., I, 1-10." type="">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="10" stihStart="1"/>
+</Book>
+<Book book="Лк." isOrdinary="true" text="Лк., 109 зач., XXII, 39-42, 45 - XXIII, 1." type="">
+<Fragment chapterEnd="22" chapterStart="22" stihEnd="42" stihStart="39"/>
+<Fragment chapterEnd="23" chapterStart="22" stihEnd="1" stihStart="45"/>
+</Book>
+</Date>
+<Date date="2017-02-22">
+<Book book="Иоил." isOrdinary="true" text="Иоил. II, 12-26." type="На 6м часе">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="26" stihStart="12"/>
+</Book>
+<Book book="Иоил." isOrdinary="true" text="Иоил. III, 12-21." type="На веч.">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="21" stihStart="12"/>
+</Book>
+</Date>
+<Date date="2017-02-23">
+<Book book="Иуд." isOrdinary="true" text="Иуд., 78 зач., I, 11-25." type="">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="25" stihStart="11"/>
+</Book>
+<Book book="Лк." isOrdinary="true" text="Лк., 110 зач., XXIII, 1-34, 44-56." type="">
+<Fragment chapterEnd="23" chapterStart="23" stihEnd="34" stihStart="1"/>
+<Fragment chapterEnd="23" chapterStart="23" stihEnd="56" stihStart="44"/>
+</Book>
+</Date>
+<Date date="2017-02-24">
+<Book book="Зах." isOrdinary="true" text="Зах. VIII, 7-17." type="На 6м часе">
+<Fragment chapterEnd="8" chapterStart="8" stihEnd="17" stihStart="7"/>
+</Book>
+<Book book="Зах." isOrdinary="true" text="Зах. VIII, 19-23." type="На веч.">
+<Fragment chapterEnd="8" chapterStart="8" stihEnd="23" stihStart="19"/>
+</Book>
+</Date>
+<Date date="2017-02-25">
+<Book book="Лк." isOrdinary="false" text="Лк., 4 зач., I, 39-49, 56," type="Утр.  Богородицы">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="49" stihStart="39"/>
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="56" stihStart="56"/>
+</Book>
+<Book book="Ин." isOrdinary="false" text="Ин., 36 зач., X, 9-16." type="свт.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="16" stihStart="9"/>
+</Book>
+<Book book="Флп." isOrdinary="false" text="Флп., 240 зач., II, 5-11." type="Лит.  Богородицы">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="11" stihStart="5"/>
+</Book>
+<Book book="Лк." isOrdinary="false" text="Лк., 54 зач., X, 38-42; XI, 27-28," type="Лит.  Богородицы">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="42" stihStart="38"/>
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="28" stihStart="27"/>
+</Book>
+<Book book="Евр." isOrdinary="false" text="Евр., 335 зач., XIII, 17-21." type="свт.">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="21" stihStart="17"/>
+</Book>
+<Book book="Лк." isOrdinary="false" text="Лк., 24 зач., VI, 17-23." type="свт.">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="23" stihStart="17"/>
+</Book>
+<Book book="Рим." isOrdinary="true" text="Рим., 115 зач., XIV, 19-26." type="Ряд. (под зачало)">
+<Fragment chapterEnd="14" chapterStart="14" stihEnd="26" stihStart="19"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф., 16 зач., VI, 1-13." type="Ряд. (под зачало)">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="13" stihStart="1"/>
+</Book>
+<Book book="Гал." isOrdinary="false" text="Гал., 213 зач., V, 22 - VI, 2." type="Прпп.">
+<Fragment chapterEnd="6" chapterStart="5" stihEnd="2" stihStart="22"/>
+</Book>
+<Book book="Мф." isOrdinary="false" text="Мф., 43 зач., XI, 27-30." type="Прпп.">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="30" stihStart="27"/>
+</Book>
+</Date>
+<Date date="2017-02-26">
+<Book book="Мк." isOrdinary="false" text="Мк., 71 зач., XVI, 9-20." type="Утр.  Ев. 3е">
+<Fragment chapterEnd="16" chapterStart="16" stihEnd="20" stihStart="9"/>
+</Book>
+<Book book="Рим." isOrdinary="true" text="Рим., 112 зач., XIII, 11 - XIV, 4." type="Лит.">
+<Fragment chapterEnd="14" chapterStart="13" stihEnd="4" stihStart="11"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф., 17 зач., VI, 14-21." type="Лит.">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="21" stihStart="14"/>
+</Book>
+</Date>
+<Date date="2017-02-27">
+<Book book="Ис." isOrdinary="true" text="Ис. I, 1-20." type="На 6м часе">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="20" stihStart="1"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. I, 1-13." type="На веч.">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="13" stihStart="1"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. I, 1-20." type="На веч.">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="20" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2017-02-28">
+<Book book="Ис." isOrdinary="true" text="Ис. I, 19 - II, 3." type="На 6м часе">
+<Fragment chapterEnd="2" chapterStart="1" stihEnd="3" stihStart="19"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. I, 14-23." type="На веч.">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="23" stihStart="14"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. I, 20-33." type="На веч.">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="33" stihStart="20"/>
+</Book>
+</Date>
+<Date date="2017-03-01">
+<Book book="Ис." isOrdinary="true" text="Ис. II, 3-11." type="На 6м часе">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="11" stihStart="3"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. I, 24 - II, 3." type="На веч.">
+<Fragment chapterEnd="2" chapterStart="1" stihEnd="3" stihStart="24"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. II, 1-22." type="На веч.">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="22" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2017-03-02">
+<Book book="Ис." isOrdinary="true" text="Ис. II, 11-21." type="На 6м часе">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="21" stihStart="11"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. II, 4-19." type="На веч.">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="19" stihStart="4"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. III, 1-18." type="На веч.">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="18" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2017-03-03">
+<Book book="Ис." isOrdinary="true" text="Ис. III, 1-14." type="На 6м часе">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="14" stihStart="1"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. II, 20 - III, 20." type="На веч.">
+<Fragment chapterEnd="3" chapterStart="2" stihEnd="20" stihStart="20"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. III, 19-34." type="На веч.">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="34" stihStart="19"/>
+</Book>
+</Date>
+<Date date="2017-03-04">
+<Book book="Евр." isOrdinary="true" text="Евр., 303 зач., I, 1-12." type="">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="12" stihStart="1"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк., 10 зач., II, 23 - III, 5." type="">
+<Fragment chapterEnd="3" chapterStart="2" stihEnd="5" stihStart="23"/>
+</Book>
+<Book book="2 Тим." isOrdinary="false" text="2 Тим., 292 зач., II, 1-10." type="Вмч.">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="10" stihStart="1"/>
+</Book>
+<Book book="Ин." isOrdinary="false" text="Ин., 52 зач., XV, 17 - XVI, 2" type="Вмч.">
+<Fragment chapterEnd="16" chapterStart="15" stihEnd="2" stihStart="17"/>
+</Book>
+</Date>
+<Date date="2017-03-05">
+<Book book="Лк." isOrdinary="false" text="Лк., 112 зач., XXIV, 1-12." type="Утр.  Ев. 4е">
+<Fragment chapterEnd="24" chapterStart="24" stihEnd="12" stihStart="1"/>
+</Book>
+<Book book="Евр." isOrdinary="true" text="Евр., 329 зач. (от полу?), XI, 24-26, 32 - XII, 2." type="Лит.">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="26" stihStart="24"/>
+<Fragment chapterEnd="12" chapterStart="11" stihEnd="2" stihStart="32"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 5 зач., I, 43-51." type="Лит.">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="51" stihStart="43"/>
+</Book>
+</Date>
+<Date date="2017-03-06">
+<Book book="Ис." isOrdinary="true" text="Ис. IV, 2 - V, 7." type="На 6м часе">
+<Fragment chapterEnd="5" chapterStart="4" stihEnd="7" stihStart="2"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. III, 21 - IV, 7." type="На веч.">
+<Fragment chapterEnd="4" chapterStart="3" stihEnd="7" stihStart="21"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. III, 34 - IV, 22." type="На веч.">
+<Fragment chapterEnd="4" chapterStart="3" stihEnd="22" stihStart="34"/>
+</Book>
+</Date>
+<Date date="2017-03-07">
+<Book book="Ис." isOrdinary="true" text="Ис. V, 7-16." type="На 6м часе">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="16" stihStart="7"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. IV, 8-15." type="На веч.">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="15" stihStart="8"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. V, 1-15." type="На веч.">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="15" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2017-03-08">
+<Book book="Ис." isOrdinary="true" text="Ис. V, 16-25." type="На 6м часе">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="25" stihStart="16"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. IV, 16-26." type="На веч.">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="26" stihStart="16"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. V, 15 - VI, 3." type="На веч.">
+<Fragment chapterEnd="6" chapterStart="5" stihEnd="3" stihStart="15"/>
+</Book>
+<Book book="Ис." isOrdinary="false" text="Ис. XL, 1-3, 9; XLI, 17-18; XLV, 8; XLVIII, 20-21; LIV, 1." type="Предтечи">
+<Fragment chapterEnd="40" chapterStart="40" stihEnd="3" stihStart="1"/>
+<Fragment chapterEnd="40" chapterStart="40" stihEnd="9" stihStart="9"/>
+<Fragment chapterEnd="41" chapterStart="41" stihEnd="18" stihStart="17"/>
+<Fragment chapterEnd="45" chapterStart="45" stihEnd="8" stihStart="8"/>
+<Fragment chapterEnd="48" chapterStart="48" stihEnd="21" stihStart="20"/>
+<Fragment chapterEnd="54" chapterStart="54" stihEnd="1" stihStart="1"/>
+</Book>
+<Book book="Прем." isOrdinary="false" text="Прем. IV, 7, 16-17, 19-20; V, 1-7." type="Мал. III, 13, 57, 12, 1718; IV, 46.">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="7" stihStart="7"/>
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="17" stihStart="16"/>
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="20" stihStart="19"/>
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="7" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2017-03-09">
+<Book book="Лк." isOrdinary="false" text="Лк., 31 зач., VII, 17-30." type="Утр.">
+<Fragment chapterEnd="7" chapterStart="7" stihEnd="30" stihStart="17"/>
+</Book>
+<Book book="Ис." isOrdinary="false" text="Ис. VI, 1-12." type="На 6м часе">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="12" stihStart="1"/>
+</Book>
+<Book book="Быт." isOrdinary="false" text="Быт. V, 1-24." type="На веч.">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="24" stihStart="1"/>
+</Book>
+<Book book="Притч." isOrdinary="false" text="Притч. VI, 3-20." type="На веч.">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="20" stihStart="3"/>
+</Book>
+<Book book="2 Кор." isOrdinary="true" text="2 Кор., 176 зач., IV, 6-15." type="Лит.  Предтечи">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="15" stihStart="6"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф., 40 зач., XI, 2-15." type="Лит.  Предтечи">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="15" stihStart="2"/>
+</Book>
+</Date>
+<Date date="2017-03-10">
+<Book book="Ис." isOrdinary="true" text="Ис. VII, 1-14." type="На 6м часе">
+<Fragment chapterEnd="7" chapterStart="7" stihEnd="14" stihStart="1"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. V, 32 - VI, 8." type="На веч.">
+<Fragment chapterEnd="6" chapterStart="5" stihEnd="8" stihStart="32"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. VI, 20 - VII, 1." type="На веч.">
+<Fragment chapterEnd="7" chapterStart="6" stihEnd="1" stihStart="20"/>
+</Book>
+</Date>
+<Date date="2017-03-11">
+<Book book="Евр." isOrdinary="true" text="Евр., 309 зач., III, 12-16." type="">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="16" stihStart="12"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк., 6 зач., I, 35-44." type="">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="44" stihStart="35"/>
+</Book>
+<Book book="1 Сол." isOrdinary="false" text="1 Сол., 270 зач., IV, 13-17." type="За упокой">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="17" stihStart="13"/>
+</Book>
+<Book book="Ин." isOrdinary="false" text="Ин., 16 зач., V, 24-30." type="За упокой">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="30" stihStart="24"/>
+</Book>
+</Date>
+<Date date="2017-03-12">
+<Book book="Лк." isOrdinary="false" text="Лк., 113 зач., XXIV, 12-35." type="Утр.  Ев. 5е">
+<Fragment chapterEnd="24" chapterStart="24" stihEnd="35" stihStart="12"/>
+</Book>
+<Book book="Евр." isOrdinary="true" text="Евр., 304 зач., I, 10 - II, 3." type="Лит.">
+<Fragment chapterEnd="2" chapterStart="1" stihEnd="3" stihStart="10"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк., 7 зач., II, 1-12." type="Лит.">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="12" stihStart="1"/>
+</Book>
+<Book book="Евр." isOrdinary="false" text="Евр., 318 зач., VII, 26 - VIII, 2." type="Свт.">
+<Fragment chapterEnd="8" chapterStart="7" stihEnd="2" stihStart="26"/>
+</Book>
+<Book book="Ин." isOrdinary="false" text="Ин., 36 зач., X, 9-16." type="Свт.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="16" stihStart="9"/>
+</Book>
+</Date>
+<Date date="2017-03-13">
+<Book book="Ис." isOrdinary="true" text="Ис. VIII, 13 - IX, 7." type="На 6м часе">
+<Fragment chapterEnd="9" chapterStart="8" stihEnd="7" stihStart="13"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. VI, 9-22." type="На веч.">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="22" stihStart="9"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. VIII, 1-21." type="На веч.">
+<Fragment chapterEnd="8" chapterStart="8" stihEnd="21" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2017-03-14">
+<Book book="Ис." isOrdinary="true" text="Ис. IX, 9 - X, 4." type="На 6м часе">
+<Fragment chapterEnd="10" chapterStart="9" stihEnd="4" stihStart="9"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. VII, 1-5." type="На веч.">
+<Fragment chapterEnd="7" chapterStart="7" stihEnd="5" stihStart="1"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. VIII, 32 - IX, 11" type="На веч.">
+<Fragment chapterEnd="9" chapterStart="8" stihEnd="11" stihStart="32"/>
+</Book>
+</Date>
+<Date date="2017-03-15">
+<Book book="Ис." isOrdinary="true" text="Ис. X, 12-20." type="На 6м часе">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="20" stihStart="12"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. VII, 6-9." type="На веч.">
+<Fragment chapterEnd="7" chapterStart="7" stihEnd="9" stihStart="6"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. IX, 12-18" type="На веч.">
+<Fragment chapterEnd="9" chapterStart="9" stihEnd="18" stihStart="12"/>
+</Book>
+</Date>
+<Date date="2017-03-16">
+<Book book="Ис." isOrdinary="true" text="Ис. XI, 10 - XII, 2." type="На 6м часе">
+<Fragment chapterEnd="12" chapterStart="11" stihEnd="2" stihStart="10"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. VII, 11 - VIII, 3." type="На веч.">
+<Fragment chapterEnd="8" chapterStart="7" stihEnd="3" stihStart="11"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. X, 1-22." type="На веч.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="22" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2017-03-17">
+<Book book="Ис." isOrdinary="true" text="Ис. XIII, 2-13." type="На 6м часе">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="13" stihStart="2"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. VIII, 4-21." type="На веч.">
+<Fragment chapterEnd="8" chapterStart="8" stihEnd="21" stihStart="4"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. X, 31 - XI, 12." type="На веч.">
+<Fragment chapterEnd="11" chapterStart="10" stihEnd="12" stihStart="31"/>
+</Book>
+</Date>
+<Date date="2017-03-18">
+<Book book="Евр." isOrdinary="true" text="Евр., 325 зач., X, 32-38." type="">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="38" stihStart="32"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк., 8 зач., II, 14-17." type="">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="17" stihStart="14"/>
+</Book>
+<Book book="1 Сол." isOrdinary="false" text="1 Сол., 270 зач., IV, 13-17." type="За упокой">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="17" stihStart="13"/>
+</Book>
+<Book book="Ин." isOrdinary="false" text="Ин., 16 зач., V, 24-30." type="За упокой">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="30" stihStart="24"/>
+</Book>
+</Date>
+<Date date="2017-03-19">
+<Book book="Лк." isOrdinary="false" text="Лк., 114 зач., XXIV, 36-53." type="Утр.  Ев. 6е">
+<Fragment chapterEnd="24" chapterStart="24" stihEnd="53" stihStart="36"/>
+</Book>
+<Book book="Евр." isOrdinary="true" text="Евр., 311 зач., IV, 14 - V, 6." type="Лит.">
+<Fragment chapterEnd="5" chapterStart="4" stihEnd="6" stihStart="14"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк., 37 зач., VIII, 34 - IX, 1." type="Лит.">
+<Fragment chapterEnd="9" chapterStart="8" stihEnd="1" stihStart="34"/>
+</Book>
+</Date>
+<Date date="2017-03-20">
+<Book book="Ис." isOrdinary="true" text="Ис. XIV, 24-32." type="На 6м часе">
+<Fragment chapterEnd="14" chapterStart="14" stihEnd="32" stihStart="24"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. VIII, 21 - IX, 7." type="На веч.">
+<Fragment chapterEnd="9" chapterStart="8" stihEnd="7" stihStart="21"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. XI, 19 - XII, 6." type="На веч.">
+<Fragment chapterEnd="12" chapterStart="11" stihEnd="6" stihStart="19"/>
+</Book>
+<Book book="Ис." isOrdinary="false" text="Ис. XLIII, 9-14." type="Мчч.">
+<Fragment chapterEnd="43" chapterStart="43" stihEnd="14" stihStart="9"/>
+</Book>
+<Book book="Прем." isOrdinary="false" text="Прем. III, 1-9." type="Мчч.">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="9" stihStart="1"/>
+</Book>
+<Book book="Прем." isOrdinary="false" text="Прем. V, 15 - VI, 3." type="Мчч.">
+<Fragment chapterEnd="6" chapterStart="5" stihEnd="3" stihStart="15"/>
+</Book>
+</Date>
+<Date date="2017-03-21">
+<Book book="Лк." isOrdinary="false" text="Лк., 106 зач., XXI, 12-19." type="Утр.">
+<Fragment chapterEnd="21" chapterStart="21" stihEnd="19" stihStart="12"/>
+</Book>
+<Book book="Ис." isOrdinary="false" text="Ис. XXV, 1-9." type="На 6м часе">
+<Fragment chapterEnd="25" chapterStart="25" stihEnd="9" stihStart="1"/>
+</Book>
+<Book book="Быт." isOrdinary="false" text="Быт. IX, 8-17." type="На веч.">
+<Fragment chapterEnd="9" chapterStart="9" stihEnd="17" stihStart="8"/>
+</Book>
+<Book book="Притч." isOrdinary="false" text="Притч. XII, 8-22." type="На веч.">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="22" stihStart="8"/>
+</Book>
+<Book book="Евр." isOrdinary="true" text="Евр., 331 зач., XII, 1-10." type="Лит.  Мчч.">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="10" stihStart="1"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф., 80 зач., XX, 1-16." type="Лит.  Мчч.">
+<Fragment chapterEnd="20" chapterStart="20" stihEnd="16" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2017-03-22">
+<Book book="Ис." isOrdinary="true" text="Ис. XXVI, 21 - XXVII, 9." type="На 6м часе">
+<Fragment chapterEnd="27" chapterStart="26" stihEnd="9" stihStart="21"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. IX, 18 - X, 1." type="На веч.">
+<Fragment chapterEnd="10" chapterStart="9" stihEnd="1" stihStart="18"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. XII, 23 - XIII, 9." type="На веч.">
+<Fragment chapterEnd="13" chapterStart="12" stihEnd="9" stihStart="23"/>
+</Book>
+</Date>
+<Date date="2017-03-23">
+<Book book="Ис." isOrdinary="true" text="Ис. XXVIII, 14-22." type="На 6м часе">
+<Fragment chapterEnd="28" chapterStart="28" stihEnd="22" stihStart="14"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. X, 32 - XI, 9." type="На веч.">
+<Fragment chapterEnd="11" chapterStart="10" stihEnd="9" stihStart="32"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. XIII, 20 - XIV, 6." type="На веч.">
+<Fragment chapterEnd="14" chapterStart="13" stihEnd="6" stihStart="20"/>
+</Book>
+</Date>
+<Date date="2017-03-24">
+<Book book="Ис." isOrdinary="true" text="Ис. XXIX, 13-23." type="На 6м часе">
+<Fragment chapterEnd="29" chapterStart="29" stihEnd="23" stihStart="13"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. XII, 1-7." type="На веч.">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="7" stihStart="1"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. XIV, 15-26." type="На веч.">
+<Fragment chapterEnd="14" chapterStart="14" stihEnd="26" stihStart="15"/>
+</Book>
+</Date>
+<Date date="2017-03-25">
+<Book book="Евр." isOrdinary="true" text="Евр., 313 зач., VI, 9-12." type="">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="12" stihStart="9"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк., 31 зач., VII, 31-37." type="">
+<Fragment chapterEnd="7" chapterStart="7" stihEnd="37" stihStart="31"/>
+</Book>
+<Book book="1 Кор." isOrdinary="false" text="1 Кор., 163 зач., XV, 47-57." type="За упокой">
+<Fragment chapterEnd="15" chapterStart="15" stihEnd="57" stihStart="47"/>
+</Book>
+<Book book="Ин." isOrdinary="false" text="Ин., 16 зач., V, 24-30." type="За упокой">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="30" stihStart="24"/>
+</Book>
+</Date>
+<Date date="2017-03-26">
+<Book book="Ин." isOrdinary="false" text="Ин., 63 зач., XX, 1-10." type="Утр.  Ев. 7е">
+<Fragment chapterEnd="20" chapterStart="20" stihEnd="10" stihStart="1"/>
+</Book>
+<Book book="Евр." isOrdinary="true" text="Евр., 314 зач., VI, 13-20." type="Лит.">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="20" stihStart="13"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк., 40 зач., IX, 17-31." type="Лит.">
+<Fragment chapterEnd="9" chapterStart="9" stihEnd="31" stihStart="17"/>
+</Book>
+<Book book="Еф." isOrdinary="false" text="Еф., 229 зач., V, 8-19." type="Прп.">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="19" stihStart="8"/>
+</Book>
+<Book book="Мф." isOrdinary="false" text="Мф., 10 зач., IV, 25 - V, 12." type="Прп.">
+<Fragment chapterEnd="5" chapterStart="4" stihEnd="12" stihStart="25"/>
+</Book>
+</Date>
+<Date date="2017-03-27">
+<Book book="Ис." isOrdinary="true" text="Ис. XXXVII, 33 - XXXVIII, 6." type="На 6м часе">
+<Fragment chapterEnd="38" chapterStart="37" stihEnd="6" stihStart="33"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. XIII, 12-18." type="На веч.">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="18" stihStart="12"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. XIV, 27 - XV, 4." type="На веч.">
+<Fragment chapterEnd="15" chapterStart="14" stihEnd="4" stihStart="27"/>
+</Book>
+</Date>
+<Date date="2017-03-28">
+<Book book="Ис." isOrdinary="true" text="Ис. XL, 18-31." type="На 6м часе">
+<Fragment chapterEnd="40" chapterStart="40" stihEnd="31" stihStart="18"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. XV, 1-15." type="На веч.">
+<Fragment chapterEnd="15" chapterStart="15" stihEnd="15" stihStart="1"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. XV, 7-19." type="На веч.">
+<Fragment chapterEnd="15" chapterStart="15" stihEnd="19" stihStart="7"/>
+</Book>
+</Date>
+<Date date="2017-03-29">
+<Book book="Ис." isOrdinary="true" text="Ис. XLI, 4-14." type="На 6м часе">
+<Fragment chapterEnd="41" chapterStart="41" stihEnd="14" stihStart="4"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. XVII, 1-9." type="На веч.">
+<Fragment chapterEnd="17" chapterStart="17" stihEnd="9" stihStart="1"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. XV, 20 - XVI, 9." type="На веч.">
+<Fragment chapterEnd="16" chapterStart="15" stihEnd="9" stihStart="20"/>
+</Book>
+</Date>
+<Date date="2017-03-30">
+<Book book="Ис." isOrdinary="true" text="Ис. XLII, 5-16." type="На 6м часе">
+<Fragment chapterEnd="42" chapterStart="42" stihEnd="16" stihStart="5"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. XVIII, 20-33." type="На веч.">
+<Fragment chapterEnd="18" chapterStart="18" stihEnd="33" stihStart="20"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. XVI, 17 - XVII, 17." type="На веч.">
+<Fragment chapterEnd="17" chapterStart="16" stihEnd="17" stihStart="17"/>
+</Book>
+</Date>
+<Date date="2017-03-31">
+<Book book="Ис." isOrdinary="true" text="Ис. XLV, 11-17." type="На 6м часе">
+<Fragment chapterEnd="45" chapterStart="45" stihEnd="17" stihStart="11"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. XXII, 1-18." type="На веч.">
+<Fragment chapterEnd="22" chapterStart="22" stihEnd="18" stihStart="1"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. XVII, 17 - XVIII, 5." type="На веч.">
+<Fragment chapterEnd="18" chapterStart="17" stihEnd="5" stihStart="17"/>
+</Book>
+</Date>
+<Date date="2017-04-01">
+<Book book="Евр." isOrdinary="true" text="Евр., 322 зач., IX, 24-28." type="">
+<Fragment chapterEnd="9" chapterStart="9" stihEnd="28" stihStart="24"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк., 35 зач., VIII, 27-31." type="">
+<Fragment chapterEnd="8" chapterStart="8" stihEnd="31" stihStart="27"/>
+</Book>
+<Book book="Евр." isOrdinary="false" text="Евр., 320 зач., IX, 1-7." type="Богородицы">
+<Fragment chapterEnd="9" chapterStart="9" stihEnd="7" stihStart="1"/>
+</Book>
+<Book book="Лк." isOrdinary="false" text="Лк., 54 зач., X, 38-42; XI, 27-28." type="Богородицы">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="42" stihStart="38"/>
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="28" stihStart="27"/>
+</Book>
+</Date>
+<Date date="2017-04-02">
+<Book book="Ин." isOrdinary="false" text="Ин., 64 зач., XX, 11-18." type="Утр.  Ев. 8е">
+<Fragment chapterEnd="20" chapterStart="20" stihEnd="18" stihStart="11"/>
+</Book>
+<Book book="Евр." isOrdinary="true" text="Евр., 321 зач. (от полу?), IX, 11-14." type="Лит.">
+<Fragment chapterEnd="9" chapterStart="9" stihEnd="14" stihStart="11"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк., 47 зач., X, 32-45." type="Лит.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="45" stihStart="32"/>
+</Book>
+<Book book="Гал." isOrdinary="false" text="Гал., 208 зач., III, 23-29." type="Прп.">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="29" stihStart="23"/>
+</Book>
+<Book book="Лк." isOrdinary="false" text="Лк., 33 зач., VII, 36-50." type="Прп.">
+<Fragment chapterEnd="7" chapterStart="7" stihEnd="50" stihStart="36"/>
+</Book>
+</Date>
+<Date date="2017-04-03">
+<Book book="Ис." isOrdinary="true" text="Ис. XLVIII, 17 - XLIX, 4." type="На 6м часе">
+<Fragment chapterEnd="49" chapterStart="48" stihEnd="4" stihStart="17"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. XXVII, 1-41." type="На веч.">
+<Fragment chapterEnd="27" chapterStart="27" stihEnd="41" stihStart="1"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. XIX, 16-25." type="На веч.">
+<Fragment chapterEnd="19" chapterStart="19" stihEnd="25" stihStart="16"/>
+</Book>
+</Date>
+<Date date="2017-04-04">
+<Book book="Ис." isOrdinary="true" text="Ис. XLIX, 6-10." type="На 6м часе">
+<Fragment chapterEnd="49" chapterStart="49" stihEnd="10" stihStart="6"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. XXXI, 3-16." type="На веч.">
+<Fragment chapterEnd="31" chapterStart="31" stihEnd="16" stihStart="3"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. XXI, 3-21." type="На веч.">
+<Fragment chapterEnd="21" chapterStart="21" stihEnd="21" stihStart="3"/>
+</Book>
+</Date>
+<Date date="2017-04-05">
+<Book book="Ис." isOrdinary="true" text="Ис. LVIII, 1-11." type="На 6м часе">
+<Fragment chapterEnd="58" chapterStart="58" stihEnd="11" stihStart="1"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. XLIII, 26-31; XLV, 1-16." type="На веч.">
+<Fragment chapterEnd="43" chapterStart="43" stihEnd="31" stihStart="26"/>
+<Fragment chapterEnd="45" chapterStart="45" stihEnd="16" stihStart="1"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. XXI, 23 - XXII, 4." type="На веч.">
+<Fragment chapterEnd="22" chapterStart="21" stihEnd="4" stihStart="23"/>
+</Book>
+</Date>
+<Date date="2017-04-06">
+<Book book="Ис." isOrdinary="true" text="Ис. LXV, 8-16." type="На 6м часе">
+<Fragment chapterEnd="65" chapterStart="65" stihEnd="16" stihStart="8"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. XLVI, 1-7." type="На веч.">
+<Fragment chapterEnd="46" chapterStart="46" stihEnd="7" stihStart="1"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. XXIII, 15 - XXIV, 5." type="На веч.">
+<Fragment chapterEnd="24" chapterStart="23" stihEnd="5" stihStart="15"/>
+</Book>
+<Book book="Быт." isOrdinary="false" text="Быт. XXVIII, 10-17." type="Благовещения">
+<Fragment chapterEnd="28" chapterStart="28" stihEnd="17" stihStart="10"/>
+</Book>
+<Book book="Иез." isOrdinary="false" text="Иез. XLIII, 27 - XLIV, 4." type="Благовещения">
+<Fragment chapterEnd="44" chapterStart="43" stihEnd="4" stihStart="27"/>
+</Book>
+<Book book="Притч." isOrdinary="false" text="Притч. IX, 1-11." type="Благовещения">
+<Fragment chapterEnd="9" chapterStart="9" stihEnd="11" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2017-04-07">
+<Book book="Лк." isOrdinary="false" text="Лк., 4 зач., I, 39-49, 56." type="Утр.">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="49" stihStart="39"/>
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="56" stihStart="56"/>
+</Book>
+<Book book="Ис." isOrdinary="false" text="Ис. LXVI, 10-24." type="На 6м часе">
+<Fragment chapterEnd="66" chapterStart="66" stihEnd="24" stihStart="10"/>
+</Book>
+<Book book="Быт." isOrdinary="false" text="Быт. XLIX, 33 - L, 26." type="На веч.">
+<Fragment chapterEnd="50" chapterStart="49" stihEnd="26" stihStart="33"/>
+</Book>
+<Book book="Притч." isOrdinary="false" text="Притч. XXXI, 8-32." type="На веч.">
+<Fragment chapterEnd="31" chapterStart="31" stihEnd="32" stihStart="8"/>
+</Book>
+<Book book="Исх." isOrdinary="false" text="Исх. III, 1-8." type="Благовещения">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="8" stihStart="1"/>
+</Book>
+<Book book="Притч." isOrdinary="false" text="Притч. VIII, 22-30." type="Благовещения">
+<Fragment chapterEnd="8" chapterStart="8" stihEnd="30" stihStart="22"/>
+</Book>
+<Book book="Евр." isOrdinary="true" text="Евр., 306 зач., II, 11-18." type="Лит.">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="18" stihStart="11"/>
+</Book>
+<Book book="Лк." isOrdinary="true" text="Лк., 3 зач., I, 24-38." type="Лит.">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="38" stihStart="24"/>
+</Book>
+</Date>
+<Date date="2017-04-08">
+<Book book="Евр." isOrdinary="true" text="Евр., 333 зач. (от полу?), XII, 28 - XIII, 8." type="">
+<Fragment chapterEnd="13" chapterStart="12" stihEnd="8" stihStart="28"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 39 зач., XI, 1-45." type="">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="45" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2017-04-09">
+<Book book="Мф." isOrdinary="false" text="Мф., 83 зач., XXI, 1-11, 15-17." type="Утр.">
+<Fragment chapterEnd="21" chapterStart="21" stihEnd="11" stihStart="1"/>
+<Fragment chapterEnd="21" chapterStart="21" stihEnd="17" stihStart="15"/>
+</Book>
+<Book book="Флп." isOrdinary="true" text="Флп., 247 зач., IV, 4-9." type="Лит.">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="9" stihStart="4"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 41 зач., XII, 1-18." type="Лит.">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="18" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2017-04-10">
+<Book book="Мф." isOrdinary="true" text="Мф., 84 зач., XXI, 18-43." type="Утр.">
+<Fragment chapterEnd="21" chapterStart="21" stihEnd="43" stihStart="18"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф., 98 зач., XXIV, 3-35." type="Лит.">
+<Fragment chapterEnd="24" chapterStart="24" stihEnd="35" stihStart="3"/>
+</Book>
+</Date>
+<Date date="2017-04-11">
+<Book book="Мф." isOrdinary="true" text="Мф., 90 зач., XXII, 15 - XXIII, 39." type="Утр.">
+<Fragment chapterEnd="23" chapterStart="22" stihEnd="39" stihStart="15"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф., 102 зач., XXIV, 36 - XXVI, 2." type="Лит.">
+<Fragment chapterEnd="26" chapterStart="24" stihEnd="2" stihStart="36"/>
+</Book>
+</Date>
+<Date date="2017-04-12">
+<Book book="Ин." isOrdinary="true" text="Ин., 41 зач. (от полу?), XII, 17-50." type="Утр.">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="50" stihStart="17"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф., 108 зач., XXVI, 6-16." type="Лит.">
+<Fragment chapterEnd="26" chapterStart="26" stihEnd="16" stihStart="6"/>
+</Book>
+</Date>
+<Date date="2017-04-13">
+<Book book="Лк." isOrdinary="false" text="Лк., 108 зач. (от полу?), XXII, 1-39." type="Утр.">
+<Fragment chapterEnd="22" chapterStart="22" stihEnd="39" stihStart="1"/>
+</Book>
+<Book book="1 Кор." isOrdinary="true" text="1 Кор., 149 зач., XI, 23-32." type="Лит.">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="32" stihStart="23"/>
+</Book>
+<Book book="Мф." isOrdinary="false" text="Мф., 107 зач., XXVI, 1-20." type="Ев. составное">
+<Fragment chapterEnd="26" chapterStart="26" stihEnd="20" stihStart="1"/>
+</Book>
+<Book book="Ин." isOrdinary="false" text="Ин., 44 зач., XIII, 3-17." type="Ев. составное">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="17" stihStart="3"/>
+</Book>
+<Book book="Мф." isOrdinary="false" text="Мф., 108 зач. (от полу?), XXVI, 21-39." type="Ев. составное">
+<Fragment chapterEnd="26" chapterStart="26" stihEnd="39" stihStart="21"/>
+</Book>
+<Book book="Лк." isOrdinary="false" text="Лк., 109 зач., XXII, 43-45." type="Ев. составное">
+<Fragment chapterEnd="22" chapterStart="22" stihEnd="45" stihStart="43"/>
+</Book>
+<Book book="Мф." isOrdinary="false" text="Мф., 108 зач., XXVI, 40 - XXVII, 2." type="Ев. составное">
+<Fragment chapterEnd="27" chapterStart="26" stihEnd="2" stihStart="40"/>
+</Book>
+<Book book="Ин." isOrdinary="false" text="Ин., 44 зач., XIII, 1-11." type="На умовении ног">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="11" stihStart="1"/>
+</Book>
+<Book book="Ин." isOrdinary="false" text="Ин., 45 зач., XIII, 12-17." type="По умовении ног">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="17" stihStart="12"/>
+</Book>
+</Date>
+<Date date="2017-04-14">
+<Book book="Ин." isOrdinary="false" text="Ин., 46 зач., XIII, 31 - XVIII, 1." type="Утр.  Евангелия Последования Святых Страстей Господа нашего Иисуса Христа 1е.">
+<Fragment chapterEnd="18" chapterStart="13" stihEnd="1" stihStart="31"/>
+</Book>
+<Book book="Ин." isOrdinary="false" text="Ин., 58 зач., XVIII, 1-28." type="2е.">
+<Fragment chapterEnd="18" chapterStart="18" stihEnd="28" stihStart="1"/>
+</Book>
+<Book book="Мф." isOrdinary="false" text="Мф., 109 зач., XXVI, 57-75." type="3е.">
+<Fragment chapterEnd="26" chapterStart="26" stihEnd="75" stihStart="57"/>
+</Book>
+<Book book="Ин." isOrdinary="false" text="Ин., 59 зач., XVIII, 28 - XIX, 16." type="4е.">
+<Fragment chapterEnd="19" chapterStart="18" stihEnd="16" stihStart="28"/>
+</Book>
+<Book book="Мф." isOrdinary="false" text="Мф., 111 зач., XXVII, 3-32." type="5е.">
+<Fragment chapterEnd="27" chapterStart="27" stihEnd="32" stihStart="3"/>
+</Book>
+<Book book="Мк." isOrdinary="false" text="Мк., 67 зач., XV, 16-32." type="6е.">
+<Fragment chapterEnd="15" chapterStart="15" stihEnd="32" stihStart="16"/>
+</Book>
+<Book book="Мф." isOrdinary="false" text="Мф., 113 зач., XXVII, 33-54." type="7е.">
+<Fragment chapterEnd="27" chapterStart="27" stihEnd="54" stihStart="33"/>
+</Book>
+<Book book="Лк." isOrdinary="false" text="Лк., 111 зач., XXIII, 32-49." type="8е.">
+<Fragment chapterEnd="23" chapterStart="23" stihEnd="49" stihStart="32"/>
+</Book>
+<Book book="Ин." isOrdinary="false" text="Ин., 61 зач., XIX, 25-37." type="9е.">
+<Fragment chapterEnd="19" chapterStart="19" stihEnd="37" stihStart="25"/>
+</Book>
+<Book book="Мк." isOrdinary="false" text="Мк., 69 зач., XV, 43-47." type="10е.">
+<Fragment chapterEnd="15" chapterStart="15" stihEnd="47" stihStart="43"/>
+</Book>
+<Book book="Ин." isOrdinary="false" text="Ин., 62 зач., XIX, 38-42." type="11е.">
+<Fragment chapterEnd="19" chapterStart="19" stihEnd="42" stihStart="38"/>
+</Book>
+<Book book="Мф." isOrdinary="false" text="Мф., 114 зач., XXVII, 62-66. На" type="12е.">
+<Fragment chapterEnd="27" chapterStart="27" stihEnd="66" stihStart="62"/>
+</Book>
+<Book book="Гал." isOrdinary="false" text="Гал., 215 зач. (от полу?), VI, 14-18." type="1м часе">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="18" stihStart="14"/>
+</Book>
+<Book book="Мф." isOrdinary="false" text="Мф., 110 зач., XXVII, 1-56." type="1м часе">
+<Fragment chapterEnd="27" chapterStart="27" stihEnd="56" stihStart="1"/>
+</Book>
+<Book book="Рим." isOrdinary="false" text="Рим., 88 зач. (от полу?), V, 6-11." type="На 3м часе">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="11" stihStart="6"/>
+</Book>
+<Book book="Мк." isOrdinary="false" text="Мк., 67 зач., XV, 16-41." type="На 3м часе">
+<Fragment chapterEnd="15" chapterStart="15" stihEnd="41" stihStart="16"/>
+</Book>
+<Book book="Евр." isOrdinary="true" text="Евр., 306 зач., II, 11-18." type="На 6м часе">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="18" stihStart="11"/>
+</Book>
+<Book book="Лк." isOrdinary="true" text="Лк., 111 зач., XXIII, 32-49." type="На 6м часе">
+<Fragment chapterEnd="23" chapterStart="23" stihEnd="49" stihStart="32"/>
+</Book>
+<Book book="Евр." isOrdinary="false" text="Евр., 324 зач., X, 19-31." type="На 9м часе">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="31" stihStart="19"/>
+</Book>
+<Book book="Ин." isOrdinary="false" text="Ин., 59 зач., XVIII, 28 - XIX, 37." type="На 9м часе">
+<Fragment chapterEnd="19" chapterStart="18" stihEnd="37" stihStart="28"/>
+</Book>
+<Book book="1 Кор." isOrdinary="true" text="1 Кор., 125 зач., I, 18 - II, 2." type="На веч.">
+<Fragment chapterEnd="2" chapterStart="1" stihEnd="2" stihStart="18"/>
+</Book>
+<Book book="Мф." isOrdinary="false" text="Мф., 110 зач., XXVII, 1-44;" type="Ев. составное">
+<Fragment chapterEnd="27" chapterStart="27" stihEnd="44" stihStart="1"/>
+</Book>
+<Book book="Лк." isOrdinary="false" text="Лк., XXIII, 39-43;" type="Ев. составное">
+<Fragment chapterEnd="23" chapterStart="23" stihEnd="43" stihStart="39"/>
+</Book>
+<Book book="Мф." isOrdinary="false" text="Мф., XXVII, 45-54;" type="Ев. составное">
+<Fragment chapterEnd="27" chapterStart="27" stihEnd="54" stihStart="45"/>
+</Book>
+<Book book="Ин." isOrdinary="false" text="Ин., XIX, 31-37;" type="Ев. составное">
+<Fragment chapterEnd="19" chapterStart="19" stihEnd="37" stihStart="31"/>
+</Book>
+<Book book="Мф." isOrdinary="false" text="Мф., XXVII, 55-61." type="Ев. составное">
+<Fragment chapterEnd="27" chapterStart="27" stihEnd="61" stihStart="55"/>
+</Book>
+</Date>
+<Date date="2017-04-15">
+<Book book="1 Кор." isOrdinary="false" text="1 Кор., 133 зач., V, 6-8;" type="Утр.">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="8" stihStart="6"/>
+</Book>
+<Book book="Гал." isOrdinary="false" text="Гал., 206 зач., III, 13-14." type="Утр.">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="14" stihStart="13"/>
+</Book>
+<Book book="Мф." isOrdinary="false" text="Мф., 114 зач., XXVII, 62-66." type="Утр.">
+<Fragment chapterEnd="27" chapterStart="27" stihEnd="66" stihStart="62"/>
+</Book>
+<Book book="Рим." isOrdinary="true" text="Рим., 91 зач., VI, 3-11." type="Лит.">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="11" stihStart="3"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф., 115 зач., XXVIII, 1-20." type="Лит.">
+<Fragment chapterEnd="28" chapterStart="28" stihEnd="20" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2017-04-16">
+<Book book="Деян." isOrdinary="true" text="Деян., 1 зач., I, 1-8." type="Лит.">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="8" stihStart="1"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 1 зач., I, 1-17." type="Лит.">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="17" stihStart="1"/>
+</Book>
+<Book book="Ин." isOrdinary="false" text="Ин., 65 зач., XX, 19-25." type="На веч.">
+<Fragment chapterEnd="20" chapterStart="20" stihEnd="25" stihStart="19"/>
+</Book>
+</Date>
+<Date date="2017-04-17">
+<Book book="Деян." isOrdinary="true" text="Деян., 2 зач., I, 12-17, 21-26." type="">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="17" stihStart="12"/>
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="26" stihStart="21"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 2 зач., I, 18-28." type="">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="28" stihStart="18"/>
+</Book>
+</Date>
+<Date date="2017-04-18">
+<Book book="Деян." isOrdinary="true" text="Деян., 4 зач., II, 14-21." type="">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="21" stihStart="14"/>
+</Book>
+<Book book="Лк." isOrdinary="true" text="Лк., 113 зач., XXIV, 12-35." type="">
+<Fragment chapterEnd="24" chapterStart="24" stihEnd="35" stihStart="12"/>
+</Book>
+</Date>
+<Date date="2017-04-19">
+<Book book="Деян." isOrdinary="true" text="Деян., 5 зач., II, 22-36." type="">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="36" stihStart="22"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 4 зач., I, 35-51." type="">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="51" stihStart="35"/>
+</Book>
+</Date>
+<Date date="2017-04-20">
+<Book book="Деян." isOrdinary="true" text="Деян., 6 зач., II, 38-43." type="">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="43" stihStart="38"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 8 зач., III, 1-15." type="">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="15" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2017-04-21">
+<Book book="Деян." isOrdinary="true" text="Деян., 7 зач., III, 1-8." type="">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="8" stihStart="1"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 7 зач., II, 12-22." type="">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="22" stihStart="12"/>
+</Book>
+<Book book="Флп." isOrdinary="false" text="Флп., 240 зач., II, 5-11." type="Богородицы">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="11" stihStart="5"/>
+</Book>
+<Book book="Лк." isOrdinary="false" text="Лк., 54 зач., X, 38-42; XI, 27-28." type="Богородицы">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="42" stihStart="38"/>
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="28" stihStart="27"/>
+</Book>
+</Date>
+<Date date="2017-04-22">
+<Book book="Деян." isOrdinary="true" text="Деян., 8 зач., III, 11-16." type="">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="16" stihStart="11"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 11 зач., III, 22-33." type="">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="33" stihStart="22"/>
+</Book>
+</Date>
+<Date date="2017-04-23">
+<Book book="Мф." isOrdinary="false" text="Мф., 116 зач., XXVIII, 16-20." type="Утр.  Ев. 1е">
+<Fragment chapterEnd="28" chapterStart="28" stihEnd="20" stihStart="16"/>
+</Book>
+<Book book="Деян." isOrdinary="true" text="Деян., 14 зач., V, 12-20." type="Лит.">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="20" stihStart="12"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 65 зач., XX, 19-31." type="Лит.">
+<Fragment chapterEnd="20" chapterStart="20" stihEnd="31" stihStart="19"/>
+</Book>
+</Date>
+<Date date="2017-04-24">
+<Book book="Деян." isOrdinary="true" text="Деян., 9 зач., III, 19-26." type="">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="26" stihStart="19"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 6 зач., II, 1-11." type="">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="11" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2017-04-25">
+<Book book="Деян." isOrdinary="true" text="Деян., 10 зач., IV, 1-10." type="">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="10" stihStart="1"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 10 зач., III, 16-21." type="">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="21" stihStart="16"/>
+</Book>
+</Date>
+<Date date="2017-04-26">
+<Book book="Деян." isOrdinary="true" text="Деян., 11 зач., IV, 13-22." type="">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="22" stihStart="13"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 15 зач., V, 17-24." type="">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="24" stihStart="17"/>
+</Book>
+</Date>
+<Date date="2017-04-27">
+<Book book="Деян." isOrdinary="true" text="Деян., 12 зач., IV, 23-31." type="">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="31" stihStart="23"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 16 зач., V, 24-30." type="">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="30" stihStart="24"/>
+</Book>
+</Date>
+<Date date="2017-04-28">
+<Book book="Деян." isOrdinary="true" text="Деян., 13 зач., V, 1-11." type="">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="11" stihStart="1"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 17 зач., V, 30 - VI, 2." type="">
+<Fragment chapterEnd="6" chapterStart="5" stihEnd="2" stihStart="30"/>
+</Book>
+</Date>
+<Date date="2017-04-29">
+<Book book="Деян." isOrdinary="true" text="Деян., 15 зач., V, 21-33." type="">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="33" stihStart="21"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 19 зач., VI, 14-27." type="">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="27" stihStart="14"/>
+</Book>
+</Date>
+<Date date="2017-04-30">
+<Book book="Мк." isOrdinary="false" text="Мк., 71 зач., XVI, 9-20." type="Утр.  Ев. 3е">
+<Fragment chapterEnd="16" chapterStart="16" stihEnd="20" stihStart="9"/>
+</Book>
+<Book book="Деян." isOrdinary="true" text="Деян., 16 зач., VI, 1-7." type="Лит.">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="7" stihStart="1"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк., 69 зач., XV, 43 - XVI, 8." type="Лит.">
+<Fragment chapterEnd="16" chapterStart="15" stihEnd="8" stihStart="43"/>
+</Book>
+</Date>
+<Date date="2017-05-01">
+<Book book="Деян." isOrdinary="true" text="Деян., 17 зач., VI, 8 - VII, 5, 47-60." type="">
+<Fragment chapterEnd="7" chapterStart="6" stihEnd="5" stihStart="8"/>
+<Fragment chapterEnd="7" chapterStart="7" stihEnd="60" stihStart="47"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 13 зач., IV, 46-54." type="">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="54" stihStart="46"/>
+</Book>
+</Date>
+<Date date="2017-05-02">
+<Book book="Мф." isOrdinary="false" text="Мф., 104 зач., XXV, 1-13." type="Утр.">
+<Fragment chapterEnd="25" chapterStart="25" stihEnd="13" stihStart="1"/>
+</Book>
+<Book book="Деян." isOrdinary="true" text="Деян., 18 зач., VIII, 5-17." type="Лит.">
+<Fragment chapterEnd="8" chapterStart="8" stihEnd="17" stihStart="5"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 20 зач., VI, 27-33." type="Лит.">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="33" stihStart="27"/>
+</Book>
+<Book book="Гал." isOrdinary="false" text="Гал., 208 зач., III, 23-29." type="Блж.">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="29" stihStart="23"/>
+</Book>
+<Book book="Лк." isOrdinary="false" text="Лк., 33 зач., VII, 36-50." type="Блж.">
+<Fragment chapterEnd="7" chapterStart="7" stihEnd="50" stihStart="36"/>
+</Book>
+</Date>
+<Date date="2017-05-03">
+<Book book="Деян." isOrdinary="true" text="Деян., 19 зач., VIII, 18-25." type="">
+<Fragment chapterEnd="8" chapterStart="8" stihEnd="25" stihStart="18"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 21 зач., VI, 35-39." type="">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="39" stihStart="35"/>
+</Book>
+</Date>
+<Date date="2017-05-04">
+<Book book="Деян." isOrdinary="true" text="Деян., 20 зач., VIII, 26-39." type="">
+<Fragment chapterEnd="8" chapterStart="8" stihEnd="39" stihStart="26"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 22 зач., VI, 40-44." type="">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="44" stihStart="40"/>
+</Book>
+</Date>
+<Date date="2017-05-05">
+<Book book="Деян." isOrdinary="true" text="Деян., 21 зач., VIII, 40 - IX, 19." type="">
+<Fragment chapterEnd="9" chapterStart="8" stihEnd="19" stihStart="40"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 23 зач., VI, 48-54." type="">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="54" stihStart="48"/>
+</Book>
+</Date>
+<Date date="2017-05-06">
+<Book book="Лк." isOrdinary="false" text="Лк., 63 зач., XII, 2-12." type="Утр.">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="12" stihStart="2"/>
+</Book>
+<Book book="Деян." isOrdinary="true" text="Деян., 22 зач., IX, 19-31." type="Лит.">
+<Fragment chapterEnd="9" chapterStart="9" stihEnd="31" stihStart="19"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 52 зач., XV, 17 - XVI, 2." type="Лит.">
+<Fragment chapterEnd="16" chapterStart="15" stihEnd="2" stihStart="17"/>
+</Book>
+<Book book="Деян." isOrdinary="false" text="Деян., 29 зач., XII, 1-11." type="Вмч.">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="11" stihStart="1"/>
+</Book>
+<Book book="Ин." isOrdinary="false" text="Ин., 52 зач., XV, 17 - XVI, 2." type="Вмч.">
+<Fragment chapterEnd="16" chapterStart="15" stihEnd="2" stihStart="17"/>
+</Book>
+</Date>
+<Date date="2017-05-07">
+<Book book="Лк." isOrdinary="false" text="Лк., 112 зач., XXIV, 1-12." type="Утр.  Ев. 4е">
+<Fragment chapterEnd="24" chapterStart="24" stihEnd="12" stihStart="1"/>
+</Book>
+<Book book="Деян." isOrdinary="true" text="Деян., 23 зач., IX, 32-42." type="Лит.">
+<Fragment chapterEnd="9" chapterStart="9" stihEnd="42" stihStart="32"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 14 зач., V, 1-15." type="Лит.">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="15" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2017-05-08">
+<Book book="Лк." isOrdinary="false" text="Лк., 50 зач., X, 1-15." type="Утр.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="15" stihStart="1"/>
+</Book>
+<Book book="Деян." isOrdinary="true" text="Деян., 24 зач., X, 1-16." type="Лит.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="16" stihStart="1"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 24 зач., VI, 56-69." type="Лит.">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="69" stihStart="56"/>
+</Book>
+<Book book="1 Пет." isOrdinary="false" text="1 Пет., 63 зач., V, 6-14." type="Ап.">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="14" stihStart="6"/>
+</Book>
+<Book book="Мк." isOrdinary="false" text="Мк., 23 зач., VI, 7-13." type="Ап.">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="13" stihStart="7"/>
+</Book>
+</Date>
+<Date date="2017-05-09">
+<Book book="Деян." isOrdinary="true" text="Деян., 25 зач., X, 21-33." type="">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="33" stihStart="21"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 25 зач., VII, 1-13." type="">
+<Fragment chapterEnd="7" chapterStart="7" stihEnd="13" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2017-05-10">
+<Book book="Деян." isOrdinary="true" text="Деян., 34 зач., XIV, 6-18." type="">
+<Fragment chapterEnd="14" chapterStart="14" stihEnd="18" stihStart="6"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 26 зач., VII, 14-30." type="">
+<Fragment chapterEnd="7" chapterStart="7" stihEnd="30" stihStart="14"/>
+</Book>
+</Date>
+<Date date="2017-05-11">
+<Book book="Деян." isOrdinary="true" text="Деян., 26 зач., X, 34-43." type="">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="43" stihStart="34"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 29 зач., VIII, 12-20." type="">
+<Fragment chapterEnd="8" chapterStart="8" stihEnd="20" stihStart="12"/>
+</Book>
+</Date>
+<Date date="2017-05-12">
+<Book book="Деян." isOrdinary="true" text="Деян., 27 зач., X, 44 - XI, 10." type="">
+<Fragment chapterEnd="11" chapterStart="10" stihEnd="10" stihStart="44"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 30 зач., VIII, 21-30." type="">
+<Fragment chapterEnd="8" chapterStart="8" stihEnd="30" stihStart="21"/>
+</Book>
+</Date>
+<Date date="2017-05-13">
+<Book book="Ин." isOrdinary="false" text="Ин., 67 зач., XXI, 15-25" type="Утр.">
+<Fragment chapterEnd="21" chapterStart="21" stihEnd="25" stihStart="15"/>
+</Book>
+<Book book="Деян." isOrdinary="true" text="Деян., 29 зач., XII, 1-11." type="Лит.">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="11" stihStart="1"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 31 зач., VIII, 31-42." type="Лит.">
+<Fragment chapterEnd="8" chapterStart="8" stihEnd="42" stihStart="31"/>
+</Book>
+<Book book="Деян." isOrdinary="false" text="Деян., 29 зач., XII, 1-11." type="Ап.">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="11" stihStart="1"/>
+</Book>
+<Book book="Лк." isOrdinary="false" text="Лк., 17 зач., V, 1-11." type="Ап.">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="11" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2017-05-14">
+<Book book="Ин." isOrdinary="false" text="Ин., 63 зач., XX, 1-10." type="Утр.  Ев. 7е">
+<Fragment chapterEnd="20" chapterStart="20" stihEnd="10" stihStart="1"/>
+</Book>
+<Book book="Деян." isOrdinary="true" text="Деян., 28 зач., XI, 19-26, 29-30." type="Лит.">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="26" stihStart="19"/>
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="30" stihStart="29"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 12 зач., IV, 5-42." type="Лит.">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="42" stihStart="5"/>
+</Book>
+</Date>
+<Date date="2017-05-15">
+<Book book="Лк." isOrdinary="false" text="Лк., 106 зач., XXI, 12-19" type="Утр.">
+<Fragment chapterEnd="21" chapterStart="21" stihEnd="19" stihStart="12"/>
+</Book>
+<Book book="Деян." isOrdinary="true" text="Деян., 30 зач., XII, 12-17." type="Лит.">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="17" stihStart="12"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 32 зач., VIII, 42-51." type="Лит.">
+<Fragment chapterEnd="8" chapterStart="8" stihEnd="51" stihStart="42"/>
+</Book>
+<Book book="Евр." isOrdinary="false" text="Евр., 318 зач., VII, 26 - VIII, 2." type="Свт.">
+<Fragment chapterEnd="8" chapterStart="7" stihEnd="2" stihStart="26"/>
+</Book>
+<Book book="Мф." isOrdinary="false" text="Мф., 11 зач., V, 14-19," type="Свт.">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="19" stihStart="14"/>
+</Book>
+<Book book="Рим." isOrdinary="false" text="Рим., 99 зач., VIII, 28-39." type="блгвв. кнн.">
+<Fragment chapterEnd="8" chapterStart="8" stihEnd="39" stihStart="28"/>
+</Book>
+<Book book="Ин." isOrdinary="false" text="Ин., 52 зач., XV, 17 - XVI, 2." type="блгвв. кнн.">
+<Fragment chapterEnd="16" chapterStart="15" stihEnd="2" stihStart="17"/>
+</Book>
+</Date>
+<Date date="2017-05-16">
+<Book book="Лк." isOrdinary="false" text="Лк., 24 зач., VI, 17-23" type="Утр.">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="23" stihStart="17"/>
+</Book>
+<Book book="Деян." isOrdinary="true" text="Деян., 31 зач., XII, 25 - XIII, 12." type="Лит.">
+<Fragment chapterEnd="13" chapterStart="12" stihEnd="12" stihStart="25"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 33 зач., VIII, 51-59." type="Лит.">
+<Fragment chapterEnd="8" chapterStart="8" stihEnd="59" stihStart="51"/>
+</Book>
+<Book book="Евр." isOrdinary="false" text="Евр., 334 зач., XIII, 7-16." type="Прп.">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="16" stihStart="7"/>
+</Book>
+<Book book="Мф." isOrdinary="false" text="Мф., 43 зач., XI, 27-30." type="Прп.">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="30" stihStart="27"/>
+</Book>
+</Date>
+<Date date="2017-05-17">
+<Book book="Деян." isOrdinary="true" text="Деян., 32 зач., XIII, 13-24." type="">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="24" stihStart="13"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 18 зач., VI, 5-14." type="">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="14" stihStart="5"/>
+</Book>
+</Date>
+<Date date="2017-05-18">
+<Book book="Деян." isOrdinary="true" text="Деян., 35 зач., XIV, 20-27." type="">
+<Fragment chapterEnd="14" chapterStart="14" stihEnd="27" stihStart="20"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 35 зач., IX, 39 - X, 9." type="">
+<Fragment chapterEnd="10" chapterStart="9" stihEnd="9" stihStart="39"/>
+</Book>
+</Date>
+<Date date="2017-05-19">
+<Book book="Деян." isOrdinary="true" text="Деян., 36 зач., XV, 5-34." type="">
+<Fragment chapterEnd="15" chapterStart="15" stihEnd="34" stihStart="5"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 37 зач., X, 17-28." type="">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="28" stihStart="17"/>
+</Book>
+<Book book="Гал." isOrdinary="false" text="Гал., 213 зач., V, 22 - VI, 2." type="Прав.">
+<Fragment chapterEnd="6" chapterStart="5" stihEnd="2" stihStart="22"/>
+</Book>
+<Book book="Мф." isOrdinary="false" text="Мф., 43 зач., XI, 27-30." type="Прав.">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="30" stihStart="27"/>
+</Book>
+</Date>
+<Date date="2017-05-20">
+<Book book="Деян." isOrdinary="true" text="Деян., 37 зач., XV, 35-41." type="">
+<Fragment chapterEnd="15" chapterStart="15" stihEnd="41" stihStart="35"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 38 зач., X, 27-38." type="">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="38" stihStart="27"/>
+</Book>
+<Book book="1 Кор." isOrdinary="false" text="1 Кор., 125 зач., I, 18 - II, 2." type="Креста">
+<Fragment chapterEnd="2" chapterStart="1" stihEnd="2" stihStart="18"/>
+</Book>
+<Book book="Ин." isOrdinary="false" text="Ин., 60 зач., XIX, 6-11, 13-20, 25-28, 30-35" type="Креста">
+<Fragment chapterEnd="19" chapterStart="19" stihEnd="11" stihStart="6"/>
+<Fragment chapterEnd="19" chapterStart="19" stihEnd="20" stihStart="13"/>
+<Fragment chapterEnd="19" chapterStart="19" stihEnd="28" stihStart="25"/>
+<Fragment chapterEnd="19" chapterStart="19" stihEnd="35" stihStart="30"/>
+</Book>
+</Date>
+<Date date="2017-05-21">
+<Book book="Ин." isOrdinary="false" text="Ин., 64 зач., XX, 11-18." type="Утр.  Ев. 8е">
+<Fragment chapterEnd="20" chapterStart="20" stihEnd="18" stihStart="11"/>
+</Book>
+<Book book="Деян." isOrdinary="true" text="Деян., 38 зач., XVI, 16-34." type="Лит.">
+<Fragment chapterEnd="16" chapterStart="16" stihEnd="34" stihStart="16"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 34 зач., IX, 1-38." type="Лит.">
+<Fragment chapterEnd="9" chapterStart="9" stihEnd="38" stihStart="1"/>
+</Book>
+<Book book="1 Ин." isOrdinary="false" text="1 Ин., 68 зач., I, 1-7." type="Ап.">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="7" stihStart="1"/>
+</Book>
+<Book book="Ин." isOrdinary="false" text="Ин., 61 зач., XIX, 25-27; XXI, 24-25." type="Ап.">
+<Fragment chapterEnd="19" chapterStart="19" stihEnd="27" stihStart="25"/>
+<Fragment chapterEnd="21" chapterStart="21" stihEnd="25" stihStart="24"/>
+</Book>
+</Date>
+<Date date="2017-05-22">
+<Book book="Ин." isOrdinary="false" text="Ин., 35 зач. (от полу?), X, 1-9." type="Утр.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="9" stihStart="1"/>
+</Book>
+<Book book="Деян." isOrdinary="true" text="Деян., 39 зач., XVII, 1-15." type="Лит.">
+<Fragment chapterEnd="17" chapterStart="17" stihEnd="15" stihStart="1"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 40 зач., XI, 47-57." type="Лит.">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="57" stihStart="47"/>
+</Book>
+<Book book="Евр." isOrdinary="false" text="Евр., 335 зач., XIII, 17-21." type="Свт.">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="21" stihStart="17"/>
+</Book>
+<Book book="Лк." isOrdinary="false" text="Лк., 24 зач., VI, 17-23." type="Свт.">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="23" stihStart="17"/>
+</Book>
+</Date>
+<Date date="2017-05-23">
+<Book book="Ин." isOrdinary="false" text="Ин., 67 зач., XXI, 15-25." type="Утр.">
+<Fragment chapterEnd="21" chapterStart="21" stihEnd="25" stihStart="15"/>
+</Book>
+<Book book="Деян." isOrdinary="true" text="Деян., 40 зач. (от полу?), XVII, 19-28." type="Лит.">
+<Fragment chapterEnd="17" chapterStart="17" stihEnd="28" stihStart="19"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 42 зач., XII, 19-36." type="Лит.">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="36" stihStart="19"/>
+</Book>
+<Book book="1 Кор." isOrdinary="false" text="1 Кор., 131 зач., IV, 9-16." type="Ап.">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="16" stihStart="9"/>
+</Book>
+<Book book="Мф." isOrdinary="false" text="Мф., 56 зач., XIII, 54-58." type="Ап.">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="58" stihStart="54"/>
+</Book>
+</Date>
+<Date date="2017-05-24">
+<Book book="Ин." isOrdinary="false" text="Ин., 36 зач., X, 9-16." type="Утр.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="16" stihStart="9"/>
+</Book>
+<Book book="Деян." isOrdinary="true" text="Деян., 41 зач., XVIII, 22-28." type="Лит.">
+<Fragment chapterEnd="18" chapterStart="18" stihEnd="28" stihStart="22"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 43 зач., XII, 36-47." type="Лит.">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="47" stihStart="36"/>
+</Book>
+<Book book="Евр." isOrdinary="false" text="Евр., 318 зач., VII, 26 - VIII, 2." type="Равноапп.">
+<Fragment chapterEnd="8" chapterStart="7" stihEnd="2" stihStart="26"/>
+</Book>
+<Book book="Мф." isOrdinary="false" text="Мф., 11 зач., V, 14-19." type="Равноапп.">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="19" stihStart="14"/>
+</Book>
+</Date>
+<Date date="2017-05-25">
+<Book book="Мк." isOrdinary="false" text="Мк., 71 зач., XVI, 9-20." type="Утр.">
+<Fragment chapterEnd="16" chapterStart="16" stihEnd="20" stihStart="9"/>
+</Book>
+<Book book="Деян." isOrdinary="true" text="Деян., 1 зач., I, 1-12." type="Лит.">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="12" stihStart="1"/>
+</Book>
+<Book book="Лк." isOrdinary="true" text="Лк., 114 зач., XXIV, 36-53" type="Лит.">
+<Fragment chapterEnd="24" chapterStart="24" stihEnd="53" stihStart="36"/>
+</Book>
+</Date>
+<Date date="2017-05-26">
+<Book book="Деян." isOrdinary="true" text="Деян., 42 зач., XIX, 1-8." type="">
+<Fragment chapterEnd="19" chapterStart="19" stihEnd="8" stihStart="1"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 47 зач., XIV, 1-11." type="">
+<Fragment chapterEnd="14" chapterStart="14" stihEnd="11" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2017-05-27">
+<Book book="Деян." isOrdinary="true" text="Деян., 43 зач., XX, 7-12." type="">
+<Fragment chapterEnd="20" chapterStart="20" stihEnd="12" stihStart="7"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 48 зач., XIV, 10-21." type="">
+<Fragment chapterEnd="14" chapterStart="14" stihEnd="21" stihStart="10"/>
+</Book>
+</Date>
+<Date date="2017-05-28">
+<Book book="Ин." isOrdinary="false" text="Ин., 66 зач., XXI, 1-14." type="Утр.  Ев. 10е">
+<Fragment chapterEnd="21" chapterStart="21" stihEnd="14" stihStart="1"/>
+</Book>
+<Book book="Деян." isOrdinary="true" text="Деян., 44 зач., XX, 16-18, 28-36." type="Лит.">
+<Fragment chapterEnd="20" chapterStart="20" stihEnd="18" stihStart="16"/>
+<Fragment chapterEnd="20" chapterStart="20" stihEnd="36" stihStart="28"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 56 зач., XVII, 1-13" type="Лит.">
+<Fragment chapterEnd="17" chapterStart="17" stihEnd="13" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2017-05-29">
+<Book book="Деян." isOrdinary="true" text="Деян., 45 зач., XXI, 8-14." type="">
+<Fragment chapterEnd="21" chapterStart="21" stihEnd="14" stihStart="8"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 49 зач., XIV, 27 - XV, 7." type="">
+<Fragment chapterEnd="15" chapterStart="14" stihEnd="7" stihStart="27"/>
+</Book>
+</Date>
+<Date date="2017-05-30">
+<Book book="Деян." isOrdinary="true" text="Деян., 46 зач., XXI, 26-32." type="">
+<Fragment chapterEnd="21" chapterStart="21" stihEnd="32" stihStart="26"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 53 зач., XVI, 2-13" type="">
+<Fragment chapterEnd="16" chapterStart="16" stihEnd="13" stihStart="2"/>
+</Book>
+</Date>
+<Date date="2017-05-31">
+<Book book="Деян." isOrdinary="true" text="Деян., 47 зач., XXIII, 1-11." type="">
+<Fragment chapterEnd="23" chapterStart="23" stihEnd="11" stihStart="1"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 54 зач., XVI, 15-23." type="">
+<Fragment chapterEnd="16" chapterStart="16" stihEnd="23" stihStart="15"/>
+</Book>
+</Date>
+<Date date="2017-06-01">
+<Book book="Лк." isOrdinary="false" text="Лк., 4 зач., I, 39-49, 56." type="Утр.">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="49" stihStart="39"/>
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="56" stihStart="56"/>
+</Book>
+<Book book="Деян." isOrdinary="true" text="Деян., 48 зач., XXV, 13-19." type="Лит.">
+<Fragment chapterEnd="25" chapterStart="25" stihEnd="19" stihStart="13"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 55 зач., XVI, 23-33." type="Лит.">
+<Fragment chapterEnd="16" chapterStart="16" stihEnd="33" stihStart="23"/>
+</Book>
+<Book book="Гал." isOrdinary="false" text="Гал., 213 зач., V, 22 - VI, 2." type="Блгв. кн. (под зачало)">
+<Fragment chapterEnd="6" chapterStart="5" stihEnd="2" stihStart="22"/>
+</Book>
+<Book book="Лк." isOrdinary="false" text="Лк., 24 зач., VI, 17-23" type="Блгв. кн. (под зачало)">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="23" stihStart="17"/>
+</Book>
+<Book book="Флп." isOrdinary="false" text="Флп., 240 зач., II, 5-11." type="Богородицы">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="11" stihStart="5"/>
+</Book>
+<Book book="Лк." isOrdinary="false" text="Лк., 54 зач., X, 38-42; XI, 27-28." type="Богородицы">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="42" stihStart="38"/>
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="28" stihStart="27"/>
+</Book>
+</Date>
+<Date date="2017-06-02">
+<Book book="Ин." isOrdinary="false" text="Ин., 35 зач. (от полу?), X, 1-9." type="Утр.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="9" stihStart="1"/>
+</Book>
+<Book book="Деян." isOrdinary="true" text="Деян., 50 зач., XXVII, 1-44." type="Лит.">
+<Fragment chapterEnd="27" chapterStart="27" stihEnd="44" stihStart="1"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 57 зач., XVII, 18-26." type="Лит.">
+<Fragment chapterEnd="17" chapterStart="17" stihEnd="26" stihStart="18"/>
+</Book>
+<Book book="Евр." isOrdinary="false" text="Евр., 335 зач., XIII, 17-21." type="Свт.">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="21" stihStart="17"/>
+</Book>
+<Book book="Лк." isOrdinary="false" text="Лк., 24 зач., VI, 17-23." type="Свт.">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="23" stihStart="17"/>
+</Book>
+</Date>
+<Date date="2017-06-03">
+<Book book="Деян." isOrdinary="true" text="Деян., 51 зач., XXVIII, 1-31." type="">
+<Fragment chapterEnd="28" chapterStart="28" stihEnd="31" stihStart="1"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 67 зач., XXI, 15-25." type="">
+<Fragment chapterEnd="21" chapterStart="21" stihEnd="25" stihStart="15"/>
+</Book>
+<Book book="1 Кор." isOrdinary="false" text="1 Кор., 163 зач., XV, 47-57." type="За упокой">
+<Fragment chapterEnd="15" chapterStart="15" stihEnd="57" stihStart="47"/>
+</Book>
+<Book book="Ин." isOrdinary="false" text="Ин., 21 зач., VI, 35-39" type="За упокой">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="39" stihStart="35"/>
+</Book>
+</Date>
+<Date date="2017-06-04">
+<Book book="Ин." isOrdinary="false" text="Ин., 65 зач., XX, 19-23." type="Утр.">
+<Fragment chapterEnd="20" chapterStart="20" stihEnd="23" stihStart="19"/>
+</Book>
+<Book book="Деян." isOrdinary="true" text="Деян., 3 зач., II, 1-11." type="Лит.">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="11" stihStart="1"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин., 27 зач., VII, 37-52; VIII, 12." type="Лит.">
+<Fragment chapterEnd="7" chapterStart="7" stihEnd="52" stihStart="37"/>
+<Fragment chapterEnd="8" chapterStart="8" stihEnd="12" stihStart="12"/>
+</Book>
+</Date>
+<Date date="2017-06-05">
+<Book book="Еф." isOrdinary="true" text="Еф., 229 зач., V, 8-19." type="">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="19" stihStart="8"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф., 75 зач., XVIII, 10-20." type="">
+<Fragment chapterEnd="18" chapterStart="18" stihEnd="20" stihStart="10"/>
+</Book>
+</Date>
+<Date date="2017-06-06">
+<Book book="Рим." isOrdinary="true" text="Рим., 79 зач., I, 1-7, 13-17." type="">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="7" stihStart="1"/>
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="17" stihStart="13"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф., 10 зач., IV, 25 - V, 13." type="">
+<Fragment chapterEnd="5" chapterStart="4" stihEnd="13" stihStart="25"/>
+</Book>
+<Book book="Кол." isOrdinary="false" text="Кол., 258 зач., III, 12-16." type="Прп.">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="16" stihStart="12"/>
+</Book>
+<Book book="Мф." isOrdinary="false" text="Мф., 43 зач., XI, 27-30" type="Прп.">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="30" stihStart="27"/>
+</Book>
+</Date>
+<Date date="2017-06-07">
+<Book book="Лк." isOrdinary="false" text="Лк., 31 зач., VII, 17-30." type="Утр.">
+<Fragment chapterEnd="7" chapterStart="7" stihEnd="30" stihStart="17"/>
+</Book>
+<Book book="Рим." isOrdinary="true" text="Рим., 80 зач., I, 18-27." type="Лит.">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="27" stihStart="18"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф., 12 зач., V, 20-26." type="Лит.">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="26" stihStart="20"/>
+</Book>
+<Book book="2 Кор." isOrdinary="false" text="2 Кор., 176 зач., IV, 6-15." type="Предтечи">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="15" stihStart="6"/>
+</Book>
+<Book book="Мф." isOrdinary="false" text="Мф., 40 зач., XI, 2-15." type="Предтечи">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="15" stihStart="2"/>
+</Book>
+</Date>
+<Date date="2017-06-08">
+<Book book="Рим." isOrdinary="true" text="Рим., 81 зач., I, 28 - II, 9." type="">
+<Fragment chapterEnd="2" chapterStart="1" stihEnd="9" stihStart="28"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф., 13 зач., V, 27-32." type="">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="32" stihStart="27"/>
+</Book>
+</Date>
+<Date date="2017-06-09">
+<Book book="Мф." isOrdinary="false" text="Мф., 43 зач., XI, 27-30" type="Утр.">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="30" stihStart="27"/>
+</Book>
+<Book book="Рим." isOrdinary="true" text="Рим., 82 зач., II, 14-29." type="Лит.">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="29" stihStart="14"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф., 14 зач., V, 33-41." type="Лит.">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="41" stihStart="33"/>
+</Book>
+<Book book="Еф." isOrdinary="false" text="Еф., 233 зач., VI, 10-17." type="Прав. Иоанна Русского">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="17" stihStart="10"/>
+</Book>
+<Book book="Лк." isOrdinary="false" text="Лк., 64 зач., XII, 8-12." type="Прав. Иоанна Русского">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="12" stihStart="8"/>
+</Book>
+</Date>
+<Date date="2017-06-10">
+<Book book="Рим." isOrdinary="true" text="Рим., 79 зач. (от полу?), I, 7-12." type="">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="12" stihStart="7"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф., 15 зач., V, 42-48." type="">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="48" stihStart="42"/>
+</Book>
+</Date>
+<Date date="2017-06-11">
+<Book book="Мф." isOrdinary="false" text="Мф., 116 зач., XXVIII, 16-20." type="Утр.  Ев. 1е">
+<Fragment chapterEnd="28" chapterStart="28" stihEnd="20" stihStart="16"/>
+</Book>
+<Book book="Евр." isOrdinary="true" text="Евр., 330 зач., XI, 33 - XII, 2." type="Лит.">
+<Fragment chapterEnd="12" chapterStart="11" stihEnd="2" stihStart="33"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф., 38 зач., X, 32-33, 37-38; XIX, 27-30." type="Лит.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="33" stihStart="32"/>
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="38" stihStart="37"/>
+<Fragment chapterEnd="19" chapterStart="19" stihEnd="30" stihStart="27"/>
+</Book>
+</Date>
+<Date date="2017-06-12">
+<Book book="Рим." isOrdinary="true" text="Рим., 83 зач., II, 28 - III, 18." type="">
+<Fragment chapterEnd="3" chapterStart="2" stihEnd="18" stihStart="28"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф., 19 зач., VI, 31-34; VII, 9-11." type="">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="34" stihStart="31"/>
+<Fragment chapterEnd="7" chapterStart="7" stihEnd="11" stihStart="9"/>
+</Book>
+</Date>
+<Date date="2017-06-13">
+<Book book="Рим." isOrdinary="true" text="Рим., 86 зач., IV, 4-12." type="">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="12" stihStart="4"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф., 22 зач., VII, 15-21." type="">
+<Fragment chapterEnd="7" chapterStart="7" stihEnd="21" stihStart="15"/>
+</Book>
+</Date>
+<Date date="2017-06-14">
+<Book book="Мф." isOrdinary="false" text="Мф., 16 зач., VI, 1-13" type="Утр.">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="13" stihStart="1"/>
+</Book>
+<Book book="Рим." isOrdinary="true" text="Рим., 87 зач., IV, 13-25." type="Лит.">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="25" stihStart="13"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф., 23 зач., VII, 21-23." type="Лит.">
+<Fragment chapterEnd="7" chapterStart="7" stihEnd="23" stihStart="21"/>
+</Book>
+<Book book="Евр." isOrdinary="false" text="Евр., 311 зач., IV, 14 - V, 6." type="Прав.">
+<Fragment chapterEnd="5" chapterStart="4" stihEnd="6" stihStart="14"/>
+</Book>
+<Book book="Мф." isOrdinary="false" text="Мф., 11 зач., V, 14-19." type="Прав.">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="19" stihStart="14"/>
+</Book>
+</Date>
+<Date date="2017-06-15">
+<Book book="Рим." isOrdinary="true" text="Рим., 89 зач., V, 10-16." type="">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="16" stihStart="10"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф., 27 зач., VIII, 23-27." type="">
+<Fragment chapterEnd="8" chapterStart="8" stihEnd="27" stihStart="23"/>
+</Book>
+</Date>
+<Date date="2017-06-16">
+<Book book="Рим." isOrdinary="true" text="Рим., 90 зач., V, 17 - VI, 2." type="">
+<Fragment chapterEnd="6" chapterStart="5" stihEnd="2" stihStart="17"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф., 31 зач., IX, 14-17." type="">
+<Fragment chapterEnd="9" chapterStart="9" stihEnd="17" stihStart="14"/>
+</Book>
+<Book book="Гал." isOrdinary="false" text="Гал., 213 зач., V, 22 - VI, 2." type="Прп. Варлаама">
+<Fragment chapterEnd="6" chapterStart="5" stihEnd="2" stihStart="22"/>
+</Book>
+<Book book="Лк." isOrdinary="false" text="Лк., 24 зач., VI, 17-23" type="Прп. Варлаама">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="23" stihStart="17"/>
+</Book>
+</Date>
+<Date date="2017-06-17">
+<Book book="Рим." isOrdinary="true" text="Рим., 84 зач., III, 19-26." type="">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="26" stihStart="19"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф., 20 зач., VII, 1-8" type="">
+<Fragment chapterEnd="7" chapterStart="7" stihEnd="8" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2017-06-18">
+<Book book="Мк." isOrdinary="false" text="Мк., 70 зач., XVI, 1-8." type="Утр.  Ев. 2е">
+<Fragment chapterEnd="16" chapterStart="16" stihEnd="8" stihStart="1"/>
+</Book>
+<Book book="Рим." isOrdinary="true" text="Рим., 81 зач. (от полу?), II, 10-16." type="Лит.">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="16" stihStart="10"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф., 9 зач., IV, 18-23." type="Лит.">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="23" stihStart="18"/>
+</Book>
+<Book book="Евр." isOrdinary="false" text="Евр., 330 зач., XI, 33 - XII, 2." type="Свв.">
+<Fragment chapterEnd="12" chapterStart="11" stihEnd="2" stihStart="33"/>
+</Book>
+<Book book="Мф." isOrdinary="false" text="Мф., 10 зач., IV, 25 - V, 12." type="Свв.">
+<Fragment chapterEnd="5" chapterStart="4" stihEnd="12" stihStart="25"/>
+</Book>
+</Date>
+<Date date="2017-06-19">
+<Book book="Рим." isOrdinary="true" text="Рим., 94 зач., VII, 1-13." type="">
+<Fragment chapterEnd="7" chapterStart="7" stihEnd="13" stihStart="1"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф., 34 зач., IX, 36 - X, 8." type="">
+<Fragment chapterEnd="10" chapterStart="9" stihEnd="8" stihStart="36"/>
+</Book>
+</Date>
+<Date date="2017-06-20">
+<Book book="Рим." isOrdinary="true" text="Рим., 95 зач., VII, 14 - VIII, 2." type="">
+<Fragment chapterEnd="8" chapterStart="7" stihEnd="2" stihStart="14"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф., 35 зач., X, 9-15." type="">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="15" stihStart="9"/>
+</Book>
+</Date>
+<Date date="2017-06-21">
+<Book book="Рим." isOrdinary="true" text="Рим., 96 зач., VIII, 2-13." type="">
+<Fragment chapterEnd="8" chapterStart="8" stihEnd="13" stihStart="2"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф., 36 зач., X, 16-22." type="">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="22" stihStart="16"/>
+</Book>
+<Book book="2 Тим." isOrdinary="false" text="2 Тим., 292 зач., II, 1-10" type="Вмч.">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="10" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2017-06-22">
+<Book book="Рим." isOrdinary="true" text="Рим., 98 зач., VIII, 22-27." type="">
+<Fragment chapterEnd="8" chapterStart="8" stihEnd="27" stihStart="22"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф., 37 зач., X, 23-31." type="">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="31" stihStart="23"/>
+</Book>
+<Book book="Гал." isOrdinary="false" text="Гал., 213 зач., V, 22 - VI, 2." type="Прп. (под зачало)">
+<Fragment chapterEnd="6" chapterStart="5" stihEnd="2" stihStart="22"/>
+</Book>
+<Book book="Лк." isOrdinary="false" text="Лк., 24 зач., VI, 17-23" type="Прп. (под зачало)">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="23" stihStart="17"/>
+</Book>
+<Book book="Евр." isOrdinary="false" text="Евр., 334 зач., XIII, 7-16." type="Свт.">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="16" stihStart="7"/>
+</Book>
+<Book book="Мф." isOrdinary="false" text="Мф., 11 зач., V, 14-19." type="Свт.">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="19" stihStart="14"/>
+</Book>
+</Date>
+<Date date="2017-06-23">
+<Book book="Ин." isOrdinary="false" text="Ин., 35 зач. (от полу?), X, 1-9" type="Утр.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="9" stihStart="1"/>
+</Book>
+<Book book="Рим." isOrdinary="true" text="Рим., 101 зач., IX, 6-19." type="Лит.">
+<Fragment chapterEnd="9" chapterStart="9" stihEnd="19" stihStart="6"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф., 38 зач., X, 32-36; XI, 1." type="Лит.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="36" stihStart="32"/>
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="1" stihStart="1"/>
+</Book>
+<Book book="Евр." isOrdinary="false" text="Евр., 335 зач., XIII, 17-21." type="Свт.">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="21" stihStart="17"/>
+</Book>
+<Book book="Ин." isOrdinary="false" text="Ин., 36 зач., X, 9-16." type="Свт.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="16" stihStart="9"/>
+</Book>
+</Date>
+<Date date="2017-06-24">
+<Book book="Ин." isOrdinary="false" text="Ин., 67 зач., XXI, 15-25" type="Утр.">
+<Fragment chapterEnd="21" chapterStart="21" stihEnd="25" stihStart="15"/>
+</Book>
+<Book book="Деян." isOrdinary="false" text="Деян., 28 зач., XI, 19-26, 29-30." type="Лит.  Апп.">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="26" stihStart="19"/>
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="30" stihStart="29"/>
+</Book>
+<Book book="Лк." isOrdinary="false" text="Лк., 51 зач., X, 16-21." type="Лит.  Апп.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="21" stihStart="16"/>
+</Book>
+<Book book="Рим." isOrdinary="true" text="Рим., 85 зач., III, 28 - IV, 3." type="Ряд.">
+<Fragment chapterEnd="4" chapterStart="3" stihEnd="3" stihStart="28"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф., 24 зач., VII, 24 - VIII, 4." type="Ряд.">
+<Fragment chapterEnd="8" chapterStart="7" stihEnd="4" stihStart="24"/>
+</Book>
+</Date>
+<Date date="2017-06-25">
+<Book book="Мк." isOrdinary="false" text="Мк., 71 зач., XVI, 9-20." type="Утр.  Ев. 3е">
+<Fragment chapterEnd="16" chapterStart="16" stihEnd="20" stihStart="9"/>
+</Book>
+<Book book="Рим." isOrdinary="true" text="Рим., 88 зач., V, 1-10." type="Лит.">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="10" stihStart="1"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф., 18 зач., VI, 22-33." type="Лит.">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="33" stihStart="22"/>
+</Book>
+<Book book="Гал." isOrdinary="false" text="Гал., 213 зач., V, 22 - VI, 2." type="Прпп.">
+<Fragment chapterEnd="6" chapterStart="5" stihEnd="2" stihStart="22"/>
+</Book>
+<Book book="Мф." isOrdinary="false" text="Мф., 43 зач., XI, 27-30." type="Прпп.">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="30" stihStart="27"/>
+</Book>
+</Date>
+<Date date="2017-06-26">
+<Book book="Рим." isOrdinary="true" text="Рим., 102 зач., IX, 18-33." type="">
+<Fragment chapterEnd="9" chapterStart="9" stihEnd="33" stihStart="18"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф., 40 зач., XI, 2-15." type="">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="15" stihStart="2"/>
+</Book>
+</Date>
+<Date date="2017-06-27">
+<Book book="Рим." isOrdinary="true" text="Рим., 104 зач., X, 11 - XI, 2." type="">
+<Fragment chapterEnd="11" chapterStart="10" stihEnd="2" stihStart="11"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф., 41 зач., XI, 16-20." type="">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="20" stihStart="16"/>
+</Book>
+<Book book="Иак." isOrdinary="false" text="Иак., 57 зач., V, 10-20." type="Прор.">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="20" stihStart="10"/>
+</Book>
+<Book book="Лк." isOrdinary="false" text="Лк., 14 зач., IV, 22-30" type="Прор.">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="30" stihStart="22"/>
+</Book>
+</Date>
+<Date date="2017-06-28">
+<Book book="Ин." isOrdinary="false" text="Ин., 35 зач. (от полу?), X, 1-9" type="Утр.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="9" stihStart="1"/>
+</Book>
+<Book book="Рим." isOrdinary="true" text="Рим., 105 зач., XI, 2-12." type="Лит.">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="12" stihStart="2"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф., 42 зач., XI, 20-26." type="Лит.">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="26" stihStart="20"/>
+</Book>
+<Book book="Евр." isOrdinary="false" text="Евр., 335 зач., XIII, 17-21." type="Свт. Ионы">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="21" stihStart="17"/>
+</Book>
+<Book book="Ин." isOrdinary="false" text="Ин., 36 зач., X, 9-16." type="Свт. Ионы">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="16" stihStart="9"/>
+</Book>
+</Date>
+<Date date="2017-06-29">
+<Book book="Ин." isOrdinary="false" text="Ин., 35 зач. (от полу?), X, 1-9" type="Утр.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="9" stihStart="1"/>
+</Book>
+<Book book="Рим." isOrdinary="true" text="Рим., 106 зач., XI, 13-24." type="Лит.">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="24" stihStart="13"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф., 43 зач., XI, 27-30." type="Лит.">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="30" stihStart="27"/>
+</Book>
+<Book book="Евр." isOrdinary="false" text="Евр., 318 зач., VII, 26 - VIII, 2." type="Свт.">
+<Fragment chapterEnd="8" chapterStart="7" stihEnd="2" stihStart="26"/>
+</Book>
+<Book book="Ин." isOrdinary="false" text="Ин., 36 зач., X, 9-16." type="Свт.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="16" stihStart="9"/>
+</Book>
+</Date>
+<Date date="2017-06-30">
+<Book book="Рим." isOrdinary="true" text="Рим., 107 зач., XI, 25-36." type="">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="36" stihStart="25"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф., 44 зач., XII, 1-8." type="">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="8" stihStart="1"/>
+</Book>
+<Book book="Еф." isOrdinary="false" text="Еф., 233 зач., VI, 10-17." type="Мчч.">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="17" stihStart="10"/>
+</Book>
+<Book book="Лк." isOrdinary="false" text="Лк., 106 зач., XXI, 12-19." type="Мчч.">
+<Fragment chapterEnd="21" chapterStart="21" stihEnd="19" stihStart="12"/>
+</Book>
+</Date>
+</Year>
+</BibleCalendar>
