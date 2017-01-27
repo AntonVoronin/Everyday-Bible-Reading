@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<BibleCalendar conf="catholic">
+<Year year="2017">
+<Date date="2017-01-27">
+<Book book="Евр" text="Евр 10:32-39" type="">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="39" stihStart="32"/>
+</Book>
+<Book book="Пс" text="Пс 37:3-6, 23-24, 39-40" type="">
+<Fragment chapterEnd="36" chapterEndMasoretic="37" chapterStart="36" chapterStartMasoretic="37" stihEnd="6" stihEndMasoretic="6" stihStart="3" stihStartMasoretic="3"/>
+<Fragment chapterEnd="36" chapterEndMasoretic="37" chapterStart="36" chapterStartMasoretic="37" stihEnd="24" stihEndMasoretic="24" stihStart="23" stihStartMasoretic="23"/>
+<Fragment chapterEnd="36" chapterEndMasoretic="37" chapterStart="36" chapterStartMasoretic="37" stihEnd="40" stihEndMasoretic="40" stihStart="39" stihStartMasoretic="39"/>
+</Book>
+<Book book="Мк" text="Мк 4:26-34" type="">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="34" stihStart="26"/>
+</Book>
+</Date>
+<Date date="2017-01-28">
+<Book book="Евр" text="Евр 11:1-2, 8-19" type="">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="2" stihStart="1"/>
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="19" stihStart="8"/>
+</Book>
+<Book book="Лк" text="Лк 1:69-70, 71-72, 73-75" type="">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="70" stihStart="69"/>
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="72" stihStart="71"/>
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="75" stihStart="73"/>
+</Book>
+<Book book="Мк" text="Мк 4:35-41" type="">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="41" stihStart="35"/>
+</Book>
+</Date>
+<Date date="2017-01-29">
+<Book book="Соф" text="Соф 2:3, 3:12-13" type="">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="3" stihStart="3"/>
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="13" stihStart="12"/>
+</Book>
+<Book book="Пс" text="Пс 146:6с-10" type="">
+<Fragment chapterEnd="145" chapterEndMasoretic="146" chapterStart="145" chapterStartMasoretic="146" stihEnd="10" stihEndMasoretic="10" stihStart="6" stihStartMasoretic="6"/>
+</Book>
+<Book book="1 Кор" text="1 Кор 1:26-31" type="">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="31" stihStart="26"/>
+</Book>
+<Book book="Мф" text="Мф 5:1-12" type="">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="12" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2017-01-30">
+<Book book="Евр" text="Евр 11:32-40" type="">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="40" stihStart="32"/>
+</Book>
+<Book book="Пс" text="Пс 31:20-24" type="">
+<Fragment chapterEnd="30" chapterEndMasoretic="31" chapterStart="30" chapterStartMasoretic="31" stihEnd="24" stihEndMasoretic="24" stihStart="20" stihStartMasoretic="20"/>
+</Book>
+<Book book="Мк" text="Мк 5:1-20" type="">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="20" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2017-01-31">
+<Book book="Евр" text="Евр 12:1-4" type="">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="4" stihStart="1"/>
+</Book>
+<Book book="Пс" text="Пс 22:26b-27, 28, 30, 31-32" type="">
+<Fragment chapterEnd="21" chapterEndMasoretic="22" chapterStart="21" chapterStartMasoretic="22" stihEnd="27" stihEndMasoretic="27" stihStart="26" stihStartMasoretic="26"/>
+<Fragment chapterEnd="21" chapterEndMasoretic="22" chapterStart="21" chapterStartMasoretic="22" stihEnd="28" stihEndMasoretic="28" stihStart="28" stihStartMasoretic="28"/>
+<Fragment chapterEnd="21" chapterEndMasoretic="22" chapterStart="21" chapterStartMasoretic="22" stihEnd="30" stihEndMasoretic="30" stihStart="30" stihStartMasoretic="30"/>
+<Fragment chapterEnd="21" chapterEndMasoretic="22" chapterStart="21" chapterStartMasoretic="22" stihEnd="32" stihEndMasoretic="32" stihStart="31" stihStartMasoretic="31"/>
+</Book>
+<Book book="Мк" text="Мк 5:21-43" type="">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="43" stihStart="21"/>
+</Book>
+</Date>
+</Year>
+</BibleCalendar>

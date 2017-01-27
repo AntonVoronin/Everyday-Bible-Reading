@@ -22,7 +22,7 @@ public class WorkSettings {
 			}
 		} 
 		else if (conf.equals(CONF_CATHOLIC)) {
-			if (date.compareTo(new GregorianCalendar(2013, 11, 1))>=0 && date.compareTo(new GregorianCalendar(2016, 11, 31))<=0) {
+			if (date.compareTo(new GregorianCalendar(2013, 11, 1))>=0 && date.compareTo(new GregorianCalendar(2017, 0, 31))<=0) {
 				fileFindSuccess = true;
 			}			
 		};
@@ -56,7 +56,10 @@ public class WorkSettings {
 			}
 			else if (date.compareTo(new GregorianCalendar(2016, 0, 1))>=0 && date.compareTo(new GregorianCalendar(2016, 11, 31))<=0) {
 				return R.xml.read_cal_ru_cat_2016;
-			}	
+			}
+			else if (date.compareTo(new GregorianCalendar(2017, 0, 1))>=0 && date.compareTo(new GregorianCalendar(2017, 11, 31))<=0) {
+				return R.xml.read_cal_ru_cat_2017;
+			}
 		};		
 		
 		return R.xml.read_cal_ru_orth_2014;

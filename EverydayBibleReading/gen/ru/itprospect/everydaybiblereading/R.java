@@ -1492,12 +1492,13 @@ containing a value of this type.
         public static final int read_cal_ru_cat_2014=0x7f050001;
         public static final int read_cal_ru_cat_2015=0x7f050002;
         public static final int read_cal_ru_cat_2016=0x7f050003;
-        public static final int read_cal_ru_orth_2013=0x7f050004;
-        public static final int read_cal_ru_orth_2014=0x7f050005;
-        public static final int read_cal_ru_orth_2015=0x7f050006;
-        public static final int read_cal_ru_orth_2016=0x7f050007;
-        public static final int read_cal_ru_orth_2017=0x7f050008;
-        public static final int settings=0x7f050009;
+        public static final int read_cal_ru_cat_2017=0x7f050004;
+        public static final int read_cal_ru_orth_2013=0x7f050005;
+        public static final int read_cal_ru_orth_2014=0x7f050006;
+        public static final int read_cal_ru_orth_2015=0x7f050007;
+        public static final int read_cal_ru_orth_2016=0x7f050008;
+        public static final int read_cal_ru_orth_2017=0x7f050009;
+        public static final int settings=0x7f05000a;
     }
     public static final class styleable {
         /**  ============================================ 
