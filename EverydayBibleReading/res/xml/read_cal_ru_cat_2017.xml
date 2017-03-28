@@ -943,5 +943,471 @@
 <Fragment chapterEnd="7" chapterStart="7" stihEnd="30" stihStart="25"/>
 </Book>
 </Date>
+
+<Date date="2017-04-01">
+<Book book="Jer" text="Jer 11:18-20" type="">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="20" stihStart="18"/>
+</Book>
+<Book book="Ps" text="Ps 7:2-3, 9-10, 11-12" type="">
+<Fragment chapterEnd="7" chapterEndMasoretic="7" chapterStart="7" chapterStartMasoretic="7" stihEnd="3" stihEndMasoretic="3" stihStart="2" stihStartMasoretic="2"/>
+<Fragment chapterEnd="7" chapterEndMasoretic="7" chapterStart="7" chapterStartMasoretic="7" stihEnd="10" stihEndMasoretic="10" stihStart="9" stihStartMasoretic="9"/>
+<Fragment chapterEnd="7" chapterEndMasoretic="7" chapterStart="7" chapterStartMasoretic="7" stihEnd="12" stihEndMasoretic="12" stihStart="11" stihStartMasoretic="11"/>
+</Book>
+<Book book="Jn" text="Jn 7:40-53" type="">
+<Fragment chapterEnd="7" chapterStart="7" stihEnd="53" stihStart="40"/>
+</Book>
+</Date>
+<Date date="2017-04-02">
+<Book book="Ez" text="Ez 37:12-14" type="">
+<Fragment chapterEnd="37" chapterStart="37" stihEnd="14" stihStart="12"/>
+</Book>
+<Book book="Ps" text="Ps 130:1-2, 3-4, 5-6, 7-8" type="">
+<Fragment chapterEnd="129" chapterEndMasoretic="130" chapterStart="129" chapterStartMasoretic="130" stihEnd="2" stihEndMasoretic="2" stihStart="1" stihStartMasoretic="1"/>
+<Fragment chapterEnd="129" chapterEndMasoretic="130" chapterStart="129" chapterStartMasoretic="130" stihEnd="4" stihEndMasoretic="4" stihStart="3" stihStartMasoretic="3"/>
+<Fragment chapterEnd="129" chapterEndMasoretic="130" chapterStart="129" chapterStartMasoretic="130" stihEnd="6" stihEndMasoretic="6" stihStart="5" stihStartMasoretic="5"/>
+<Fragment chapterEnd="129" chapterEndMasoretic="130" chapterStart="129" chapterStartMasoretic="130" stihEnd="8" stihEndMasoretic="8" stihStart="7" stihStartMasoretic="7"/>
+</Book>
+<Book book="Rom" text="Rom 8:8-11" type="">
+<Fragment chapterEnd="8" chapterStart="8" stihEnd="11" stihStart="8"/>
+</Book>
+<Book book="Jn" text="Jn 11:1-45" type="">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="45" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2017-04-03">
+<Book book="Dn" text="Dn 13:1-9, 15-17, 19-30, 33-62" type="">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="9" stihStart="1"/>
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="17" stihStart="15"/>
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="30" stihStart="19"/>
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="62" stihStart="33"/>
+</Book>
+<Book book="Ps" text="Ps 23:1-3, 3-4, 5, 6" type="">
+<Fragment chapterEnd="22" chapterEndMasoretic="23" chapterStart="22" chapterStartMasoretic="23" stihEnd="3" stihEndMasoretic="3" stihStart="1" stihStartMasoretic="1"/>
+<Fragment chapterEnd="22" chapterEndMasoretic="23" chapterStart="22" chapterStartMasoretic="23" stihEnd="4" stihEndMasoretic="4" stihStart="3" stihStartMasoretic="3"/>
+<Fragment chapterEnd="22" chapterEndMasoretic="23" chapterStart="22" chapterStartMasoretic="23" stihEnd="5" stihEndMasoretic="5" stihStart="5" stihStartMasoretic="5"/>
+<Fragment chapterEnd="22" chapterEndMasoretic="23" chapterStart="22" chapterStartMasoretic="23" stihEnd="6" stihEndMasoretic="6" stihStart="6" stihStartMasoretic="6"/>
+</Book>
+<Book book="Jn" text="Jn 8:1-11" type="">
+<Fragment chapterEnd="8" chapterStart="8" stihEnd="11" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2017-04-04">
+<Book book="Nm" text="Nm 21:4-9" type="">
+<Fragment chapterEnd="21" chapterStart="21" stihEnd="9" stihStart="4"/>
+</Book>
+<Book book="Ps" text="Ps 102:2-3, 16-18, 19-21" type="">
+<Fragment chapterEnd="101" chapterEndMasoretic="102" chapterStart="101" chapterStartMasoretic="102" stihEnd="3" stihEndMasoretic="3" stihStart="2" stihStartMasoretic="2"/>
+<Fragment chapterEnd="101" chapterEndMasoretic="102" chapterStart="101" chapterStartMasoretic="102" stihEnd="18" stihEndMasoretic="18" stihStart="16" stihStartMasoretic="16"/>
+<Fragment chapterEnd="101" chapterEndMasoretic="102" chapterStart="101" chapterStartMasoretic="102" stihEnd="21" stihEndMasoretic="21" stihStart="19" stihStartMasoretic="19"/>
+</Book>
+<Book book="Jn" text="Jn 8:21-30" type="">
+<Fragment chapterEnd="8" chapterStart="8" stihEnd="30" stihStart="21"/>
+</Book>
+</Date>
+<Date date="2017-04-05">
+<Book book="Dn" text="Dn 3:14-20, 91-92, 95" type="">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="20" stihStart="14"/>
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="92" stihStart="91"/>
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="95" stihStart="95"/>
+</Book>
+<Book book="Dn" text="Dn 3:52-53, 55-56" type="">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="53" stihStart="52"/>
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="56" stihStart="55"/>
+</Book>
+<Book book="Jn" text="Jn 8:31-42" type="">
+<Fragment chapterEnd="8" chapterStart="8" stihEnd="42" stihStart="31"/>
+</Book>
+</Date>
+<Date date="2017-04-06">
+<Book book="Gn" text="Gn 17:3-9" type="">
+<Fragment chapterEnd="17" chapterStart="17" stihEnd="9" stihStart="3"/>
+</Book>
+<Book book="Ps" text="Ps 105:4-5, 6-7, 8-9" type="">
+<Fragment chapterEnd="104" chapterEndMasoretic="105" chapterStart="104" chapterStartMasoretic="105" stihEnd="5" stihEndMasoretic="5" stihStart="4" stihStartMasoretic="4"/>
+<Fragment chapterEnd="104" chapterEndMasoretic="105" chapterStart="104" chapterStartMasoretic="105" stihEnd="7" stihEndMasoretic="7" stihStart="6" stihStartMasoretic="6"/>
+<Fragment chapterEnd="104" chapterEndMasoretic="105" chapterStart="104" chapterStartMasoretic="105" stihEnd="9" stihEndMasoretic="9" stihStart="8" stihStartMasoretic="8"/>
+</Book>
+<Book book="Jn" text="Jn 8:51-59" type="">
+<Fragment chapterEnd="8" chapterStart="8" stihEnd="59" stihStart="51"/>
+</Book>
+</Date>
+<Date date="2017-04-07">
+<Book book="Jer" text="Jer 20:10-13" type="">
+<Fragment chapterEnd="20" chapterStart="20" stihEnd="13" stihStart="10"/>
+</Book>
+<Book book="Ps" text="Ps 18:2-3, 3-4, 5-6, 7" type="">
+<Fragment chapterEnd="17" chapterEndMasoretic="18" chapterStart="17" chapterStartMasoretic="18" stihEnd="3" stihEndMasoretic="3" stihStart="2" stihStartMasoretic="2"/>
+<Fragment chapterEnd="17" chapterEndMasoretic="18" chapterStart="17" chapterStartMasoretic="18" stihEnd="4" stihEndMasoretic="4" stihStart="3" stihStartMasoretic="3"/>
+<Fragment chapterEnd="17" chapterEndMasoretic="18" chapterStart="17" chapterStartMasoretic="18" stihEnd="6" stihEndMasoretic="6" stihStart="5" stihStartMasoretic="5"/>
+<Fragment chapterEnd="17" chapterEndMasoretic="18" chapterStart="17" chapterStartMasoretic="18" stihEnd="7" stihEndMasoretic="7" stihStart="7" stihStartMasoretic="7"/>
+</Book>
+<Book book="Jn" text="Jn 10:31-42" type="">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="42" stihStart="31"/>
+</Book>
+</Date>
+<Date date="2017-04-08">
+<Book book="Ez" text="Ez 37:21-28" type="">
+<Fragment chapterEnd="37" chapterStart="37" stihEnd="28" stihStart="21"/>
+</Book>
+<Book book="Jer" text="Jer 31:10, 11-12, 13" type="">
+<Fragment chapterEnd="31" chapterStart="31" stihEnd="10" stihStart="10"/>
+<Fragment chapterEnd="31" chapterStart="31" stihEnd="12" stihStart="11"/>
+<Fragment chapterEnd="31" chapterStart="31" stihEnd="13" stihStart="13"/>
+</Book>
+<Book book="Jn" text="Jn 11:45-56" type="">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="56" stihStart="45"/>
+</Book>
+</Date>
+<Date date="2017-04-09" type="Вербное Воскресенье. Воспоминание входа Господня в Иерусалим">
+<Book book="Is" text="Is 50:4-7" type="">
+<Fragment chapterEnd="50" chapterStart="50" stihEnd="7" stihStart="4"/>
+</Book>
+<Book book="Ps" text="Ps 22:8-9, 17-18, 19-20, 23-24" type="">
+<Fragment chapterEnd="21" chapterEndMasoretic="22" chapterStart="21" chapterStartMasoretic="22" stihEnd="9" stihEndMasoretic="9" stihStart="8" stihStartMasoretic="8"/>
+<Fragment chapterEnd="21" chapterEndMasoretic="22" chapterStart="21" chapterStartMasoretic="22" stihEnd="18" stihEndMasoretic="18" stihStart="17" stihStartMasoretic="17"/>
+<Fragment chapterEnd="21" chapterEndMasoretic="22" chapterStart="21" chapterStartMasoretic="22" stihEnd="20" stihEndMasoretic="20" stihStart="19" stihStartMasoretic="19"/>
+<Fragment chapterEnd="21" chapterEndMasoretic="22" chapterStart="21" chapterStartMasoretic="22" stihEnd="24" stihEndMasoretic="24" stihStart="23" stihStartMasoretic="23"/>
+</Book>
+<Book book="Phil" text="Phil 2:6-11" type="">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="11" stihStart="6"/>
+</Book>
+<Book book="Mt" text="Mt 26:14-27:66" type="">
+<Fragment chapterEnd="27" chapterStart="26" stihEnd="66" stihStart="14"/>
+</Book>
+</Date>
+<Date date="2017-04-10">
+<Book book="Is" text="Is 42:1-7" type="">
+<Fragment chapterEnd="42" chapterStart="42" stihEnd="7" stihStart="1"/>
+</Book>
+<Book book="Ps" text="Ps 27:1, 2, 3, 13-14" type="">
+<Fragment chapterEnd="26" chapterEndMasoretic="27" chapterStart="26" chapterStartMasoretic="27" stihEnd="1" stihEndMasoretic="1" stihStart="1" stihStartMasoretic="1"/>
+<Fragment chapterEnd="26" chapterEndMasoretic="27" chapterStart="26" chapterStartMasoretic="27" stihEnd="2" stihEndMasoretic="2" stihStart="2" stihStartMasoretic="2"/>
+<Fragment chapterEnd="26" chapterEndMasoretic="27" chapterStart="26" chapterStartMasoretic="27" stihEnd="3" stihEndMasoretic="3" stihStart="3" stihStartMasoretic="3"/>
+<Fragment chapterEnd="26" chapterEndMasoretic="27" chapterStart="26" chapterStartMasoretic="27" stihEnd="14" stihEndMasoretic="14" stihStart="13" stihStartMasoretic="13"/>
+</Book>
+<Book book="Jn" text="Jn 12:1-11" type="">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="11" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2017-04-11">
+<Book book="Is" text="Is 49:1-6" type="">
+<Fragment chapterEnd="49" chapterStart="49" stihEnd="6" stihStart="1"/>
+</Book>
+<Book book="Ps" text="Ps 71:1-2, 3-4, 5-6, 15, 17" type="">
+<Fragment chapterEnd="70" chapterEndMasoretic="71" chapterStart="70" chapterStartMasoretic="71" stihEnd="2" stihEndMasoretic="2" stihStart="1" stihStartMasoretic="1"/>
+<Fragment chapterEnd="70" chapterEndMasoretic="71" chapterStart="70" chapterStartMasoretic="71" stihEnd="4" stihEndMasoretic="4" stihStart="3" stihStartMasoretic="3"/>
+<Fragment chapterEnd="70" chapterEndMasoretic="71" chapterStart="70" chapterStartMasoretic="71" stihEnd="6" stihEndMasoretic="6" stihStart="5" stihStartMasoretic="5"/>
+<Fragment chapterEnd="70" chapterEndMasoretic="71" chapterStart="70" chapterStartMasoretic="71" stihEnd="15" stihEndMasoretic="15" stihStart="15" stihStartMasoretic="15"/>
+<Fragment chapterEnd="70" chapterEndMasoretic="71" chapterStart="70" chapterStartMasoretic="71" stihEnd="17" stihEndMasoretic="17" stihStart="17" stihStartMasoretic="17"/>
+</Book>
+<Book book="Jn" text="Jn 13:21-33, 36-38" type="">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="33" stihStart="21"/>
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="38" stihStart="36"/>
+</Book>
+</Date>
+<Date date="2017-04-12">
+<Book book="Is" text="Is 50:4-9" type="">
+<Fragment chapterEnd="50" chapterStart="50" stihEnd="9" stihStart="4"/>
+</Book>
+<Book book="Ps" text="Ps 69:8-10, 21-22, 31, 33-34" type="">
+<Fragment chapterEnd="68" chapterEndMasoretic="69" chapterStart="68" chapterStartMasoretic="69" stihEnd="10" stihEndMasoretic="10" stihStart="8" stihStartMasoretic="8"/>
+<Fragment chapterEnd="68" chapterEndMasoretic="69" chapterStart="68" chapterStartMasoretic="69" stihEnd="22" stihEndMasoretic="22" stihStart="21" stihStartMasoretic="21"/>
+<Fragment chapterEnd="68" chapterEndMasoretic="69" chapterStart="68" chapterStartMasoretic="69" stihEnd="31" stihEndMasoretic="31" stihStart="31" stihStartMasoretic="31"/>
+<Fragment chapterEnd="68" chapterEndMasoretic="69" chapterStart="68" chapterStartMasoretic="69" stihEnd="34" stihEndMasoretic="34" stihStart="33" stihStartMasoretic="33"/>
+</Book>
+<Book book="Mt" text="Mt 26:14-25" type="">
+<Fragment chapterEnd="26" chapterStart="26" stihEnd="25" stihStart="14"/>
+</Book>
+</Date>
+<Date date="2017-04-13" type="Великий четверг. Воспоминание Тайной вечери">
+<Book book="Ex" text="Ex 12:1-8, 11-14" type="">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="8" stihStart="1"/>
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="14" stihStart="11"/>
+</Book>
+<Book book="Ps" text="Ps 116:12-13, 15-18" type="">
+<Fragment chapterEnd="115" chapterEndMasoretic="116" chapterStart="115" chapterStartMasoretic="116" stihEnd="4" stihEndMasoretic="13" stihStart="3" stihStartMasoretic="12"/>
+<Fragment chapterEnd="115" chapterEndMasoretic="116" chapterStart="115" chapterStartMasoretic="116" stihEnd="9" stihEndMasoretic="18" stihStart="6" stihStartMasoretic="15"/>
+</Book>
+<Book book="1 Cor" text="1 Cor 11:23-26" type="">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="26" stihStart="23"/>
+</Book>
+<Book book="Jn" text="Jn 13:1-15" type="">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="15" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2017-04-14" type="Страстная пятница. Воспоминание страстей Господних">
+<Book book="Is" text="Is 52:13-53:12" type="">
+<Fragment chapterEnd="53" chapterStart="52" stihEnd="12" stihStart="13"/>
+</Book>
+<Book book="Ps" text="Ps 31:2, 6, 12-13, 15-16, 17, 25" type="">
+<Fragment chapterEnd="30" chapterEndMasoretic="31" chapterStart="30" chapterStartMasoretic="31" stihEnd="2" stihEndMasoretic="2" stihStart="2" stihStartMasoretic="2"/>
+<Fragment chapterEnd="30" chapterEndMasoretic="31" chapterStart="30" chapterStartMasoretic="31" stihEnd="6" stihEndMasoretic="6" stihStart="6" stihStartMasoretic="6"/>
+<Fragment chapterEnd="30" chapterEndMasoretic="31" chapterStart="30" chapterStartMasoretic="31" stihEnd="13" stihEndMasoretic="13" stihStart="12" stihStartMasoretic="12"/>
+<Fragment chapterEnd="30" chapterEndMasoretic="31" chapterStart="30" chapterStartMasoretic="31" stihEnd="16" stihEndMasoretic="16" stihStart="15" stihStartMasoretic="15"/>
+<Fragment chapterEnd="30" chapterEndMasoretic="31" chapterStart="30" chapterStartMasoretic="31" stihEnd="17" stihEndMasoretic="17" stihStart="17" stihStartMasoretic="17"/>
+<Fragment chapterEnd="30" chapterEndMasoretic="31" chapterStart="30" chapterStartMasoretic="31" stihEnd="25" stihEndMasoretic="25" stihStart="25" stihStartMasoretic="25"/>
+</Book>
+<Book book="Heb" text="Heb 4:14-16, 5:7-9" type="">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="16" stihStart="14"/>
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="9" stihStart="7"/>
+</Book>
+<Book book="Jn" text="Jn 18:1-19:42" type="">
+<Fragment chapterEnd="19" chapterStart="18" stihEnd="42" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2017-04-15" type="Святая (Великая) суббота. НАВЕЧЕРИЕ ПАСХИ">
+<Book book="Gn" text="Gn 1:1-2:2" type="">
+<Fragment chapterEnd="2" chapterStart="1" stihEnd="2" stihStart="1"/>
+</Book>
+<Book book="Gn" text="Gn 22:1-18" type="">
+<Fragment chapterEnd="22" chapterStart="22" stihEnd="18" stihStart="1"/>
+</Book>
+<Book book="Ex" text="Ex 14:15-15:1" type="">
+<Fragment chapterEnd="15" chapterStart="14" stihEnd="1" stihStart="15"/>
+</Book>
+<Book book="Is" text="Is 54:5-14" type="">
+<Fragment chapterEnd="54" chapterStart="54" stihEnd="14" stihStart="5"/>
+</Book>
+<Book book="Is" text="Is 55:1-11" type="">
+<Fragment chapterEnd="55" chapterStart="55" stihEnd="11" stihStart="1"/>
+</Book>
+<Book book="Bar" text="Bar 3:9-15, 32 - 4:4" type="">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="15" stihStart="9"/>
+<Fragment chapterEnd="4" chapterStart="3" stihEnd="4" stihStart="32"/>
+</Book>
+<Book book="Ez" text="Ez 36:16-17, 18-28" type="">
+<Fragment chapterEnd="36" chapterStart="36" stihEnd="17" stihStart="16"/>
+<Fragment chapterEnd="36" chapterStart="36" stihEnd="28" stihStart="18"/>
+</Book>
+<Book book="Rom" text="Rom 6:3-11" type="">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="11" stihStart="3"/>
+</Book>
+<Book book="Ps" text="Ps 118:1-2, 16-17, 22-23" type="">
+<Fragment chapterEnd="117" chapterEndMasoretic="118" chapterStart="117" chapterStartMasoretic="118" stihEnd="2" stihEndMasoretic="2" stihStart="1" stihStartMasoretic="1"/>
+<Fragment chapterEnd="117" chapterEndMasoretic="118" chapterStart="117" chapterStartMasoretic="118" stihEnd="17" stihEndMasoretic="17" stihStart="16" stihStartMasoretic="16"/>
+<Fragment chapterEnd="117" chapterEndMasoretic="118" chapterStart="117" chapterStartMasoretic="118" stihEnd="23" stihEndMasoretic="23" stihStart="22" stihStartMasoretic="22"/>
+</Book>
+<Book book="Mt" text="Mt 28:1-10" type="">
+<Fragment chapterEnd="28" chapterStart="28" stihEnd="10" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2017-04-16" type="ПАСХА. СВЕТЛОЕ ХРИСТОВО ВОСКРЕСЕНИЕ">
+<Book book="Acts" text="Acts 10:34, 37-43" type="">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="34" stihStart="34"/>
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="43" stihStart="37"/>
+</Book>
+<Book book="Ps" text="Ps 118:1-2, 16-17, 22-23" type="">
+<Fragment chapterEnd="117" chapterEndMasoretic="118" chapterStart="117" chapterStartMasoretic="118" stihEnd="2" stihEndMasoretic="2" stihStart="1" stihStartMasoretic="1"/>
+<Fragment chapterEnd="117" chapterEndMasoretic="118" chapterStart="117" chapterStartMasoretic="118" stihEnd="17" stihEndMasoretic="17" stihStart="16" stihStartMasoretic="16"/>
+<Fragment chapterEnd="117" chapterEndMasoretic="118" chapterStart="117" chapterStartMasoretic="118" stihEnd="23" stihEndMasoretic="23" stihStart="22" stihStartMasoretic="22"/>
+</Book>
+<Book book="Col" text="Col 3:1-4" type="">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="4" stihStart="1"/>
+</Book>
+<Book book="Jn" text="Jn 20:1-9" type="">
+<Fragment chapterEnd="20" chapterStart="20" stihEnd="9" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2017-04-17">
+<Book book="Acts" text="Acts 2:14, 22-33" type="">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="14" stihStart="14"/>
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="33" stihStart="22"/>
+</Book>
+<Book book="Ps" text="Ps 16:1-2, 5, 7-8, 9-10, 11" type="">
+<Fragment chapterEnd="15" chapterEndMasoretic="16" chapterStart="15" chapterStartMasoretic="16" stihEnd="2" stihEndMasoretic="2" stihStart="1" stihStartMasoretic="1"/>
+<Fragment chapterEnd="15" chapterEndMasoretic="16" chapterStart="15" chapterStartMasoretic="16" stihEnd="5" stihEndMasoretic="5" stihStart="5" stihStartMasoretic="5"/>
+<Fragment chapterEnd="15" chapterEndMasoretic="16" chapterStart="15" chapterStartMasoretic="16" stihEnd="8" stihEndMasoretic="8" stihStart="7" stihStartMasoretic="7"/>
+<Fragment chapterEnd="15" chapterEndMasoretic="16" chapterStart="15" chapterStartMasoretic="16" stihEnd="10" stihEndMasoretic="10" stihStart="9" stihStartMasoretic="9"/>
+<Fragment chapterEnd="15" chapterEndMasoretic="16" chapterStart="15" chapterStartMasoretic="16" stihEnd="11" stihEndMasoretic="11" stihStart="11" stihStartMasoretic="11"/>
+</Book>
+<Book book="Mt" text="Mt 28:8-15" type="">
+<Fragment chapterEnd="28" chapterStart="28" stihEnd="15" stihStart="8"/>
+</Book>
+</Date>
+<Date date="2017-04-18">
+<Book book="Acts" text="Acts 2:36-41" type="">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="41" stihStart="36"/>
+</Book>
+<Book book="Ps" text="Ps 33:4-5, 18-19, 20, 22" type="">
+<Fragment chapterEnd="32" chapterEndMasoretic="33" chapterStart="32" chapterStartMasoretic="33" stihEnd="5" stihEndMasoretic="5" stihStart="4" stihStartMasoretic="4"/>
+<Fragment chapterEnd="32" chapterEndMasoretic="33" chapterStart="32" chapterStartMasoretic="33" stihEnd="19" stihEndMasoretic="19" stihStart="18" stihStartMasoretic="18"/>
+<Fragment chapterEnd="32" chapterEndMasoretic="33" chapterStart="32" chapterStartMasoretic="33" stihEnd="20" stihEndMasoretic="20" stihStart="20" stihStartMasoretic="20"/>
+<Fragment chapterEnd="32" chapterEndMasoretic="33" chapterStart="32" chapterStartMasoretic="33" stihEnd="22" stihEndMasoretic="22" stihStart="22" stihStartMasoretic="22"/>
+</Book>
+<Book book="Jn" text="Jn 20:11-18" type="">
+<Fragment chapterEnd="20" chapterStart="20" stihEnd="18" stihStart="11"/>
+</Book>
+</Date>
+<Date date="2017-04-19">
+<Book book="Acts" text="Acts 3:1-10" type="">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="10" stihStart="1"/>
+</Book>
+<Book book="Ps" text="Ps 105:1-2, 3-4, 6-7, 8-9" type="">
+<Fragment chapterEnd="104" chapterEndMasoretic="105" chapterStart="104" chapterStartMasoretic="105" stihEnd="2" stihEndMasoretic="2" stihStart="1" stihStartMasoretic="1"/>
+<Fragment chapterEnd="104" chapterEndMasoretic="105" chapterStart="104" chapterStartMasoretic="105" stihEnd="4" stihEndMasoretic="4" stihStart="3" stihStartMasoretic="3"/>
+<Fragment chapterEnd="104" chapterEndMasoretic="105" chapterStart="104" chapterStartMasoretic="105" stihEnd="7" stihEndMasoretic="7" stihStart="6" stihStartMasoretic="6"/>
+<Fragment chapterEnd="104" chapterEndMasoretic="105" chapterStart="104" chapterStartMasoretic="105" stihEnd="9" stihEndMasoretic="9" stihStart="8" stihStartMasoretic="8"/>
+</Book>
+<Book book="Lk" text="Lk 24:13-35" type="">
+<Fragment chapterEnd="24" chapterStart="24" stihEnd="35" stihStart="13"/>
+</Book>
+</Date>
+<Date date="2017-04-20">
+<Book book="Acts" text="Acts 3:11-26" type="">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="26" stihStart="11"/>
+</Book>
+<Book book="Ps" text="Ps 8:2, 5, 6-7, 8-9" type="">
+<Fragment chapterEnd="8" chapterEndMasoretic="8" chapterStart="8" chapterStartMasoretic="8" stihEnd="2" stihEndMasoretic="2" stihStart="2" stihStartMasoretic="2"/>
+<Fragment chapterEnd="8" chapterEndMasoretic="8" chapterStart="8" chapterStartMasoretic="8" stihEnd="5" stihEndMasoretic="5" stihStart="5" stihStartMasoretic="5"/>
+<Fragment chapterEnd="8" chapterEndMasoretic="8" chapterStart="8" chapterStartMasoretic="8" stihEnd="7" stihEndMasoretic="7" stihStart="6" stihStartMasoretic="6"/>
+<Fragment chapterEnd="8" chapterEndMasoretic="8" chapterStart="8" chapterStartMasoretic="8" stihEnd="9" stihEndMasoretic="9" stihStart="8" stihStartMasoretic="8"/>
+</Book>
+<Book book="Lk" text="Lk 24:35-48" type="">
+<Fragment chapterEnd="24" chapterStart="24" stihEnd="48" stihStart="35"/>
+</Book>
+</Date>
+<Date date="2017-04-21">
+<Book book="Acts" text="Acts 4:1-12" type="">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="12" stihStart="1"/>
+</Book>
+<Book book="Ps" text="Ps 118:1-2, 4, 22-24, 25-27" type="">
+<Fragment chapterEnd="117" chapterEndMasoretic="118" chapterStart="117" chapterStartMasoretic="118" stihEnd="2" stihEndMasoretic="2" stihStart="1" stihStartMasoretic="1"/>
+<Fragment chapterEnd="117" chapterEndMasoretic="118" chapterStart="117" chapterStartMasoretic="118" stihEnd="4" stihEndMasoretic="4" stihStart="4" stihStartMasoretic="4"/>
+<Fragment chapterEnd="117" chapterEndMasoretic="118" chapterStart="117" chapterStartMasoretic="118" stihEnd="24" stihEndMasoretic="24" stihStart="22" stihStartMasoretic="22"/>
+<Fragment chapterEnd="117" chapterEndMasoretic="118" chapterStart="117" chapterStartMasoretic="118" stihEnd="27" stihEndMasoretic="27" stihStart="25" stihStartMasoretic="25"/>
+</Book>
+<Book book="Jn" text="Jn 21:1-14" type="">
+<Fragment chapterEnd="21" chapterStart="21" stihEnd="14" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2017-04-22">
+<Book book="Acts" text="Acts 4:13-21" type="">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="21" stihStart="13"/>
+</Book>
+<Book book="Ps" text="Ps 118:1, 14-16, 18-21" type="">
+<Fragment chapterEnd="117" chapterEndMasoretic="118" chapterStart="117" chapterStartMasoretic="118" stihEnd="1" stihEndMasoretic="1" stihStart="1" stihStartMasoretic="1"/>
+<Fragment chapterEnd="117" chapterEndMasoretic="118" chapterStart="117" chapterStartMasoretic="118" stihEnd="16" stihEndMasoretic="16" stihStart="14" stihStartMasoretic="14"/>
+<Fragment chapterEnd="117" chapterEndMasoretic="118" chapterStart="117" chapterStartMasoretic="118" stihEnd="21" stihEndMasoretic="21" stihStart="18" stihStartMasoretic="18"/>
+</Book>
+<Book book="Mk" text="Mk 16:9-15" type="">
+<Fragment chapterEnd="16" chapterStart="16" stihEnd="15" stihStart="9"/>
+</Book>
+</Date>
+<Date date="2017-04-23" type="ТОРЖЕСТВО БОЖЬЕГО МИЛОСЕРДИЯ">
+<Book book="Acts" text="Acts 2:42-47" type="">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="47" stihStart="42"/>
+</Book>
+<Book book="Ps" text="Ps 118:2-4, 13-15, 22-24" type="">
+<Fragment chapterEnd="117" chapterEndMasoretic="118" chapterStart="117" chapterStartMasoretic="118" stihEnd="4" stihEndMasoretic="4" stihStart="2" stihStartMasoretic="2"/>
+<Fragment chapterEnd="117" chapterEndMasoretic="118" chapterStart="117" chapterStartMasoretic="118" stihEnd="15" stihEndMasoretic="15" stihStart="13" stihStartMasoretic="13"/>
+<Fragment chapterEnd="117" chapterEndMasoretic="118" chapterStart="117" chapterStartMasoretic="118" stihEnd="24" stihEndMasoretic="24" stihStart="22" stihStartMasoretic="22"/>
+</Book>
+<Book book="1 Pt" text="1 Pt 1:3-9" type="">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="9" stihStart="3"/>
+</Book>
+<Book book="Jn" text="Jn 20:19-31" type="">
+<Fragment chapterEnd="20" chapterStart="20" stihEnd="31" stihStart="19"/>
+</Book>
+</Date>
+<Date date="2017-04-24">
+<Book book="Acts" text="Acts 4:23-31" type="">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="31" stihStart="23"/>
+</Book>
+<Book book="Ps" text="Ps 2:1-3, 4-6, 7-9" type="">
+<Fragment chapterEnd="2" chapterEndMasoretic="2" chapterStart="2" chapterStartMasoretic="2" stihEnd="3" stihEndMasoretic="3" stihStart="1" stihStartMasoretic="1"/>
+<Fragment chapterEnd="2" chapterEndMasoretic="2" chapterStart="2" chapterStartMasoretic="2" stihEnd="6" stihEndMasoretic="6" stihStart="4" stihStartMasoretic="4"/>
+<Fragment chapterEnd="2" chapterEndMasoretic="2" chapterStart="2" chapterStartMasoretic="2" stihEnd="9" stihEndMasoretic="9" stihStart="7" stihStartMasoretic="7"/>
+</Book>
+<Book book="Jn" text="Jn 3:1-8" type="">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="8" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2017-04-25" type="СВ. МАРК, ЕВАНГЕЛИСТ">
+<Book book="1 Pt" text="1 Pt 5:5-14" type="">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="14" stihStart="5"/>
+</Book>
+<Book book="Ps" text="Ps 89:2-3, 6-7, 16-17" type="">
+<Fragment chapterEnd="88" chapterEndMasoretic="89" chapterStart="88" chapterStartMasoretic="89" stihEnd="3" stihEndMasoretic="3" stihStart="2" stihStartMasoretic="2"/>
+<Fragment chapterEnd="88" chapterEndMasoretic="89" chapterStart="88" chapterStartMasoretic="89" stihEnd="7" stihEndMasoretic="7" stihStart="6" stihStartMasoretic="6"/>
+<Fragment chapterEnd="88" chapterEndMasoretic="89" chapterStart="88" chapterStartMasoretic="89" stihEnd="17" stihEndMasoretic="17" stihStart="16" stihStartMasoretic="16"/>
+</Book>
+<Book book="Mk" text="Mk 16:15-20" type="">
+<Fragment chapterEnd="16" chapterStart="16" stihEnd="20" stihStart="15"/>
+</Book>
+</Date>
+<Date date="2017-04-26">
+<Book book="Acts" text="Acts 5:17-26" type="">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="26" stihStart="17"/>
+</Book>
+<Book book="Ps" text="Ps 34:2-3, 4-5, 6-7, 8-9" type="">
+<Fragment chapterEnd="33" chapterEndMasoretic="34" chapterStart="33" chapterStartMasoretic="34" stihEnd="3" stihEndMasoretic="3" stihStart="2" stihStartMasoretic="2"/>
+<Fragment chapterEnd="33" chapterEndMasoretic="34" chapterStart="33" chapterStartMasoretic="34" stihEnd="5" stihEndMasoretic="5" stihStart="4" stihStartMasoretic="4"/>
+<Fragment chapterEnd="33" chapterEndMasoretic="34" chapterStart="33" chapterStartMasoretic="34" stihEnd="7" stihEndMasoretic="7" stihStart="6" stihStartMasoretic="6"/>
+<Fragment chapterEnd="33" chapterEndMasoretic="34" chapterStart="33" chapterStartMasoretic="34" stihEnd="9" stihEndMasoretic="9" stihStart="8" stihStartMasoretic="8"/>
+</Book>
+<Book book="Jn" text="Jn 3:16-21" type="">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="21" stihStart="16"/>
+</Book>
+</Date>
+<Date date="2017-04-27">
+<Book book="Acts" text="Acts 5:27-33" type="">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="33" stihStart="27"/>
+</Book>
+<Book book="Ps" text="Ps 34:2, 9, 17-18, 19-20" type="">
+<Fragment chapterEnd="33" chapterEndMasoretic="34" chapterStart="33" chapterStartMasoretic="34" stihEnd="2" stihEndMasoretic="2" stihStart="2" stihStartMasoretic="2"/>
+<Fragment chapterEnd="33" chapterEndMasoretic="34" chapterStart="33" chapterStartMasoretic="34" stihEnd="9" stihEndMasoretic="9" stihStart="9" stihStartMasoretic="9"/>
+<Fragment chapterEnd="33" chapterEndMasoretic="34" chapterStart="33" chapterStartMasoretic="34" stihEnd="18" stihEndMasoretic="18" stihStart="17" stihStartMasoretic="17"/>
+<Fragment chapterEnd="33" chapterEndMasoretic="34" chapterStart="33" chapterStartMasoretic="34" stihEnd="20" stihEndMasoretic="20" stihStart="19" stihStartMasoretic="19"/>
+</Book>
+<Book book="Jn" text="Jn 3:31-36" type="">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="36" stihStart="31"/>
+</Book>
+</Date>
+<Date date="2017-04-28">
+<Book book="Acts" text="Acts 5:34-42" type="">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="42" stihStart="34"/>
+</Book>
+<Book book="Ps" text="Ps 27:1, 4, 13-14" type="">
+<Fragment chapterEnd="26" chapterEndMasoretic="27" chapterStart="26" chapterStartMasoretic="27" stihEnd="1" stihEndMasoretic="1" stihStart="1" stihStartMasoretic="1"/>
+<Fragment chapterEnd="26" chapterEndMasoretic="27" chapterStart="26" chapterStartMasoretic="27" stihEnd="4" stihEndMasoretic="4" stihStart="4" stihStartMasoretic="4"/>
+<Fragment chapterEnd="26" chapterEndMasoretic="27" chapterStart="26" chapterStartMasoretic="27" stihEnd="14" stihEndMasoretic="14" stihStart="13" stihStartMasoretic="13"/>
+</Book>
+<Book book="Jn" text="Jn 6:1-15" type="">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="15" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2017-04-29">
+<Book book="Acts" text="Acts 6:1-7" type="">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="7" stihStart="1"/>
+</Book>
+<Book book="Ps" text="Ps 33:1-2, 4-5, 18-19" type="">
+<Fragment chapterEnd="32" chapterEndMasoretic="33" chapterStart="32" chapterStartMasoretic="33" stihEnd="2" stihEndMasoretic="2" stihStart="1" stihStartMasoretic="1"/>
+<Fragment chapterEnd="32" chapterEndMasoretic="33" chapterStart="32" chapterStartMasoretic="33" stihEnd="5" stihEndMasoretic="5" stihStart="4" stihStartMasoretic="4"/>
+<Fragment chapterEnd="32" chapterEndMasoretic="33" chapterStart="32" chapterStartMasoretic="33" stihEnd="19" stihEndMasoretic="19" stihStart="18" stihStartMasoretic="18"/>
+</Book>
+<Book book="Jn" text="Jn 6:16-21" type="">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="21" stihStart="16"/>
+</Book>
+</Date>
+<Date date="2017-04-30">
+<Book book="Acts" text="Acts 2:14, 22-33" type="">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="14" stihStart="14"/>
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="33" stihStart="22"/>
+</Book>
+<Book book="Ps" text="Ps 16:1-2, 5, 7-8, 9-10, 11" type="">
+<Fragment chapterEnd="15" chapterEndMasoretic="16" chapterStart="15" chapterStartMasoretic="16" stihEnd="2" stihEndMasoretic="2" stihStart="1" stihStartMasoretic="1"/>
+<Fragment chapterEnd="15" chapterEndMasoretic="16" chapterStart="15" chapterStartMasoretic="16" stihEnd="5" stihEndMasoretic="5" stihStart="5" stihStartMasoretic="5"/>
+<Fragment chapterEnd="15" chapterEndMasoretic="16" chapterStart="15" chapterStartMasoretic="16" stihEnd="8" stihEndMasoretic="8" stihStart="7" stihStartMasoretic="7"/>
+<Fragment chapterEnd="15" chapterEndMasoretic="16" chapterStart="15" chapterStartMasoretic="16" stihEnd="10" stihEndMasoretic="10" stihStart="9" stihStartMasoretic="9"/>
+<Fragment chapterEnd="15" chapterEndMasoretic="16" chapterStart="15" chapterStartMasoretic="16" stihEnd="11" stihEndMasoretic="11" stihStart="11" stihStartMasoretic="11"/>
+</Book>
+<Book book="1 Pt" text="1 Pt 1:17-21" type="">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="21" stihStart="17"/>
+</Book>
+<Book book="Lk" text="Lk 24:13-35" type="">
+<Fragment chapterEnd="24" chapterStart="24" stihEnd="35" stihStart="13"/>
+</Book>
+</Date>
+
 </Year>
 </BibleCalendar>
