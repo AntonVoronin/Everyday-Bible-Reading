@@ -22,7 +22,7 @@ public class WorkSettings {
 			}
 		} 
 		else if (conf.equals(CONF_CATHOLIC)) {
-			if (date.compareTo(new GregorianCalendar(2013, 11, 1))>=0 && date.compareTo(new GregorianCalendar(2017, 4, 31))<=0) {
+			if (date.compareTo(new GregorianCalendar(2013, 11, 1))>=0 && date.compareTo(new GregorianCalendar(2017, 5, 30))<=0) {
 				fileFindSuccess = true;
 			}			
 		};
