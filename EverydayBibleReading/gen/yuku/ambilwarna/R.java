@@ -8,10 +8,10 @@ package yuku.ambilwarna;
 
 public final class R {
 	public static final class dimen {
-		public static final int ambilwarna_hsvHeight = 0x7f090015;
-		public static final int ambilwarna_hsvWidth = 0x7f090016;
-		public static final int ambilwarna_hueWidth = 0x7f090017;
-		public static final int ambilwarna_spacer = 0x7f090018;
+		public static final int ambilwarna_hsvHeight = 0x7f090011;
+		public static final int ambilwarna_hsvWidth = 0x7f090012;
+		public static final int ambilwarna_hueWidth = 0x7f090013;
+		public static final int ambilwarna_spacer = 0x7f090014;
 	}
 	public static final class drawable {
 		public static final int ambilwarna_arrow_down = 0x7f020059;
@@ -33,7 +33,7 @@ public final class R {
 		public static final int ambilwarna_warnaLama = 0x7f060048;
 	}
 	public static final class layout {
-		public static final int ambilwarna_dialog = 0x7f03001b;
-		public static final int ambilwarna_pref_widget = 0x7f03001c;
+		public static final int ambilwarna_dialog = 0x7f03001a;
+		public static final int ambilwarna_pref_widget = 0x7f03001b;
 	}
 }
