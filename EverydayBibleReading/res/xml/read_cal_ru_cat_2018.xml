@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<BibleCalendar conf="catholic">
+<Year year="2018">
+<Date date="2018-01-01">
+<Book book="Nm" text="Nm 6:22-27" type="">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="27" stihStart="22"/>
+</Book>
+<Book book="Ps" text="Ps 67:2-3, 5, 6, 8 " type="">
+<Fragment chapterEnd="66" chapterEndMasoretic="67" chapterStart="66" chapterStartMasoretic="67" stihEnd="3" stihEndMasoretic="3" stihStart="2" stihStartMasoretic="2"/>
+<Fragment chapterEnd="66" chapterEndMasoretic="67" chapterStart="66" chapterStartMasoretic="67" stihEnd="5" stihEndMasoretic="5" stihStart="5" stihStartMasoretic="5"/>
+<Fragment chapterEnd="66" chapterEndMasoretic="67" chapterStart="66" chapterStartMasoretic="67" stihEnd="6" stihEndMasoretic="6" stihStart="6" stihStartMasoretic="6"/>
+<Fragment chapterEnd="66" chapterEndMasoretic="67" chapterStart="66" chapterStartMasoretic="67" stihEnd="8" stihEndMasoretic="8" stihStart="8" stihStartMasoretic="8"/>
+</Book>
+<Book book="Gal" text="Gal 4:4-7" type="">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="7" stihStart="4"/>
+</Book>
+<Book book="Lk" text="Lk 2:16-21" type="">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="21" stihStart="16"/>
+</Book>
+</Date>
+<Date date="2018-01-02">
+<Book book="1 Jn" text="1 Jn 2:22-28" type="">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="28" stihStart="22"/>
+</Book>
+<Book book="ps" text="ps 98:1, 2-3, 3-4 " type="">
+<Fragment chapterEnd="97" chapterEndMasoretic="98" chapterStart="97" chapterStartMasoretic="98" stihEnd="1" stihEndMasoretic="1" stihStart="1" stihStartMasoretic="1"/>
+<Fragment chapterEnd="97" chapterEndMasoretic="98" chapterStart="97" chapterStartMasoretic="98" stihEnd="3" stihEndMasoretic="3" stihStart="2" stihStartMasoretic="2"/>
+<Fragment chapterEnd="97" chapterEndMasoretic="98" chapterStart="97" chapterStartMasoretic="98" stihEnd="4" stihEndMasoretic="4" stihStart="3" stihStartMasoretic="3"/>
+</Book>
+<Book book="Jn" text="Jn 1:19-28" type="">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="28" stihStart="19"/>
+</Book>
+</Date>
+<Date date="2018-01-03">
+<Book book="1 Jn" text="1 Jn 2:29-3:6" type="">
+<Fragment chapterEnd="3" chapterStart="2" stihEnd="6" stihStart="29"/>
+</Book>
+<Book book="PS" text="PS 98:1, 3-4, 5-6 " type="">
+<Fragment chapterEnd="97" chapterEndMasoretic="98" chapterStart="97" chapterStartMasoretic="98" stihEnd="1" stihEndMasoretic="1" stihStart="1" stihStartMasoretic="1"/>
+<Fragment chapterEnd="97" chapterEndMasoretic="98" chapterStart="97" chapterStartMasoretic="98" stihEnd="4" stihEndMasoretic="4" stihStart="3" stihStartMasoretic="3"/>
+<Fragment chapterEnd="97" chapterEndMasoretic="98" chapterStart="97" chapterStartMasoretic="98" stihEnd="6" stihEndMasoretic="6" stihStart="5" stihStartMasoretic="5"/>
+</Book>
+<Book book="Jn" text="Jn 1:29-34" type="">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="34" stihStart="29"/>
+</Book>
+</Date>
+<Date date="2018-01-04">
+<Book book="1 Jn" text="1 Jn 3:7-10" type="">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="10" stihStart="7"/>
+</Book>
+<Book book="Ps" text="Ps 98:1, 7-8, 9 " type="">
+<Fragment chapterEnd="97" chapterEndMasoretic="98" chapterStart="97" chapterStartMasoretic="98" stihEnd="1" stihEndMasoretic="1" stihStart="1" stihStartMasoretic="1"/>
+<Fragment chapterEnd="97" chapterEndMasoretic="98" chapterStart="97" chapterStartMasoretic="98" stihEnd="8" stihEndMasoretic="8" stihStart="7" stihStartMasoretic="7"/>
+<Fragment chapterEnd="97" chapterEndMasoretic="98" chapterStart="97" chapterStartMasoretic="98" stihEnd="9" stihEndMasoretic="9" stihStart="9" stihStartMasoretic="9"/>
+</Book>
+<Book book="Jn" text="Jn 1:35-42" type="">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="42" stihStart="35"/>
+</Book>
+</Date>
+</Year>
+</BibleCalendar>
