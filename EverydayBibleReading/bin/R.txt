@@ -718,4 +718,5 @@ int xml read_cal_ru_orth_2014 0x7f050007
 int xml read_cal_ru_orth_2015 0x7f050008
 int xml read_cal_ru_orth_2016 0x7f050009
 int xml read_cal_ru_orth_2017 0x7f05000a
-int xml settings 0x7f05000b
+int xml read_cal_ru_orth_2018 0x7f05000b
+int xml settings 0x7f05000c

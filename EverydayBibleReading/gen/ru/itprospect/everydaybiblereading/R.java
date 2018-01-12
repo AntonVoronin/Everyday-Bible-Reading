@@ -1499,7 +1499,8 @@ containing a value of this type.
         public static final int read_cal_ru_orth_2015=0x7f050008;
         public static final int read_cal_ru_orth_2016=0x7f050009;
         public static final int read_cal_ru_orth_2017=0x7f05000a;
-        public static final int settings=0x7f05000b;
+        public static final int read_cal_ru_orth_2018=0x7f05000b;
+        public static final int settings=0x7f05000c;
     }
     public static final class styleable {
         /**  ============================================ 
