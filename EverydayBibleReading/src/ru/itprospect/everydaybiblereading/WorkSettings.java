@@ -17,12 +17,12 @@ public class WorkSettings {
 		
 		//Проверка наличия хмл для даты и конфессии
 		if (conf.equals(CONF_ORTHODOXY)) {
-			if (date.compareTo(new GregorianCalendar(2013, 2, 1))>=0 && date.compareTo(new GregorianCalendar(2018, 0, 31))<=0) {
+			if (date.compareTo(new GregorianCalendar(2013, 2, 1))>=0 && date.compareTo(new GregorianCalendar(2018, 1, 10))<=0) {
 				fileFindSuccess = true;
 			}
 		} 
 		else if (conf.equals(CONF_CATHOLIC)) {
-			if (date.compareTo(new GregorianCalendar(2013, 11, 1))>=0 && date.compareTo(new GregorianCalendar(2018, 0, 31))<=0) {
+			if (date.compareTo(new GregorianCalendar(2013, 11, 1))>=0 && date.compareTo(new GregorianCalendar(2018, 1, 10))<=0) {
 				fileFindSuccess = true;
 			}			
 		};
