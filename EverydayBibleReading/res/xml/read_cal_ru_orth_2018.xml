@@ -459,5 +459,224 @@
 </Book>
 </Date>
 
+<Date date="2018-02-11">
+<Book book="Мк." text="Мк. 16:9-20" type="Утр.  Ев. 3е">
+<Fragment chapterEnd="16" chapterStart="16" stihEnd="20" stihStart="9"/>
+</Book>
+<Book book="1Кор." isOrdinary="true" text="1Кор. 8:8-9:2" type="Лит.">
+<Fragment chapterEnd="9" chapterStart="8" stihEnd="2" stihStart="8"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф. 25:31-46" type="Лит.">
+<Fragment chapterEnd="25" chapterStart="25" stihEnd="46" stihStart="31"/>
+</Book>
+</Date>
+<Date date="2018-02-12">
+<Book book="Ин." text="Ин. 10:9-16" type="Утр.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="16" stihStart="9"/>
+</Book>
+<Book book="3Ин." isOrdinary="true" text="3Ин. 1:1-15" type="Лит.">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="15" stihStart="1"/>
+</Book>
+<Book book="Лк." isOrdinary="true" text="Лк. 19:29-40, 22:7-39" type="Лит.">
+<Fragment chapterEnd="19" chapterStart="19" stihEnd="40" stihStart="29"/>
+<Fragment chapterEnd="22" chapterStart="22" stihEnd="39" stihStart="7"/>
+</Book>
+<Book book="Евр." text="Евр. 13:7-16" type="Свтт.">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="16" stihStart="7"/>
+</Book>
+<Book book="Мф." text="Мф. 5:14-19" type="Свтт.">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="19" stihStart="14"/>
+</Book>
+</Date>
+<Date date="2018-02-13">
+<Book book="Иуд." isOrdinary="true" text="Иуд. 1:1-10" type="">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="10" stihStart="1"/>
+</Book>
+<Book book="Лк." isOrdinary="true" text="Лк. 22:39-42, 22:45-23:1" type="">
+<Fragment chapterEnd="22" chapterStart="22" stihEnd="42" stihStart="39"/>
+<Fragment chapterEnd="23" chapterStart="22" stihEnd="1" stihStart="45"/>
+</Book>
+<Book book="Иуд." text="Иуд. 1:11-25" type="и за четверг (под зачало)">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="25" stihStart="11"/>
+</Book>
+<Book book="Лк." text="Лк. 23:1-34, 44-56" type="и за четверг (под зачало)">
+<Fragment chapterEnd="23" chapterStart="23" stihEnd="34" stihStart="1"/>
+<Fragment chapterEnd="23" chapterStart="23" stihEnd="56" stihStart="44"/>
+</Book>
+<Book book="1Кор." text="1Кор. 12:27-13:8" type="Бессребреников">
+<Fragment chapterEnd="13" chapterStart="12" stihEnd="8" stihStart="27"/>
+</Book>
+<Book book="Мф." text="Мф. 10:1, 5-8" type="Бессребреников">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="1" stihStart="1"/>
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="8" stihStart="5"/>
+</Book>
+</Date>
+<Date date="2018-02-14">
+<Book book="Иоил." isOrdinary="true" text="Иоил. 2:12-26" type="На 6м часе">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="26" stihStart="12"/>
+</Book>
+<Book book="Иоил." isOrdinary="true" text="Иоил. 3:12-21" type="На веч.">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="21" stihStart="12"/>
+</Book>
+</Date>
+<Date date="2018-02-15">
+<Book book="Лк." text="Лк. 2:25-32" type="Утр.">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="32" stihStart="25"/>
+</Book>
+<Book book="Евр." isOrdinary="true" text="Евр. 7:7-17" type="Лит.">
+<Fragment chapterEnd="7" chapterStart="7" stihEnd="17" stihStart="7"/>
+</Book>
+<Book book="Лк." isOrdinary="true" text="Лк. 2:22-40" type="Лит.">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="40" stihStart="22"/>
+</Book>
+</Date>
+<Date date="2018-02-16">
+<Book book="Зах." isOrdinary="true" text="Зах. 8:7-17" type="На 6м часе">
+<Fragment chapterEnd="8" chapterStart="8" stihEnd="17" stihStart="7"/>
+</Book>
+<Book book="Зах." isOrdinary="true" text="Зах. 8:19-23" type="На веч.">
+<Fragment chapterEnd="8" chapterStart="8" stihEnd="23" stihStart="19"/>
+</Book>
+</Date>
+<Date date="2018-02-17">
+<Book book="Рим." isOrdinary="true" text="Рим. 14:19-26" type="">
+<Fragment chapterEnd="14" chapterStart="14" stihEnd="26" stihStart="19"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф. 6:1-13" type="">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="13" stihStart="1"/>
+</Book>
+<Book book="Гал." text="Гал. 5:22-6:2" type="Прпп.">
+<Fragment chapterEnd="6" chapterStart="5" stihEnd="2" stihStart="22"/>
+</Book>
+<Book book="Мф." text="Мф. 11:27-30" type="Прпп.">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="30" stihStart="27"/>
+</Book>
+</Date>
+<Date date="2018-02-18">
+<Book book="Лк." text="Лк. 24:1-12" type="Утр.  Ев. 4е">
+<Fragment chapterEnd="24" chapterStart="24" stihEnd="12" stihStart="1"/>
+</Book>
+<Book book="Рим." isOrdinary="true" text="Рим. 13:11-14:4" type="Лит.">
+<Fragment chapterEnd="14" chapterStart="13" stihEnd="4" stihStart="11"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф. 6:14-21" type="Лит.">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="21" stihStart="14"/>
+</Book>
+</Date>
+<Date date="2018-02-19">
+<Book book="Ис." isOrdinary="true" text="Ис. 1:1-20" type="На 6м часе">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="20" stihStart="1"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. 1:1-13" type="На веч.">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="13" stihStart="1"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. 1:1-20" type="На веч.">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="20" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2018-02-20">
+<Book book="Ис." isOrdinary="true" text="Ис. 1:19-2:3" type="На 6м часе">
+<Fragment chapterEnd="2" chapterStart="1" stihEnd="3" stihStart="19"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. 1:14-23" type="На веч.">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="23" stihStart="14"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. 1:20-33" type="На веч.">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="33" stihStart="20"/>
+</Book>
+</Date>
+<Date date="2018-02-21">
+<Book book="Ис." isOrdinary="true" text="Ис. 2:3-11" type="На 6м часе">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="11" stihStart="3"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. 1:24-2:3" type="На веч.">
+<Fragment chapterEnd="2" chapterStart="1" stihEnd="3" stihStart="24"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. 2:1-22" type="На веч.">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="22" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2018-02-22">
+<Book book="Ис." isOrdinary="true" text="Ис. 2:11-21" type="На 6м часе">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="21" stihStart="11"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. 2:4-19" type="На веч.">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="19" stihStart="4"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. 3:1-18" type="На веч.">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="18" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2018-02-23">
+<Book book="Ис." isOrdinary="true" text="Ис. 3:1-14" type="На 6м часе">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="14" stihStart="1"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. 2:20-3:20" type="На веч.">
+<Fragment chapterEnd="3" chapterStart="2" stihEnd="20" stihStart="20"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. 3:19-34" type="На веч.">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="34" stihStart="19"/>
+</Book>
+</Date>
+<Date date="2018-02-24">
+<Book book="Евр." isOrdinary="true" text="Евр. 1:1-12" type="">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="12" stihStart="1"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк. 2:23-3:5" type="">
+<Fragment chapterEnd="3" chapterStart="2" stihEnd="5" stihStart="23"/>
+</Book>
+<Book book="2Тим." text="2Тим. 2:1-10" type="Вмч.">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="10" stihStart="1"/>
+</Book>
+<Book book="Ин." text="Ин. 15:17-16:2" type="Вмч.">
+<Fragment chapterEnd="16" chapterStart="15" stihEnd="2" stihStart="17"/>
+</Book>
+</Date>
+<Date date="2018-02-25">
+<Book book="Лк." text="Лк. 24:12-35" type="Утр.  Ев. 5е">
+<Fragment chapterEnd="24" chapterStart="24" stihEnd="35" stihStart="12"/>
+</Book>
+<Book book="Евр." isOrdinary="true" text="Евр. 11:24-26, 11:32-12:2" type="Лит.">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="26" stihStart="24"/>
+<Fragment chapterEnd="12" chapterStart="11" stihEnd="2" stihStart="32"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин. 1:43-51" type="Лит.">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="51" stihStart="43"/>
+</Book>
+</Date>
+<Date date="2018-02-26">
+<Book book="Ис." isOrdinary="true" text="Ис. 4:2-5:7" type="На 6м часе">
+<Fragment chapterEnd="5" chapterStart="4" stihEnd="7" stihStart="2"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. 3:21-4:7" type="На веч.">
+<Fragment chapterEnd="4" chapterStart="3" stihEnd="7" stihStart="21"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. 3:34-4:22" type="На веч.">
+<Fragment chapterEnd="4" chapterStart="3" stihEnd="22" stihStart="34"/>
+</Book>
+</Date>
+<Date date="2018-02-27">
+<Book book="Ис." isOrdinary="true" text="Ис. 5:7-16" type="На 6м часе">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="16" stihStart="7"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. 4:8-15" type="На веч.">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="15" stihStart="8"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. 5:1-15" type="На веч.">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="15" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2018-02-28">
+<Book book="Ис." isOrdinary="true" text="Ис. 5:16-25" type="На 6м часе">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="25" stihStart="16"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. 4:16-26" type="На веч.">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="26" stihStart="16"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. 5:15-6:3" type="На веч.">
+<Fragment chapterEnd="6" chapterStart="5" stihEnd="3" stihStart="15"/>
+</Book>
+</Date>
+
 </Year>
 </BibleCalendar>
