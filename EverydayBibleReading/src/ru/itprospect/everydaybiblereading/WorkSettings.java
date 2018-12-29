@@ -17,12 +17,12 @@ public class WorkSettings {
 		
 		//Проверка наличия хмл для даты и конфессии
 		if (conf.equals(CONF_ORTHODOXY)) {
-			if (date.compareTo(new GregorianCalendar(2013, 2, 1))>=0 && date.compareTo(new GregorianCalendar(2018, 9, 31))<=0) {
+			if (date.compareTo(new GregorianCalendar(2013, 2, 1))>=0 && date.compareTo(new GregorianCalendar(2019, 0, 13))<=0) {
 				fileFindSuccess = true;
 			}
 		} 
 		else if (conf.equals(CONF_CATHOLIC)) {
-			if (date.compareTo(new GregorianCalendar(2013, 11, 1))>=0 && date.compareTo(new GregorianCalendar(2018, 9, 31))<=0) {
+			if (date.compareTo(new GregorianCalendar(2013, 11, 1))>=0 && date.compareTo(new GregorianCalendar(2019, 0, 31))<=0) {
 				fileFindSuccess = true;
 			}			
 		};
@@ -65,6 +65,9 @@ public class WorkSettings {
 			}
 			else if (date.compareTo(new GregorianCalendar(2018, 0, 1))>=0 && date.compareTo(new GregorianCalendar(2018, 11, 31))<=0) {
 				return R.xml.read_cal_ru_cat_2018;
+			}
+			else if (date.compareTo(new GregorianCalendar(2019, 0, 1))>=0 && date.compareTo(new GregorianCalendar(2019, 11, 31))<=0) {
+				return R.xml.read_cal_ru_cat_2019;
 			}
 		};		
 		
