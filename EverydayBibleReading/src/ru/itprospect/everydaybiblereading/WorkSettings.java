@@ -17,12 +17,12 @@ public class WorkSettings {
 		
 		//Проверка наличия хмл для даты и конфессии
 		if (conf.equals(CONF_ORTHODOXY)) {
-			if (date.compareTo(new GregorianCalendar(2013, 2, 1))>=0 && date.compareTo(new GregorianCalendar(2019, 2, 31))<=0) {
+			if (date.compareTo(new GregorianCalendar(2013, 2, 1))>=0 && date.compareTo(new GregorianCalendar(2019, 8, 30))<=0) {
 				fileFindSuccess = true;
 			}
 		} 
 		else if (conf.equals(CONF_CATHOLIC)) {
-			if (date.compareTo(new GregorianCalendar(2013, 11, 1))>=0 && date.compareTo(new GregorianCalendar(2019, 0, 31))<=0) {
+			if (date.compareTo(new GregorianCalendar(2013, 11, 1))>=0 && date.compareTo(new GregorianCalendar(2019, 8, 30))<=0) {
 				fileFindSuccess = true;
 			}			
 		};
@@ -74,7 +74,7 @@ public class WorkSettings {
 			}
 		};		
 		
-		return R.xml.read_cal_ru_orth_2014;
+		return R.xml.read_cal_ru_orth_2019;
 	}
 	
 	public static String GetDefoltConf() {
