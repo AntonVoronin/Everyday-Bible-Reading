@@ -1,0 +1,1093 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<BibleCalendar conf="catholic">
+<Year year="2020">
+<Date date="2020-01-14">
+<Book book="Ин." text="Ин. 10:9-16" type="Утр.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="16" stihStart="9"/>
+</Book>
+<Book book="2 Тим." isOrdinary="true" text="2 Тим. 4:5-8" type="Лит.  Недели пред Богоявлением">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="8" stihStart="5"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк. 1:1-8" type="Лит.  Недели пред Богоявлением">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="8" stihStart="1"/>
+</Book>
+<Book book="Кол." text="Кол. 2:8-12" type="Обрезания">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="12" stihStart="8"/>
+</Book>
+<Book book="Лк." text="Лк. 2:20-21, 40-52" type="Обрезания">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="21" stihStart="20"/>
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="52" stihStart="40"/>
+</Book>
+<Book book="Евр." text="Евр. 7:26-8:2" type="Свт. (под зачало)">
+<Fragment chapterEnd="8" chapterStart="7" stihEnd="2" stihStart="26"/>
+</Book>
+<Book book="Лк." text="Лк. 6:17-23" type="Свт. (под зачало)">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="23" stihStart="17"/>
+</Book>
+</Date>
+<Date date="2020-01-15" type="Преставление (1833), второе обретение (1991) мощей прп. Серафима, Саровского чудотворца">
+<Book book="Мф." text="Мф. 11:27-30" type="Утр.">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="30" stihStart="27"/>
+</Book>
+<Book book="Гал." isOrdinary="true" text="Гал. 5:22-6:2" type="Лит.  Прп.">
+<Fragment chapterEnd="6" chapterStart="5" stihEnd="2" stihStart="22"/>
+</Book>
+<Book book="Лк." isOrdinary="true" text="Лк. 6:17-23" type="Лит.  Прп.">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="23" stihStart="17"/>
+</Book>
+</Date>
+<Date date="2020-01-16">
+<Book book="2 Тим." isOrdinary="true" text="2 Тим. 2:1-10" type="Мч.">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="10" stihStart="1"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф. 10:16-22" type="Мч.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="22" stihStart="16"/>
+</Book>
+</Date>
+<Date date="2020-01-17" type="Предпразднство Богоявления. Собор 70-ти апостолов">
+<Book book="Деян." text="Деян. 13:25-32" type="На 1м часе">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="32" stihStart="25"/>
+</Book>
+<Book book="Мф." text="Мф. 3:1-11" type="На 1м часе">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="11" stihStart="1"/>
+</Book>
+<Book book="Деян." text="Деян. 19:1-8" type="На 3м часе">
+<Fragment chapterEnd="19" chapterStart="19" stihEnd="8" stihStart="1"/>
+</Book>
+<Book book="Мк." text="Мк. 1:1-8" type="На 3м часе">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="8" stihStart="1"/>
+</Book>
+<Book book="Рим." isOrdinary="true" text="Рим. 6:3-11" type="На 6м часе">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="11" stihStart="3"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк. 1:9-15" type="На 6м часе">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="15" stihStart="9"/>
+</Book>
+<Book book="Тит." text="Тит. 2:11-14, 3:4-7" type="На 9м часе">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="14" stihStart="11"/>
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="7" stihStart="4"/>
+</Book>
+<Book book="Мф." text="Мф. 3:13-17" type="На 9м часе">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="17" stihStart="13"/>
+</Book>
+</Date>
+<Date date="2020-01-18" type="Навечерие Богоявления (Крещенский сочельник).">
+<Book book="1 Тим." isOrdinary="true" text="1 Тим. 3:14-4:5" type="Лит.  Субботы пред Богоявлением">
+<Fragment chapterEnd="4" chapterStart="3" stihEnd="5" stihStart="14"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф. 3:1-11" type="Лит.  Субботы пред Богоявлением">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="11" stihStart="1"/>
+</Book>
+<Book book="1 Кор." text="1 Кор. 10:1-4" type="На вечерне (совершается отдельно от литургии)">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="4" stihStart="1"/>
+</Book>
+<Book book="Лк." text="Лк. 3:1-18" type="На вечерне (совершается отдельно от литургии)">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="18" stihStart="1"/>
+</Book>
+<Book book="1 Кор." text="1 Кор. 10:1-4" type="На освящении воды">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="4" stihStart="1"/>
+</Book>
+<Book book="Мк." text="Мк. 1:9-11" type="На освящении воды">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="11" stihStart="9"/>
+</Book>
+</Date>
+<Date date="2020-01-19" type="Святое Богоявление. Крещение Господа Бога и Спаса нашего Иисуса Христа.">
+<Book book="Мк." text="Мк. 1:9-11" type="Утр.">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="11" stihStart="9"/>
+</Book>
+<Book book="Тит." isOrdinary="true" text="Тит. 2:11-14, 3:4-7" type="Лит.">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="14" stihStart="11"/>
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="7" stihStart="4"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф. 3:13-17" type="Лит.">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="17" stihStart="13"/>
+</Book>
+<Book book="1 Кор." text="1 Кор. 10:1-4" type="На освящении воды">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="4" stihStart="1"/>
+</Book>
+<Book book="Мк." text="Мк. 1:9-11" type="На освящении воды">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="11" stihStart="9"/>
+</Book>
+</Date>
+<Date date="2020-01-20" type="Собор Предтечи и Крестителя Господня Иоанна.">
+<Book book="Евр." isOrdinary="true" text="Евр. 11:17-23, 27-31" type="">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="23" stihStart="17"/>
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="31" stihStart="27"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк. 9:42-10:1" type="">
+<Fragment chapterEnd="10" chapterStart="9" stihEnd="1" stihStart="42"/>
+</Book>
+<Book book="Деян." text="Деян. 19:1-8" type="Предтечи">
+<Fragment chapterEnd="19" chapterStart="19" stihEnd="8" stihStart="1"/>
+</Book>
+<Book book="Ин." text="Ин. 1:29-34" type="Предтечи">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="34" stihStart="29"/>
+</Book>
+</Date>
+<Date date="2020-01-21">
+<Book book="Евр." isOrdinary="true" text="Евр. 12:25-26, 13:22-25" type="">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="26" stihStart="25"/>
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="25" stihStart="22"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк. 10:2-12" type="">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="12" stihStart="2"/>
+</Book>
+</Date>
+<Date date="2020-01-22" type="Свт. Филиппа, митр. Московского и всея России чудотворца (1569).">
+<Book book="Лк." text="Лк. 6:17-23" type="Утр.">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="23" stihStart="17"/>
+</Book>
+<Book book="Иак." isOrdinary="true" text="Иак. 1:1-18" type="Лит.">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="18" stihStart="1"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк. 10:11-16" type="Лит.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="16" stihStart="11"/>
+</Book>
+<Book book="Евр." text="Евр. 13:17-21" type="Свт.">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="21" stihStart="17"/>
+</Book>
+<Book book="Ин." text="Ин. 10:9-16" type="Свт.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="16" stihStart="9"/>
+</Book>
+</Date>
+<Date date="2020-01-23" type="Свт. Феофана, Затворника Вышенского (1894)">
+<Book book="Ин." text="Ин. 10:1-9" type="Утр.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="9" stihStart="1"/>
+</Book>
+<Book book="Иак." isOrdinary="true" text="Иак. 1:19-27" type="Лит.">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="27" stihStart="19"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк. 10:17-27" type="Лит.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="27" stihStart="17"/>
+</Book>
+<Book book="Евр." text="Евр. 7:26-8:2" type="Свт. Феофана">
+<Fragment chapterEnd="8" chapterStart="7" stihEnd="2" stihStart="26"/>
+</Book>
+<Book book="Ин." text="Ин. 10:9-16" type="Свт. Феофана">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="16" stihStart="9"/>
+</Book>
+<Book book="1 Кор." text="1 Кор. 12:7-11" type="Свт. Григория">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="11" stihStart="7"/>
+</Book>
+<Book book="Мф." text="Мф. 10:1-8" type="Свт. Григория">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="8" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2020-01-24" type="Прп. Феодосия Великого, общих житий начальника (529)">
+<Book book="Лк." text="Лк. 6:17-23" type="Утр.">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="23" stihStart="17"/>
+</Book>
+<Book book="Иак." isOrdinary="true" text="Иак. 2:1-13" type="Лит.">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="13" stihStart="1"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк. 10:23-32" type="Лит.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="32" stihStart="23"/>
+</Book>
+<Book book="2 Кор." text="2 Кор. 4:6-15" type="Прп.">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="15" stihStart="6"/>
+</Book>
+<Book book="Мф." text="Мф. 11:27-30" type="Прп.">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="30" stihStart="27"/>
+</Book>
+</Date>
+<Date date="2020-01-25" type="Свт. Саввы, архиеп. Сербского (1237)">
+<Book book="Еф." text="Еф. 6:10-17" type="Субботы по Богоявлении">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="17" stihStart="10"/>
+</Book>
+<Book book="Мф." text="Мф. 4:1-11" type="Субботы по Богоявлении">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="11" stihStart="1"/>
+</Book>
+<Book book="Кол." isOrdinary="true" text="Кол. 1:3-6" type="Ряд.">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="6" stihStart="3"/>
+</Book>
+<Book book="Лк." isOrdinary="true" text="Лк. 16:10-15" type="Ряд.">
+<Fragment chapterEnd="16" chapterStart="16" stihEnd="15" stihStart="10"/>
+</Book>
+</Date>
+<Date date="2020-01-26">
+<Book book="Ин." text="Ин. 21:1-14" type="Утр.  Ев. 10е">
+<Fragment chapterEnd="21" chapterStart="21" stihEnd="14" stihStart="1"/>
+</Book>
+<Book book="Еф." text="Еф. 4:7-13" type="Лит.  Недели по Богоявлении">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="13" stihStart="7"/>
+</Book>
+<Book book="Мф." text="Мф. 4:12-17" type="Лит.  Недели по Богоявлении">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="17" stihStart="12"/>
+</Book>
+<Book book="1 Тим." isOrdinary="true" text="1 Тим. 1:15-17" type="Ряд.">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="17" stihStart="15"/>
+</Book>
+<Book book="Лк." isOrdinary="true" text="Лк. 18:35-43" type="Ряд.">
+<Fragment chapterEnd="18" chapterStart="18" stihEnd="43" stihStart="35"/>
+</Book>
+<Book book="Гал." isOrdinary="true" text="Гал. 5:22-6:2" type="Ряд.">
+<Fragment chapterEnd="6" chapterStart="5" stihEnd="2" stihStart="22"/>
+</Book>
+<Book book="Лк." isOrdinary="true" text="Лк. 6:17-23" type="Ряд.">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="23" stihStart="17"/>
+</Book>
+</Date>
+<Date date="2020-01-27" type="Отдание праздника Богоявления. Равноап. Нины, просветительницы Грузии (335).">
+<Book book="Мф." text="Мф. 10:1-8" type="Утр.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="8" stihStart="1"/>
+</Book>
+<Book book="Иак." isOrdinary="true" text="Иак. 2:14-26" type="Лит.">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="26" stihStart="14"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк. 10:46-52" type="Лит.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="52" stihStart="46"/>
+</Book>
+<Book book="1 Кор." text="1 Кор. 4:9-16" type="Равноап.">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="16" stihStart="9"/>
+</Book>
+<Book book="Мф." text="Мф. 25:1-13" type="Равноап.">
+<Fragment chapterEnd="25" chapterStart="25" stihEnd="13" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2020-01-28">
+<Book book="Иак." isOrdinary="true" text="Иак. 3:1-10" type="">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="10" stihStart="1"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк. 11:11-23" type="">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="23" stihStart="11"/>
+</Book>
+<Book book="Гал." text="Гал. 5:22-6:2" type="Прпп.">
+<Fragment chapterEnd="6" chapterStart="5" stihEnd="2" stihStart="22"/>
+</Book>
+<Book book="Мф." text="Мф. 11:27-30" type="Прпп.">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="30" stihStart="27"/>
+</Book>
+</Date>
+<Date date="2020-01-29">
+<Book book="Иак." isOrdinary="true" text="Иак. 3:11-4:6" type="">
+<Fragment chapterEnd="4" chapterStart="3" stihEnd="6" stihStart="11"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк. 11:23-26" type="">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="26" stihStart="23"/>
+</Book>
+<Book book="Иак." text="Иак. 4:7-5:9" type="и за четверг (под зачало)">
+<Fragment chapterEnd="5" chapterStart="4" stihEnd="9" stihStart="7"/>
+</Book>
+<Book book="Мк." text="Мк. 11:27-33" type="и за четверг (под зачало)">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="33" stihStart="27"/>
+</Book>
+<Book book="Деян." text="Деян. 12:1-11" type="Ап.">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="11" stihStart="1"/>
+</Book>
+<Book book="Ин." text="Ин. 21:15-25" type="Ап.">
+<Fragment chapterEnd="21" chapterStart="21" stihEnd="25" stihStart="15"/>
+</Book>
+</Date>
+<Date date="2020-01-30" type="Прп. Антония Великого (356)">
+<Book book="Мф." text="Мф. 11:27-30" type="Утр.">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="30" stihStart="27"/>
+</Book>
+<Book book="Евр." isOrdinary="true" text="Евр. 13:17-21" type="Лит.  Прп.">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="21" stihStart="17"/>
+</Book>
+<Book book="Лк." isOrdinary="true" text="Лк. 6:17-23" type="Лит.  Прп.">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="23" stihStart="17"/>
+</Book>
+</Date>
+<Date date="2020-01-31" type="Свтт. Афанасия (373) и Кирилла (444), архиепископов Александрийских. Прпп. схимонаха Кирилла и схимонахини Марии (ок. 1337), родителей прп. Сергия Радонежского.">
+<Book book="1 Пет." isOrdinary="true" text="1 Пет. 1:1-2, 10-12, 2:6-10" type="">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="2" stihStart="1"/>
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="12" stihStart="10"/>
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="10" stihStart="6"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк. 12:1-12" type="">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="12" stihStart="1"/>
+</Book>
+<Book book="Евр." text="Евр. 13:7-16" type="Свтт.">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="16" stihStart="7"/>
+</Book>
+<Book book="Мф." text="Мф. 5:14-19" type="Свтт.">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="19" stihStart="14"/>
+</Book>
+</Date>
+
+<Date date="2020-02-01" type="Прп. Макария Великого, Египетского (390-391). Свт. Марка Евгеника, архиеп. Ефесского (1444)">
+<Book book="Гал." text="Гал. 5:22-6:2" type="Прп.">
+<Fragment chapterEnd="6" chapterStart="5" stihEnd="2" stihStart="22"/>
+</Book>
+<Book book="Мф." text="Мф. 11:27-30" type="Прп.">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="30" stihStart="27"/>
+</Book>
+<Book book="1 Сол." isOrdinary="true" text="1 Сол. 5:14-23" type="Ряд.">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="23" stihStart="14"/>
+</Book>
+<Book book="Лк." isOrdinary="true" text="Лк. 17:3-10" type="Ряд.">
+<Fragment chapterEnd="17" chapterStart="17" stihEnd="10" stihStart="3"/>
+</Book>
+</Date>
+<Date date="2020-02-02" type="Прп. Евфимия Великого (473)">
+<Book book="Ин." text="Ин. 21:15-25" type="Утр.  Ев. 11е">
+<Fragment chapterEnd="21" chapterStart="21" stihEnd="25" stihStart="15"/>
+</Book>
+<Book book="1 Тим." isOrdinary="true" text="1 Тим. 4:9-15" type="Лит.">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="15" stihStart="9"/>
+</Book>
+<Book book="Лк." isOrdinary="true" text="Лк. 19:1-10" type="Лит.">
+<Fragment chapterEnd="19" chapterStart="19" stihEnd="10" stihStart="1"/>
+</Book>
+<Book book="Евр." isOrdinary="true" text="Евр. 13:17-21" type="Лит.">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="21" stihStart="17"/>
+</Book>
+<Book book="Лк." isOrdinary="true" text="Лк. 6:17-23" type="Лит.">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="23" stihStart="17"/>
+</Book>
+</Date>
+<Date date="2020-02-03" type="Прп. Максима Грека (1556)">
+<Book book="Мф." text="Мф. 11:27-30" type="Утр.">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="30" stihStart="27"/>
+</Book>
+<Book book="1 Пет." isOrdinary="true" text="1 Пет. 2:21-3:9" type="Лит.">
+<Fragment chapterEnd="3" chapterStart="2" stihEnd="9" stihStart="21"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк. 12:13-17" type="Лит.">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="17" stihStart="13"/>
+</Book>
+<Book book="Евр." text="Евр. 11:33-12:2" type="Прп. и мч.">
+<Fragment chapterEnd="12" chapterStart="11" stihEnd="2" stihStart="33"/>
+</Book>
+<Book book="Лк." text="Лк. 12:8-12" type="Прп. и мч.">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="12" stihStart="8"/>
+</Book>
+<Book book="Гал." text="Гал. 5:22-6:2" type="прп. Максима Грека">
+<Fragment chapterEnd="6" chapterStart="5" stihEnd="2" stihStart="22"/>
+</Book>
+<Book book="Лк." text="Лк. 6:17-23" type="прп. Максима Грека">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="23" stihStart="17"/>
+</Book>
+</Date>
+<Date date="2020-02-04">
+<Book book="1 Пет." isOrdinary="true" text="1 Пет. 3:10-22" type="">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="22" stihStart="10"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк. 12:18-27" type="">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="27" stihStart="18"/>
+</Book>
+<Book book="2 Тим." text="2 Тим. 1:3-9" type="Ап.">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="9" stihStart="3"/>
+</Book>
+<Book book="Лк." text="Лк. 10:1-15" type="Ап.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="15" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2020-02-05">
+<Book book="1 Пет." isOrdinary="true" text="1 Пет. 4:1-11" type="">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="11" stihStart="1"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк. 12:28-37" type="">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="37" stihStart="28"/>
+</Book>
+<Book book="Евр." text="Евр. 13:7-16" type="Сщмч.">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="16" stihStart="7"/>
+</Book>
+<Book book="Ин." text="Ин. 10:9-16" type="Сщмч.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="16" stihStart="9"/>
+</Book>
+</Date>
+<Date date="2020-02-06" type="Блж. Ксении Петербургской (XIX)">
+<Book book="Мф." text="Мф. 11:27-30" type="Утр.">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="30" stihStart="27"/>
+</Book>
+<Book book="1 Пет." isOrdinary="true" text="1 Пет. 4:12-5:5" type="Лит.">
+<Fragment chapterEnd="5" chapterStart="4" stihEnd="5" stihStart="12"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк. 12:38-44" type="Лит.">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="44" stihStart="38"/>
+</Book>
+<Book book="Гал." text="Гал. 5:22-6:2" type="Блж.">
+<Fragment chapterEnd="6" chapterStart="5" stihEnd="2" stihStart="22"/>
+</Book>
+<Book book="Лк." text="Лк. 6:17-23" type="Блж.">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="23" stihStart="17"/>
+</Book>
+</Date>
+<Date date="2020-02-07" type="Свт. Григория Богослова, архиеп. Константинопольского (389). Сщмч. Владимира, митр. Киевского (1918)">
+<Book book="Ин." text="Ин. 10:1-9" type="Утр.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="9" stihStart="1"/>
+</Book>
+<Book book="2 Пет." isOrdinary="true" text="2 Пет. 1:1-10" type="Лит.">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="10" stihStart="1"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк. 13:1-8" type="Лит.">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="8" stihStart="1"/>
+</Book>
+<Book book="1 Кор." text="1 Кор. 12:7-11" type="Свт.">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="11" stihStart="7"/>
+</Book>
+<Book book="Ин." text="Ин. 10:9-16" type="Свт.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="16" stihStart="9"/>
+</Book>
+<Book book="Евр." text="Евр. 13:7-16" type="Сщмч.">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="16" stihStart="7"/>
+</Book>
+</Date>
+<Date date="2020-02-08" type="Перенесение мощей свт. Иоанна Златоуста (438)">
+<Book book="Ин." text="Ин. 10:1-9" type="Утр.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="9" stihStart="1"/>
+</Book>
+<Book book="Евр." text="Евр. 7:26-8:2" type="Лит.  Свт.">
+<Fragment chapterEnd="8" chapterStart="7" stihEnd="2" stihStart="26"/>
+</Book>
+<Book book="Ин." text="Ин. 10:9-16" type="Лит.  Свт.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="16" stihStart="9"/>
+</Book>
+<Book book="2 Тим." isOrdinary="true" text="2 Тим. 2:11-19" type="Ряд.">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="19" stihStart="11"/>
+</Book>
+<Book book="Лк." isOrdinary="true" text="Лк. 18:2-8" type="Ряд.">
+<Fragment chapterEnd="18" chapterStart="18" stihEnd="8" stihStart="2"/>
+</Book>
+</Date>
+<Date date="2020-02-09" type="Собор новомучеников и исповедников Церкви Русской. Перенесение мощей свт. Иоанна Златоуста (438)">
+<Book book="Мф." text="Мф. 28:16-20" type="Утр.  Ев. 1е">
+<Fragment chapterEnd="28" chapterStart="28" stihEnd="20" stihStart="16"/>
+</Book>
+<Book book="2 Тим." isOrdinary="true" text="2 Тим. 3:10-15" type="Лит.">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="15" stihStart="10"/>
+</Book>
+<Book book="Лк." isOrdinary="true" text="Лк. 18:10-14" type="Лит.">
+<Fragment chapterEnd="18" chapterStart="18" stihEnd="14" stihStart="10"/>
+</Book>
+<Book book="Рим." text="Рим. 8:28-39" type="Мчч.">
+<Fragment chapterEnd="8" chapterStart="8" stihEnd="39" stihStart="28"/>
+</Book>
+<Book book="Лк." text="Лк. 21:8-19" type="Мчч.">
+<Fragment chapterEnd="21" chapterStart="21" stihEnd="19" stihStart="8"/>
+</Book>
+</Date>
+<Date date="2020-02-10" type="Прп. Ефрема Сирина (373-379)">
+<Book book="2 Пет." isOrdinary="true" text="2 Пет. 1:20-2:9" type="">
+<Fragment chapterEnd="2" chapterStart="1" stihEnd="9" stihStart="20"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк. 13:9-13" type="">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="13" stihStart="9"/>
+</Book>
+<Book book="Гал." text="Гал. 5:22-6:2" type="Прп.">
+<Fragment chapterEnd="6" chapterStart="5" stihEnd="2" stihStart="22"/>
+</Book>
+<Book book="Мф." text="Мф. 11:27-30" type="Прп.">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="30" stihStart="27"/>
+</Book>
+</Date>
+<Date date="2020-02-11" type="Перенесение мощей сщмч. Игнатия Богоносца (107)">
+<Book book="2 Пет." isOrdinary="true" text="2 Пет. 2:9-22" type="">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="22" stihStart="9"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк. 13:14-23" type="">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="23" stihStart="14"/>
+</Book>
+<Book book="2 Пет." text="2 Пет. 3:1-18" type="и за среду (под зачало)">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="18" stihStart="1"/>
+</Book>
+<Book book="Мк." text="Мк. 13:24-31" type="и за среду (под зачало)">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="31" stihStart="24"/>
+</Book>
+<Book book="Евр." text="Евр. 4:14-5:6" type="Сщмч.">
+<Fragment chapterEnd="5" chapterStart="4" stihEnd="6" stihStart="14"/>
+</Book>
+<Book book="Мк." text="Мк. 9:33-41" type="Сщмч.">
+<Fragment chapterEnd="9" chapterStart="9" stihEnd="41" stihStart="33"/>
+</Book>
+</Date>
+<Date date="2020-02-12" type="Собор Вселенских учителей и святителей Василия Великого, Григория Богослова и Иоанна Златоустого">
+<Book book="2 Пет" text="2 Пет 3:1-18" type="">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="18" stihStart="1"/>
+</Book>
+<Book book="Мк" text="Мк 13:24-31" type="">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="31" stihStart="24"/>
+</Book>
+</Date>
+<Date date="2020-02-13">
+<Book book="1 Ин." isOrdinary="true" text="1 Ин. 1:8-2:6" type="">
+<Fragment chapterEnd="2" chapterStart="1" stihEnd="6" stihStart="8"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк. 13:31-14:2" type="">
+<Fragment chapterEnd="14" chapterStart="13" stihEnd="2" stihStart="31"/>
+</Book>
+<Book book="Евр." text="Евр. 7:26-8:2" type="Свт.">
+<Fragment chapterEnd="8" chapterStart="7" stihEnd="2" stihStart="26"/>
+</Book>
+<Book book="Ин." text="Ин. 10:9-161" type="Свт.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="161" stihStart="9"/>
+</Book>
+<Book book="1 Кор." text="1 Кор. 12:27-13:8" type="Бессребреников">
+<Fragment chapterEnd="13" chapterStart="12" stihEnd="8" stihStart="27"/>
+</Book>
+<Book book="Мф." text="Мф. 10:1, 5-8" type="Бессребреников">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="1" stihStart="1"/>
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="8" stihStart="5"/>
+</Book>
+</Date>
+<Date date="2020-02-14">
+<Book book="1 Ин." isOrdinary="true" text="1 Ин. 2:7-17" type="">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="17" stihStart="7"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк. 14:3-9" type="">
+<Fragment chapterEnd="14" chapterStart="14" stihEnd="9" stihStart="3"/>
+</Book>
+<Book book="2 Тим." text="2 Тим. 3:1-9" type="и за субботу (под зачало)">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="9" stihStart="1"/>
+</Book>
+<Book book="Лк." text="Лк. 20:45-21:4" type="и за субботу (под зачало)">
+<Fragment chapterEnd="21" chapterStart="20" stihEnd="4" stihStart="45"/>
+</Book>
+<Book book="Рим." text="Рим. 8:28-39" type="Мч.">
+<Fragment chapterEnd="8" chapterStart="8" stihEnd="39" stihStart="28"/>
+</Book>
+<Book book="Лк." text="Лк. 10:19-21" type="Мч.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="21" stihStart="19"/>
+</Book>
+</Date>
+<Date date="2020-02-15" type="Сретение Господа Нашего Иисуса Христа">
+<Book book="Мк." text="Мк. 16:1-8" type="Утр.  Ев. 2е">
+<Fragment chapterEnd="16" chapterStart="16" stihEnd="8" stihStart="1"/>
+</Book>
+<Book book="1 Кор." isOrdinary="true" text="1 Кор. 6:12-20" type="Лит.">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="20" stihStart="12"/>
+</Book>
+<Book book="Лк." isOrdinary="true" text="Лк. 15:11-32" type="Лит.">
+<Fragment chapterEnd="15" chapterStart="15" stihEnd="32" stihStart="11"/>
+</Book>
+</Date>
+<Date date="2020-02-16" type="Равноап. Николая, архиеп. Японского (1912).">
+<Book book="Мк." text="Мк. 16:1-8" type="Утр.  Ев. 2е">
+<Fragment chapterEnd="16" chapterStart="16" stihEnd="8" stihStart="1"/>
+</Book>
+<Book book="1 Кор." isOrdinary="true" text="1 Кор. 6:12-20" type="Лит.">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="20" stihStart="12"/>
+</Book>
+<Book book="Лк." isOrdinary="true" text="Лк. 15:11-32" type="Лит.">
+<Fragment chapterEnd="15" chapterStart="15" stihEnd="32" stihStart="11"/>
+</Book>
+</Date>
+<Date date="2020-02-17">
+<Book book="1 Ин." isOrdinary="true" text="1 Ин. 2:18-3:10" type="">
+<Fragment chapterEnd="3" chapterStart="2" stihEnd="10" stihStart="18"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк. 11:1-11" type="">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="11" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2020-02-18" type="Свт. Феодосия, архиеп. Черниговского (1696)">
+<Book book="1 Ин." isOrdinary="true" text="1 Ин. 3:10-20" type="">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="20" stihStart="10"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк. 14:10-42" type="">
+<Fragment chapterEnd="14" chapterStart="14" stihEnd="42" stihStart="10"/>
+</Book>
+</Date>
+<Date date="2020-02-19">
+<Book book="1 Ин." isOrdinary="true" text="1 Ин. 3:21-4:6" type="">
+<Fragment chapterEnd="4" chapterStart="3" stihEnd="6" stihStart="21"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк. 14:43-15:1" type="">
+<Fragment chapterEnd="15" chapterStart="14" stihEnd="1" stihStart="43"/>
+</Book>
+</Date>
+<Date date="2020-02-20">
+<Book book="1 Ин." isOrdinary="true" text="1 Ин. 4:20-5:21" type="">
+<Fragment chapterEnd="5" chapterStart="4" stihEnd="21" stihStart="20"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк. 15:1-15" type="">
+<Fragment chapterEnd="15" chapterStart="15" stihEnd="15" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2020-02-21" type="Отдание праздника Сретения Господня">
+<Book book="2 Ин." isOrdinary="true" text="2 Ин. 1:1-13" type="">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="13" stihStart="1"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк. 15:22, 25, 33-41" type="">
+<Fragment chapterEnd="15" chapterStart="15" stihEnd="22" stihStart="22"/>
+<Fragment chapterEnd="15" chapterStart="15" stihEnd="25" stihStart="25"/>
+<Fragment chapterEnd="15" chapterStart="15" stihEnd="41" stihStart="33"/>
+</Book>
+</Date>
+<Date date="2020-02-22" type="Вселенская родительская (мясопустная) суббота. Обретение мощей свт. Иннокентия, еп. Иркутского (1805). Обретение мощей свт. Тихона, патриарха Московского и всея России (1992)">
+<Book book="1 Кор." isOrdinary="true" text="1 Кор. 10:23-28" type="">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="28" stihStart="23"/>
+</Book>
+<Book book="Лк." isOrdinary="true" text="Лк. 21:8-9, 25-27, 33-36" type="">
+<Fragment chapterEnd="21" chapterStart="21" stihEnd="9" stihStart="8"/>
+<Fragment chapterEnd="21" chapterStart="21" stihEnd="27" stihStart="25"/>
+<Fragment chapterEnd="21" chapterStart="21" stihEnd="36" stihStart="33"/>
+</Book>
+<Book book="1 Сол." text="1 Сол. 4:13-17" type="За упокой">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="17" stihStart="13"/>
+</Book>
+<Book book="Ин." text="Ин. 5:24-30" type="За упокой">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="30" stihStart="24"/>
+</Book>
+</Date>
+<Date date="2020-02-23">
+<Book book="Мк." text="Мк. 16:9-20" type="Утр.  Ев. 3е">
+<Fragment chapterEnd="16" chapterStart="16" stihEnd="20" stihStart="9"/>
+</Book>
+<Book book="1 Кор." isOrdinary="true" text="1 Кор. 8:8-9:2" type="Лит.">
+<Fragment chapterEnd="9" chapterStart="8" stihEnd="2" stihStart="8"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф. 25:31-46" type="Лит.">
+<Fragment chapterEnd="25" chapterStart="25" stihEnd="46" stihStart="31"/>
+</Book>
+</Date>
+<Date date="2020-02-24">
+<Book book="3 Ин." isOrdinary="true" text="3 Ин. 1:1-15" type="">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="15" stihStart="1"/>
+</Book>
+<Book book="Лк." isOrdinary="true" text="Лк. 19:29-40, 22:7-39" type="">
+<Fragment chapterEnd="19" chapterStart="19" stihEnd="40" stihStart="29"/>
+<Fragment chapterEnd="22" chapterStart="22" stihEnd="39" stihStart="7"/>
+</Book>
+</Date>
+<Date date="2020-02-25" type="Иверской иконы Божией Матери (IX). Свт. Алексия, митр. Московского и всея России, чудотворца (1378)">
+<Book book="Лк." text="Лк. 1:39-49, 56" type="Утр.  Богородицы">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="49" stihStart="39"/>
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="56" stihStart="56"/>
+</Book>
+<Book book="Ин." text="Ин. 10:9-16" type="свт.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="16" stihStart="9"/>
+</Book>
+<Book book="Иуд." isOrdinary="true" text="Иуд. 1:1-10" type="Лит.">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="10" stihStart="1"/>
+</Book>
+<Book book="Лк." isOrdinary="true" text="Лк. 22:39-42, 22:45-23:1" type="Лит.">
+<Fragment chapterEnd="22" chapterStart="22" stihEnd="42" stihStart="39"/>
+<Fragment chapterEnd="23" chapterStart="22" stihEnd="1" stihStart="45"/>
+</Book>
+<Book book="Флп." text="Флп. 2:5-11" type="Богородицы">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="11" stihStart="5"/>
+</Book>
+<Book book="Лк." text="Лк. 10:38-42, 11:27-28" type="Богородицы">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="42" stihStart="38"/>
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="28" stihStart="27"/>
+</Book>
+<Book book="Евр." text="Евр. 13:17-21" type="Свт.">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="21" stihStart="17"/>
+</Book>
+<Book book="Лк." text="Лк. 6:17-23" type="Свт.">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="23" stihStart="17"/>
+</Book>
+</Date>
+<Date date="2020-02-26" type="Свт. Серафима (Соболева), архиеп. Богучарского (1950)">
+<Book book="Иоил." isOrdinary="true" text="Иоил. 2:12-26" type="На 6м часе">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="26" stihStart="12"/>
+</Book>
+<Book book="Иоил." isOrdinary="true" text="Иоил. 3:12-21" type="На веч.">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="21" stihStart="12"/>
+</Book>
+</Date>
+<Date date="2020-02-27" type="Равноап. Кирилла, учителя Словенского (869)">
+<Book book="Иуд." isOrdinary="true" text="Иуд. 1:11-25" type="">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="25" stihStart="11"/>
+</Book>
+<Book book="Лк." isOrdinary="true" text="Лк. 23:1-34, 44-56" type="">
+<Fragment chapterEnd="23" chapterStart="23" stihEnd="34" stihStart="1"/>
+<Fragment chapterEnd="23" chapterStart="23" stihEnd="56" stihStart="44"/>
+</Book>
+</Date>
+<Date date="2020-02-28">
+<Book book="Зах." isOrdinary="true" text="Зах. 8:7-17" type="На 6м часе">
+<Fragment chapterEnd="8" chapterStart="8" stihEnd="17" stihStart="7"/>
+</Book>
+<Book book="Зах." isOrdinary="true" text="Зах. 8:19-23" type="На веч.">
+<Fragment chapterEnd="8" chapterStart="8" stihEnd="23" stihStart="19"/>
+</Book>
+</Date>
+<Date date="2020-02-29">
+<Book book="Рим." isOrdinary="true" text="Рим. 14:19-26" type="">
+<Fragment chapterEnd="14" chapterStart="14" stihEnd="26" stihStart="19"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф. 6:1-13" type="">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="13" stihStart="1"/>
+</Book>
+<Book book="Гал." text="Гал. 5:22-6:2" type="Прпп.">
+<Fragment chapterEnd="6" chapterStart="5" stihEnd="2" stihStart="22"/>
+</Book>
+<Book book="Мф." text="Мф. 11:27-30" type="Прпп.">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="30" stihStart="27"/>
+</Book>
+</Date>
+<Date date="2020-03-01" type="Воспоминание Адамова изгнания. Прощеное воскресенье. Сщмч. Ермогена, Патриарха Московского и всея России, чудотворца (1612)">
+<Book book="Лк." text="Лк. 24:1-12" type="Утр.  Ев. 4е">
+<Fragment chapterEnd="24" chapterStart="24" stihEnd="12" stihStart="1"/>
+</Book>
+<Book book="Рим." isOrdinary="true" text="Рим. 13:11-14:4" type="Лит.">
+<Fragment chapterEnd="14" chapterStart="13" stihEnd="4" stihStart="11"/>
+</Book>
+<Book book="Мф." isOrdinary="true" text="Мф. 6:14-21" type="Лит.">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="21" stihStart="14"/>
+</Book>
+</Date>
+<Date date="2020-03-02">
+<Book book="Ис." isOrdinary="true" text="Ис. 1:1-20" type="На 6м часе">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="20" stihStart="1"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. 1:1-13" type="На веч.">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="13" stihStart="1"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. 1:1-20" type="На веч.">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="20" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2020-03-03">
+<Book book="Ис." isOrdinary="true" text="Ис. 1:19-2:3" type="На 6м часе">
+<Fragment chapterEnd="2" chapterStart="1" stihEnd="3" stihStart="19"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. 1:14-23" type="На веч.">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="23" stihStart="14"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. 1:20-33" type="На веч.">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="33" stihStart="20"/>
+</Book>
+</Date>
+<Date date="2020-03-04">
+<Book book="Ис." isOrdinary="true" text="Ис. 2:3-11" type="На 6м часе">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="11" stihStart="3"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. 1:24-2:3" type="На веч.">
+<Fragment chapterEnd="2" chapterStart="1" stihEnd="3" stihStart="24"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. 2:1-22" type="На веч.">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="22" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2020-03-05">
+<Book book="Ис." isOrdinary="true" text="Ис. 2:11-21" type="На 6м часе">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="21" stihStart="11"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. 2:4-19" type="На веч.">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="19" stihStart="4"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. 3:1-18" type="На веч.">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="18" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2020-03-06">
+<Book book="Ис." isOrdinary="true" text="Ис. 3:1-14" type="На 6м часе">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="14" stihStart="1"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. 2:20-3:20" type="На веч.">
+<Fragment chapterEnd="3" chapterStart="2" stihEnd="20" stihStart="20"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. 3:19-34" type="На веч.">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="34" stihStart="19"/>
+</Book>
+</Date>
+<Date date="2020-03-07" type="Вмч. Феодора Тирона (ок. 306). Обретение мощей блж. Матроны Московской (1998).">
+<Book book="Евр." isOrdinary="true" text="Евр. 1:1-12" type="">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="12" stihStart="1"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк. 2:23-3:5" type="">
+<Fragment chapterEnd="3" chapterStart="2" stihEnd="5" stihStart="23"/>
+</Book>
+<Book book="2 Тим." text="2 Тим. 2:1-10" type="Вмч.">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="10" stihStart="1"/>
+</Book>
+<Book book="Ин." text="Ин. 15:17-16:2" type="Вмч.">
+<Fragment chapterEnd="16" chapterStart="15" stihEnd="2" stihStart="17"/>
+</Book>
+</Date>
+<Date date="2020-03-08" type="Торжество Православия. Первое (IV) и второе (452) обретение главы Иоанна Предтечи">
+<Book book="Лк." text="Лк. 24:12-35" type="Утр.  Ев. 5е">
+<Fragment chapterEnd="24" chapterStart="24" stihEnd="35" stihStart="12"/>
+</Book>
+<Book book="Евр." isOrdinary="true" text="Евр. 11:24-26, 11:32-12:2" type="Лит.">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="26" stihStart="24"/>
+<Fragment chapterEnd="12" chapterStart="11" stihEnd="2" stihStart="32"/>
+</Book>
+<Book book="Ин." isOrdinary="true" text="Ин. 1:43-51" type="Лит.">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="51" stihStart="43"/>
+</Book>
+<Book book="2 Кор." text="2 Кор. 4:6-15" type="Предтечи">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="15" stihStart="6"/>
+</Book>
+<Book book="Мф." text="Мф. 11:2-15" type="Предтечи">
+<Fragment chapterEnd="11" chapterStart="11" stihEnd="15" stihStart="2"/>
+</Book>
+</Date>
+<Date date="2020-03-09">
+<Book book="Ис." isOrdinary="true" text="Ис. 4:2-5:7" type="На 6м часе">
+<Fragment chapterEnd="5" chapterStart="4" stihEnd="7" stihStart="2"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. 3:21-4:7" type="На веч.">
+<Fragment chapterEnd="4" chapterStart="3" stihEnd="7" stihStart="21"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. 3:34-4:22" type="На веч.">
+<Fragment chapterEnd="4" chapterStart="3" stihEnd="22" stihStart="34"/>
+</Book>
+</Date>
+<Date date="2020-03-10">
+<Book book="Ис." isOrdinary="true" text="Ис. 5:7-16" type="На 6м часе">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="16" stihStart="7"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. 4:8-15" type="На веч.">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="15" stihStart="8"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. 5:1-15" type="На веч.">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="15" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2020-03-11">
+<Book book="Ис." isOrdinary="true" text="Ис. 5:16-25" type="На 6м часе">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="25" stihStart="16"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. 4:16-26" type="На веч.">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="26" stihStart="16"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. 5:15-6:3" type="На веч.">
+<Fragment chapterEnd="6" chapterStart="5" stihEnd="3" stihStart="15"/>
+</Book>
+</Date>
+<Date date="2020-03-12">
+<Book book="Ис." isOrdinary="true" text="Ис. 6:1-12" type="На 6м часе">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="12" stihStart="1"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. 5:1-24" type="На веч.">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="24" stihStart="1"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. 6:3-20" type="На веч.">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="20" stihStart="3"/>
+</Book>
+</Date>
+<Date date="2020-03-13">
+<Book book="Ис." isOrdinary="true" text="Ис. 7:1-14" type="На 6м часе">
+<Fragment chapterEnd="7" chapterStart="7" stihEnd="14" stihStart="1"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. 5:32-6:8" type="На веч.">
+<Fragment chapterEnd="6" chapterStart="5" stihEnd="8" stihStart="32"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. 6:20-7:1" type="На веч.">
+<Fragment chapterEnd="7" chapterStart="6" stihEnd="1" stihStart="20"/>
+</Book>
+</Date>
+<Date date="2020-03-14">
+<Book book="Евр." isOrdinary="true" text="Евр. 3:12-16" type="">
+<Fragment chapterEnd="3" chapterStart="3" stihEnd="16" stihStart="12"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк. 1:35-44" type="">
+<Fragment chapterEnd="1" chapterStart="1" stihEnd="44" stihStart="35"/>
+</Book>
+<Book book="1 Сол." text="1 Сол. 4:13-17" type="За упокой">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="17" stihStart="13"/>
+</Book>
+<Book book="Ин." text="Ин. 5:24-30" type="За упокой">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="30" stihStart="24"/>
+</Book>
+</Date>
+<Date date="2020-03-15" type="Иконы Божией Матери, именуемой &quot;Державная&quot; (1917). Свт. Григория Паламы, архиеп. Солунского">
+<Book book="Лк." text="Лк. 24:36-53" type="Утр.  Ев. 6е">
+<Fragment chapterEnd="24" chapterStart="24" stihEnd="53" stihStart="36"/>
+</Book>
+<Book book="Евр." isOrdinary="true" text="Евр. 1:10-2:3" type="Лит.">
+<Fragment chapterEnd="2" chapterStart="1" stihEnd="3" stihStart="10"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк. 2:1-12" type="Лит.">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="12" stihStart="1"/>
+</Book>
+<Book book="Евр." text="Евр. 7:26-8:2" type="Свт.">
+<Fragment chapterEnd="8" chapterStart="7" stihEnd="2" stihStart="26"/>
+</Book>
+<Book book="Ин." text="Ин. 10:9-16" type="Свт.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="16" stihStart="9"/>
+</Book>
+</Date>
+<Date date="2020-03-16">
+<Book book="Ис." isOrdinary="true" text="Ис. 8:13-9:7" type="На 6м часе">
+<Fragment chapterEnd="9" chapterStart="8" stihEnd="7" stihStart="13"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. 6:9-22" type="На веч.">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="22" stihStart="9"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. 8:1-21" type="На веч.">
+<Fragment chapterEnd="8" chapterStart="8" stihEnd="21" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2020-03-17" type="Блгв. кн. Даниила Московского (1303)">
+<Book book="Ис." isOrdinary="true" text="Ис. 9:9-10:4" type="На 6м часе">
+<Fragment chapterEnd="10" chapterStart="9" stihEnd="4" stihStart="9"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. 7:1-5" type="На веч.">
+<Fragment chapterEnd="7" chapterStart="7" stihEnd="5" stihStart="1"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. 8:32-9:11" type="На веч.">
+<Fragment chapterEnd="9" chapterStart="8" stihEnd="11" stihStart="32"/>
+</Book>
+</Date>
+<Date date="2020-03-18">
+<Book book="Ис." isOrdinary="true" text="Ис. 10:12-20" type="На 6м часе">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="20" stihStart="12"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. 7:6-9" type="На веч.">
+<Fragment chapterEnd="7" chapterStart="7" stihEnd="9" stihStart="6"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. 9:12-18" type="На веч.">
+<Fragment chapterEnd="9" chapterStart="9" stihEnd="18" stihStart="12"/>
+</Book>
+</Date>
+<Date date="2020-03-19">
+<Book book="Ис." isOrdinary="true" text="Ис. 11:10-12:2" type="На 6м часе">
+<Fragment chapterEnd="12" chapterStart="11" stihEnd="2" stihStart="10"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. 7:11-8:3" type="На веч.">
+<Fragment chapterEnd="8" chapterStart="7" stihEnd="3" stihStart="11"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. 10:1-22" type="На веч.">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="22" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2020-03-20">
+<Book book="Ис." isOrdinary="true" text="Ис. 13:2-13" type="На 6м часе">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="13" stihStart="2"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. 8:4-21" type="На веч.">
+<Fragment chapterEnd="8" chapterStart="8" stihEnd="21" stihStart="4"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. 10:31-11:12" type="На веч.">
+<Fragment chapterEnd="11" chapterStart="10" stihEnd="12" stihStart="31"/>
+</Book>
+</Date>
+<Date date="2020-03-21">
+<Book book="Евр." isOrdinary="true" text="Евр. 10:32-38" type="">
+<Fragment chapterEnd="10" chapterStart="10" stihEnd="38" stihStart="32"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк. 2:14-17" type="">
+<Fragment chapterEnd="2" chapterStart="2" stihEnd="17" stihStart="14"/>
+</Book>
+<Book book="1 Сол." text="1 Сол. 4:13-17" type="За упокой">
+<Fragment chapterEnd="4" chapterStart="4" stihEnd="17" stihStart="13"/>
+</Book>
+<Book book="Ин." text="Ин. 5:24-30" type="За упокой">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="30" stihStart="24"/>
+</Book>
+</Date>
+<Date date="2020-03-22" type="40 мучеников, в Севастийском озере мучившихся">
+<Book book="Ин." text="Ин. 20:1-10" type="Утр.  Ев. 7е">
+<Fragment chapterEnd="20" chapterStart="20" stihEnd="10" stihStart="1"/>
+</Book>
+<Book book="Евр." isOrdinary="true" text="Евр. 4:14-5:6" type="Лит.">
+<Fragment chapterEnd="5" chapterStart="4" stihEnd="6" stihStart="14"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк. 8:34-9:1" type="Лит.">
+<Fragment chapterEnd="9" chapterStart="8" stihEnd="1" stihStart="34"/>
+</Book>
+<Book book="Евр." text="Евр. 12:1-10" type="Мчч.">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="10" stihStart="1"/>
+</Book>
+<Book book="Мф." text="Мф. 20:1-16" type="Мчч.">
+<Fragment chapterEnd="20" chapterStart="20" stihEnd="16" stihStart="1"/>
+</Book>
+</Date>
+<Date date="2020-03-23">
+<Book book="Ис." isOrdinary="true" text="Ис. 14:24-32" type="На 6м часе">
+<Fragment chapterEnd="14" chapterStart="14" stihEnd="32" stihStart="24"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. 8:21-9:7" type="На веч.">
+<Fragment chapterEnd="9" chapterStart="8" stihEnd="7" stihStart="21"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. 11:19-12:6" type="На веч.">
+<Fragment chapterEnd="12" chapterStart="11" stihEnd="6" stihStart="19"/>
+</Book>
+</Date>
+<Date date="2020-03-24">
+<Book book="Ис." isOrdinary="true" text="Ис. 25:1-9" type="На 6м часе">
+<Fragment chapterEnd="25" chapterStart="25" stihEnd="9" stihStart="1"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. 9:8-17" type="На веч.">
+<Fragment chapterEnd="9" chapterStart="9" stihEnd="17" stihStart="8"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. 12:8-22" type="На веч.">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="22" stihStart="8"/>
+</Book>
+</Date>
+<Date date="2020-03-25" type="Свт. Григория Двоеслова, папы Римского (604). Прп. Симеона Нового Богослова (1021)">
+<Book book="Ис." isOrdinary="true" text="Ис. 26:21-27:9" type="На 6м часе">
+<Fragment chapterEnd="27" chapterStart="26" stihEnd="9" stihStart="21"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. 9:18-10:1" type="На веч.">
+<Fragment chapterEnd="10" chapterStart="9" stihEnd="1" stihStart="18"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. 12:23-13:9" type="На веч.">
+<Fragment chapterEnd="13" chapterStart="12" stihEnd="9" stihStart="23"/>
+</Book>
+</Date>
+<Date date="2020-03-26">
+<Book book="Ис." isOrdinary="true" text="Ис. 28:14-22" type="На 6м часе">
+<Fragment chapterEnd="28" chapterStart="28" stihEnd="22" stihStart="14"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. 10:32-11:9" type="На веч.">
+<Fragment chapterEnd="11" chapterStart="10" stihEnd="9" stihStart="32"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. 13:20-14:6" type="На веч.">
+<Fragment chapterEnd="14" chapterStart="13" stihEnd="6" stihStart="20"/>
+</Book>
+</Date>
+<Date date="2020-03-27">
+<Book book="Ис." isOrdinary="true" text="Ис. 29:13-23" type="На 6м часе">
+<Fragment chapterEnd="29" chapterStart="29" stihEnd="23" stihStart="13"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. 12:1-7" type="На веч.">
+<Fragment chapterEnd="12" chapterStart="12" stihEnd="7" stihStart="1"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. 14:15-26" type="На веч.">
+<Fragment chapterEnd="14" chapterStart="14" stihEnd="26" stihStart="15"/>
+</Book>
+</Date>
+<Date date="2020-03-28">
+<Book book="Евр." isOrdinary="true" text="Евр. 6:9-12" type="">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="12" stihStart="9"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк. 7:31-37" type="">
+<Fragment chapterEnd="7" chapterStart="7" stihEnd="37" stihStart="31"/>
+</Book>
+<Book book="1 Кор." text="1 Кор. 15:47-57" type="За упокой">
+<Fragment chapterEnd="15" chapterStart="15" stihEnd="57" stihStart="47"/>
+</Book>
+<Book book="Ин." text="Ин. 5:24-30" type="За упокой">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="30" stihStart="24"/>
+</Book>
+</Date>
+<Date date="2020-03-29">
+<Book book="Ин." text="Ин. 20:11-18" type="Утр.  Ев. 8е">
+<Fragment chapterEnd="20" chapterStart="20" stihEnd="18" stihStart="11"/>
+</Book>
+<Book book="Евр." isOrdinary="true" text="Евр. 6:13-20" type="Лит.">
+<Fragment chapterEnd="6" chapterStart="6" stihEnd="20" stihStart="13"/>
+</Book>
+<Book book="Мк." isOrdinary="true" text="Мк. 9:17-31" type="Лит.">
+<Fragment chapterEnd="9" chapterStart="9" stihEnd="31" stihStart="17"/>
+</Book>
+<Book book="Еф." text="Еф. 5:8-19" type="Прп.">
+<Fragment chapterEnd="5" chapterStart="5" stihEnd="19" stihStart="8"/>
+</Book>
+<Book book="Мф." text="Мф. 4:25-5:12" type="Прп.">
+<Fragment chapterEnd="5" chapterStart="4" stihEnd="12" stihStart="25"/>
+</Book>
+</Date>
+<Date date="2020-03-30">
+<Book book="Ис." isOrdinary="true" text="Ис. 37:33-38:6" type="На 6м часе">
+<Fragment chapterEnd="38" chapterStart="37" stihEnd="6" stihStart="33"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. 13:12-18" type="На веч.">
+<Fragment chapterEnd="13" chapterStart="13" stihEnd="18" stihStart="12"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. 14:27-15:4" type="На веч.">
+<Fragment chapterEnd="15" chapterStart="14" stihEnd="4" stihStart="27"/>
+</Book>
+</Date>
+<Date date="2020-03-31">
+<Book book="Ис." isOrdinary="true" text="Ис. 40:18-31" type="На 6м часе">
+<Fragment chapterEnd="40" chapterStart="40" stihEnd="31" stihStart="18"/>
+</Book>
+<Book book="Быт." isOrdinary="true" text="Быт. 15:1-15" type="На веч.">
+<Fragment chapterEnd="15" chapterStart="15" stihEnd="15" stihStart="1"/>
+</Book>
+<Book book="Притч." isOrdinary="true" text="Притч. 15:7-19" type="На веч.">
+<Fragment chapterEnd="15" chapterStart="15" stihEnd="19" stihStart="7"/>
+</Book>
+</Date>
+
+</Year>
+</BibleCalendar>

@@ -17,12 +17,12 @@ public class WorkSettings {
 		
 		//Проверка наличия хмл для даты и конфессии
 		if (conf.equals(CONF_ORTHODOXY)) {
-			if (date.compareTo(new GregorianCalendar(2013, 2, 1))>=0 && date.compareTo(new GregorianCalendar(2019, 8, 30))<=0) {
+			if (date.compareTo(new GregorianCalendar(2013, 2, 1))>=0 && date.compareTo(new GregorianCalendar(2020, 2, 31))<=0) {
 				fileFindSuccess = true;
 			}
 		} 
 		else if (conf.equals(CONF_CATHOLIC)) {
-			if (date.compareTo(new GregorianCalendar(2013, 11, 1))>=0 && date.compareTo(new GregorianCalendar(2019, 8, 30))<=0) {
+			if (date.compareTo(new GregorianCalendar(2013, 11, 1))>=0 && date.compareTo(new GregorianCalendar(2020, 2, 31))<=0) {
 				fileFindSuccess = true;
 			}			
 		};
@@ -52,6 +52,9 @@ public class WorkSettings {
 			else if (date.compareTo(new GregorianCalendar(2019, 0, 14))>=0 && date.compareTo(new GregorianCalendar(2020, 0, 13))<=0) {
 				return R.xml.read_cal_ru_orth_2019;
 			}
+			else if (date.compareTo(new GregorianCalendar(2020, 0, 14))>=0 && date.compareTo(new GregorianCalendar(2021, 0, 13))<=0) {
+				return R.xml.read_cal_ru_orth_2020;
+			}
 		} 
 		else if (conf.equals(CONF_CATHOLIC)) {
 			if (date.compareTo(new GregorianCalendar(2013, 11, 1))>=0 && date.compareTo(new GregorianCalendar(2014, 11, 31))<=0) {
@@ -71,6 +74,9 @@ public class WorkSettings {
 			}
 			else if (date.compareTo(new GregorianCalendar(2019, 0, 1))>=0 && date.compareTo(new GregorianCalendar(2019, 11, 31))<=0) {
 				return R.xml.read_cal_ru_cat_2019;
+			}
+			else if (date.compareTo(new GregorianCalendar(2020, 0, 1))>=0 && date.compareTo(new GregorianCalendar(2020, 11, 31))<=0) {
+				return R.xml.read_cal_ru_cat_2020;
 			}
 		};		
 		
