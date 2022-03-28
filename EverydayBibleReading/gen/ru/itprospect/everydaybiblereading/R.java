@@ -1496,15 +1496,19 @@ containing a value of this type.
         public static final int read_cal_ru_cat_2018=0x7f050005;
         public static final int read_cal_ru_cat_2019=0x7f050006;
         public static final int read_cal_ru_cat_2020=0x7f050007;
-        public static final int read_cal_ru_orth_2013=0x7f050008;
-        public static final int read_cal_ru_orth_2014=0x7f050009;
-        public static final int read_cal_ru_orth_2015=0x7f05000a;
-        public static final int read_cal_ru_orth_2016=0x7f05000b;
-        public static final int read_cal_ru_orth_2017=0x7f05000c;
-        public static final int read_cal_ru_orth_2018=0x7f05000d;
-        public static final int read_cal_ru_orth_2019=0x7f05000e;
-        public static final int read_cal_ru_orth_2020=0x7f05000f;
-        public static final int settings=0x7f050010;
+        public static final int read_cal_ru_cat_2021=0x7f050008;
+        public static final int read_cal_ru_cat_2022=0x7f050009;
+        public static final int read_cal_ru_orth_2013=0x7f05000a;
+        public static final int read_cal_ru_orth_2014=0x7f05000b;
+        public static final int read_cal_ru_orth_2015=0x7f05000c;
+        public static final int read_cal_ru_orth_2016=0x7f05000d;
+        public static final int read_cal_ru_orth_2017=0x7f05000e;
+        public static final int read_cal_ru_orth_2018=0x7f05000f;
+        public static final int read_cal_ru_orth_2019=0x7f050010;
+        public static final int read_cal_ru_orth_2020=0x7f050011;
+        public static final int read_cal_ru_orth_2021=0x7f050012;
+        public static final int read_cal_ru_orth_2022=0x7f050013;
+        public static final int settings=0x7f050014;
     }
     public static final class styleable {
         /**  ============================================ 
