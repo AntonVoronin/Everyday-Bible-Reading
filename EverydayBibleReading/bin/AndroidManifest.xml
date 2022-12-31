@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ru.itprospect.everydaybiblereading"
-    android:versionCode="80"
-    android:versionName="1.22"
+    android:versionCode="84"
+    android:versionName="1.26"
     android:installLocation="preferExternal">
 
     <uses-sdk
         android:minSdkVersion="7"
-        android:targetSdkVersion="30" />
+        android:targetSdkVersion="31" />
 
     <application
         android:allowBackup="true"
@@ -17,14 +17,15 @@
         android:name="MainApp">
         <activity
             android:name="ru.itprospect.everydaybiblereading.MainActivity"
-            android:label="@string/app_name">
+            android:label="@string/app_name"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         
-        <receiver android:name="WidgetActivity" android:label="@string/widget_label">
+        <receiver android:name="WidgetActivity" android:label="@string/widget_label" android:exported="false">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
                 <action android:name="ru.itprospect.everydaybiblereading.WIDGET_FORCE_UPDATE" />
@@ -40,7 +41,8 @@
         
         <activity android:name="BibleActivity" 
             android:parentActivityName="ru.itprospect.everydaybiblereading.MainActivity" 
-            android:icon="@drawable/prozrachn">
+            android:icon="@drawable/prozrachn"
+            android:exported="false">
 			<!-- Parent activity meta-data to support 4.0 and lower -->
 			<meta-data android:name="android.support.PARENT_ACTIVITY" 
 			    android:value="ru.itprospect.everydaybiblereading.MainActivity"/>
@@ -58,7 +60,8 @@
         
         <activity android:name="SelectBookActivity" 
             android:parentActivityName="ru.itprospect.everydaybiblereading.BibleActivity" 
-            android:icon="@drawable/prozrachn">
+            android:icon="@drawable/prozrachn"
+            android:exported="false">
 			<!-- Parent activity meta-data to support 4.0 and lower -->
 			<meta-data android:name="android.support.PARENT_ACTIVITY" 
 			    android:value="ru.itprospect.everydaybiblereading.BibleActivity"/>
